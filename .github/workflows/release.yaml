@@ -22,7 +22,7 @@ jobs:
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
     - name: Create ZIP file
       run: |
-        bash build.sh
+        python3 build.py
         ZIP_NAME="Adaptive ${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}.mrpack"
         echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
         mv adaptive-dev-build.mrpack $ZIP_NAME

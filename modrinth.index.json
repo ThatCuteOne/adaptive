@@ -1008,6 +1008,21 @@
         "sha512": "254f2225f6446523aa8c8274e83b31e27f3b2afc8fe4f490fb1b169dd518e10c7993acda5db0ab597474ddf9d69506b5e794242fada1e2f89ed7bf9d412a8f78"
       },
       "path": "mods/yosbr-0.1.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/aru7gAyl/versions/FsHqV9mi/screenshotcopy-fabric-1.2.6.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 2521439,
+      "hashes": {
+        "sha1": "1dbf7199de644c9747d04d78fe8e060380a49ccd",
+        "sha512": "3ca5d0c96c06d680abde75c4ab00daa576c831819a2c7f17ad770a2233b683597f7b66e9e3c3839b4e7c0a4f300729bd7d860e48cbb569a6d82dd022fe35358f"
+      },
+      "path": "mods/screenshotcopy-fabric-1.2.6.jar"
     }
   ],
   "formatVersion": 1,

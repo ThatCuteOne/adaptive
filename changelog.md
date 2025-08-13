@@ -2,3 +2,4 @@
 
 - updated mods
 - added Inventroy HUD+ via modrinth.index
+- added ScreenCopy

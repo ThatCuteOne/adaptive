@@ -42,6 +42,8 @@ jobs:
         CHANGELOG="${CHANGELOG//'%0D'/$'\r'}"
         CHANGELOG="${CHANGELOG//'%25'/'%'}"
         echo "DECODED_CHANGELOG<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGELOG" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1

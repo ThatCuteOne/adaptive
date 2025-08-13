@@ -1,7 +1,4 @@
-# Adaptive 1.7.4
-_fixed an issue where you couldnt install the modpack because of litemetica download failing_ 
+# Adaptive 1.7.3
+_actually add Inventroy HUD+ via modrinth.index_
 
-- fix litemetica download
-- updated mods
 - added Inventroy HUD+ via modrinth.index
-- added ScreenCopy

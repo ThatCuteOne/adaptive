@@ -1,4 +1,5 @@
 # Adaptive 1.7.3
+_fixed an issue where you couldnt install the modpack because of litemetica download failing_ 
 
 - fix litemetica download
 - updated mods

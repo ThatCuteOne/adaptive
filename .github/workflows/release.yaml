@@ -82,8 +82,14 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: "Adaptive Modpack"
         DISCORD_AVATAR: https://cdn.modrinth.com/data/g0KbuWXd/64b067140dc5ea5a036165f46441147190aff294_96.webp
-        DISCORD_MENTIONS: "{\"content\": \"@everyone <@&role-id> <@user-id>\",\"allowed_mentions\": { \"roles\": [\"1325601502550818846\"] }}"
+        DISCORD_MENTIONS: >-
+          {
+            "content": "<@&1325601502550818846>",
+            "allowed_mentions": {
+              "roles": ["1325601502550818846"]
+            }
+          }
 
       uses: Ilshidur/action-discord@0.4.0
       with:
-        args: "${{ steps.changelog.outputs.DECODED_CHANGELOG }}\nhttps://modrinth.com/modpack/adaptive/version/${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"
+        args: "${{ steps.changelog.outputs.DECODED_CHANGELOG }}\nDownload: https://modrinth.com/modpack/adaptive/version/${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"

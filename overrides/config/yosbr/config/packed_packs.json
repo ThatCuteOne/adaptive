@@ -1,0 +1,18 @@
+{
+  "showActionBar": false,
+  "hideIncompatible": false,
+  "sort": "VANILLA",
+  "resourcepacks": {
+    "applyOnClose": false,
+    "replaceOriginal": true,
+    "lastViewed": null,
+    "autoIncrement": 0,
+    "profiles": []
+  },
+  "datapacks": {
+    "replaceOriginal": true,
+    "lastViewed": null,
+    "autoIncrement": 0,
+    "profiles": []
+  }
+}

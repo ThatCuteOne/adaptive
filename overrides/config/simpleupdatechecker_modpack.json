@@ -1,0 +1,13 @@
+{
+  "project_id": "adaptive",
+  "version_id": "1.7.0-mc1.21.7",
+  "display_name": "Adaptive",
+  "display_version": "v1.7.0",
+  "release_type": [
+    "beta",
+    "release",
+    "alpha"
+  ],
+  "max_exclusive_version": "",
+  "use_version_number_for_display": true
+}

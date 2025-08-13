@@ -1,0 +1,11 @@
+startedCleanly:false
+onboardAccessibility:false
+skipMultiplayerWarning:true
+joinedFirstServer:true
+enableVsync:false
+guiScale:2
+tutorialStep:none
+operatorItemsTab:true
+resourcePacks:["vanilla","fabric"]
+incompatibleResourcePacks:["appleskin","asyncparticles","modlistmemory","omnilook","tweakeroo","worldedit","xaerominimap","xaeroworldmap","yet_another_config_lib_v3"]
+soundCategory_music:0.0

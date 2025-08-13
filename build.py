@@ -24,6 +24,7 @@ def setup_build_env():
 
 
 def build():
+    print("adsasdasdasd")
     # set index data from pack.json
     with open('modrinth.index.json') as f:
         index = json.load(f)

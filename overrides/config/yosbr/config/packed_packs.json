@@ -3,7 +3,7 @@
   "hideIncompatible": false,
   "sort": "VANILLA",
   "resourcepacks": {
-    "applyOnClose": false,
+    "applyOnClose": true,
     "replaceOriginal": true,
     "lastViewed": null,
     "autoIncrement": 0,

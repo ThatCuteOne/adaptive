@@ -1,0 +1,10 @@
+{
+  "enableMod": true,
+  "enableTeamBorder": false,
+  "teamBorderThickness": "NORMAL",
+  "headSizeMultiplier": 5,
+  "showPlayerNames": "LOOKING_AT",
+  "playerFilterMode": "ALL",
+  "includedPlayers": "",
+  "excludedPlayers": ""
+}

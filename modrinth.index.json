@@ -1011,21 +1011,6 @@
     },
     {
       "downloads": [
-        "https://www.curseforge.com/api/v1/mods/357540/files/6790973/download"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 226566,
-      "hashes": {
-        "sha1": "899a52bf6fd140ea82f7eb5af818e38e29eabd55",
-        "sha512": "3412949add5c4a5318afb237a995236dbd767e7f7a9563a97e1bdfe4c8029eac7196d4afe5ee184abb9a303d4dac576bcca735abc5fe2c8ea371c7a0c906e49d"
-      },
-      "path": "mods/inventoryhud.fabric.1.21.8-3.4.27.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/aru7gAyl/versions/FsHqV9mi/screenshotcopy-fabric-1.2.6.jar"
       ],
       "env": {

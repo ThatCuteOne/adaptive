@@ -9,22 +9,33 @@ from urllib.parse import urlparse
 import aiohttp
 from tenacity import retry, stop_after_attempt, wait_exponential
 
+
+parser = argparse.ArgumentParser(description='silly lil updater')
+parser.add_argument("-a","--add", type=str,help="Add a mod by providing a project url")
+parser.add_argument("-f","--force",default=False,action="store_const",const=True,help="disable mc version check")
+
+args = parser.parse_args()
+
+print(args.force)
+
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s] [%(name)s/%(levelname)s] %(message)s',datefmt='%H:%M:%S')
 logger = logging.getLogger("Updater")
 
-minecraft_version = "1.21.9"
+minecraft_versions = ["1.21.9","1.21.9-rc1"]
 
-
-async def sort_versions(versions:list):
-    target_version = minecraft_version
+async def get_compatible(versions:list,releases_filter=True):
+    target_versions = minecraft_versions
     compatible_versions = []
     for v in versions:
-        if target_version in v.get("game_versions") and "fabric" in v.get("loaders") and v.get("version_type") == "release" : # prioritize releases
+        if (any(item in v.get("game_versions") for item in target_versions) or args.force) and "fabric" in v.get("loaders") and (v.get("version_type") == "release" or not releases_filter) : # prioritize releases
             compatible_versions.append(v)
-    if not compatible_versions: # if no versions search for any version with compatible game version
-        for v in versions:
-            if target_version in v.get("game_versions") and "fabric" in v.get("loaders"):
-                compatible_versions.append(v)
+    return compatible_versions
+
+async def sort_versions(versions: list):
+    compatible_versions = await get_compatible(versions)
+    if not compatible_versions:
+        compatible_versions = await get_compatible(versions,releases_filter=False)
+    
     return sorted(compatible_versions, key=lambda x: x['date_published'], reverse=True)
 
 
@@ -182,10 +193,6 @@ async def add_mod(url):
 
 
 
-parser = argparse.ArgumentParser(description='silly lil updater')
-parser.add_argument("-a","--add", type=str,help="Add a mod by providing a version url")
-
-args = parser.parse_args()
 
 if args.add:
     asyncio.run(add_mod(args.add))

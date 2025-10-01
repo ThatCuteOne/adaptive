@@ -3,9 +3,7 @@ name: Build and Create Release
 on:
   push:
     tags:
-      - 'v*'
-    branches:
-      - master
+      - 'b*'
 
 jobs:
   build-and-release:
@@ -77,6 +75,7 @@ jobs:
         loaders: '["fabric"]'
         game-versions: '["${{steps.config.outputs.MINECRAFT_VERSION}}"]'
         files: '${{ env.ZIP_NAME }}'
+        channel: "beta"
         token: ${{ secrets.MODRINTH}}
         changelog: ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
     - name: "Actions for Discord"

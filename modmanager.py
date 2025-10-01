@@ -1,3 +1,4 @@
+#!/bin/python
 import argparse
 import asyncio
 from dataclasses import dataclass

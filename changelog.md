@@ -1,4 +1,12 @@
-# Adaptive 1.7.3
-_yay Inventroy HUD+!_
+# Adaptive 1.7.5(beta)
+_this is a beta because not all mods are updated_
 
-- readded Inventroy HUD+ via overrides
+
+### Additions
+- added modmenu
+- added Modlisthistory
+- added viafabricplus
+- added inventoryhud+
+- added joinautosprint
+- added visualkeys
+- added reezes sodium options

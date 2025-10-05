@@ -11,11 +11,34 @@
     "bundleDisplayRequireShift": true,
     "bundleDisplayRowWidth": 9,
     "clientPlacementRotation": true,
+    "clientPlacementValidation": false,
     "debugLogging": false,
     "fastLeftClickAllowTools": false,
     "fastPlacementRememberOrientation": true,
-    "freeCameraPlayerInputs": false,
-    "freeCameraPlayerMovement": false,
+    "freeCameraPlayerInputs": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraPlayerMovement": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraShowHands": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraShowHotBar": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
     "inventoryPreviewVillagerBGColor": false,
@@ -78,20 +101,18 @@
     "itemSwapDurabilityThreshold": 20,
     "mapPreviewSize": 160,
     "periodicAttackInterval": 20,
-    "periodicAttackResetIntervalOnActivate": true,
     "periodicUseInterval": 20,
-    "periodicUseResetIntervalOnActivate": true,
     "periodicHoldAttackDuration": 20,
     "periodicHoldAttackInterval": 20,
-    "periodicHoldAttackResetIntervalOnActivate": true,
     "periodicHoldUseDuration": 20,
     "periodicHoldUseInterval": 20,
-    "periodicHoldUseResetIntervalOnActivate": true,
     "placementGridSize": 3,
     "placementLimit": 3,
     "potionWarningThreshold": 600,
     "renderLimitItem": -1,
     "renderLimitXPOrb": -1,
+    "scaffoldPlaceDistance": 5,
+    "scaffoldPlaceVanilla": false,
     "sculkSensorPulseLength": 40,
     "serverDataSyncCacheRefresh": 0.25,
     "serverDataSyncCacheTimeout": 0.75,
@@ -312,7 +333,7 @@
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
-    "snapAimLastYaw": 0.0
+    "shulkerMaxStackSize": 64
   },
   "Lists": {
     "blockTypeBreakRestrictionListType": "blacklist",
@@ -817,6 +838,7 @@
     "tweakBlockTypeBreakRestriction": false,
     "tweakBreakingGrid": false,
     "tweakBreakingRestriction": false,
+    "tweakBreakReplace": false,
     "tweakBundleDisplay": false,
     "tweakChatBackgroundColor": false,
     "tweakChatPersistentText": false,
@@ -853,13 +875,14 @@
     "tweakItemUnstackingProtection": false,
     "tweakLavaVisibility": false,
     "tweakMapPreview": false,
+    "tweakMatchingSkyFog": false,
     "tweakMovementKeysLast": false,
     "tweakPeriodicAttack": false,
     "tweakPeriodicUse": false,
     "tweakPeriodicHoldAttack": false,
     "tweakPeriodicHoldUse": false,
     "tweakPermanentSneak": false,
-    "tweakPermanentSprint": false,
+    "tweakPermanentSprint": true,
     "tweakPlacementGrid": false,
     "tweakPlacementLimit": false,
     "tweakPlacementRestriction": false,
@@ -874,6 +897,7 @@
     "tweakRenderInvisibleEntities": false,
     "tweakRenderLimitEntities": false,
     "tweakRepairMode": false,
+    "tweakScaffoldPlace": false,
     "§6tweakSculkPulseLength§r": false,
     "tweakSelectiveBlocksRendering": false,
     "tweakSelectiveBlocksRenderOutline": false,
@@ -923,6 +947,9 @@
       "keys": ""
     },
     "tweakBreakingRestriction": {
+      "keys": ""
+    },
+    "tweakBreakReplace": {
       "keys": ""
     },
     "tweakBundleDisplay": {
@@ -1033,6 +1060,9 @@
     "tweakMapPreview": {
       "keys": ""
     },
+    "tweakMatchingSkyFog": {
+      "keys": ""
+    },
     "tweakMovementKeysLast": {
       "keys": ""
     },
@@ -1094,6 +1124,9 @@
       "keys": ""
     },
     "tweakRepairMode": {
+      "keys": ""
+    },
+    "tweakScaffoldPlace": {
       "keys": ""
     },
     "§6tweakSculkPulseLength§r": {

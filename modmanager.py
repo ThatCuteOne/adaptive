@@ -21,7 +21,7 @@ print(args.force)
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s] [%(name)s/%(levelname)s] %(message)s',datefmt='%H:%M:%S')
 logger = logging.getLogger("Updater")
 
-minecraft_versions = ["1.21.9","1.21.9-rc1"]
+minecraft_versions = ["1.21.9","1.21.9-rc1","1.21.10","1.21.10-rc1"]
 
 async def get_compatible(versions:list,releases_filter=True):
     target_versions = minecraft_versions

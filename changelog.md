@@ -1,5 +1,5 @@
-# Adaptive 1.7.6(beta)
-_this is a beta because not all mods are updated_
+# Adaptive 1.7.6
+_A stable version but not yet feature complete_
 
 ### changes
 - update to 1.21.10

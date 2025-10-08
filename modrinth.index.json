@@ -456,21 +456,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/DWuwk8aA/versions/IhybUX9T/optiboxes-1.6%2B1.21.9-fabric.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 558023,
-      "hashes": {
-        "sha1": "3c55f8b31cd9b12e333f5a84fce39d1bce5af651",
-        "sha512": "1061cc660b7cfe212e1d84ca3a9f124a69d9b5d46959daf76ed445a79d96bf0250b4cd36798c69d784cad4c35ce44e1964db36648d9832c31f01f788657fcba4"
-      },
-      "path": "mods/optiboxes-1.6+1.21.9-fabric.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/eXts2L7r/versions/OxuaGQ0s/placeholder-api-2.8.0%2B1.21.9.jar"
       ],
       "env": {
@@ -543,21 +528,6 @@
         "sha512": "0d031fca67f2d394df2b4d6dc64c1fd56ebb00446a130cf14465f6b76c7a8d78d776aec4d97bc18574075a168aa30f91379b60571795861fb0c51c6f2308b79f"
       },
       "path": "mods/totemcounter-1.10.0+mc1.21.9.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/GBeCx05I/versions/dzTjmNoJ/tweakermore-v3.27.0-mc1.21.9.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 976436,
-      "hashes": {
-        "sha1": "a049b9959fde092d014fbeb82acc0823ff6c8fb0",
-        "sha512": "79439e273cd8e7be1c567dc6b07491aefc52028eab9528a403c1b163633fbfce58113d98afb7a95b860d9adff2de36fcc4b5767e477ed42b751d0734edf62c38"
-      },
-      "path": "mods/tweakermore-v3.27.0-mc1.21.9.jar"
     },
     {
       "downloads": [
@@ -771,21 +741,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/TNVjaBGX/versions/xoOqLqnx/JoinAutoSprintMod-1.0.3.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 72392,
-      "hashes": {
-        "sha1": "230b05fbc4deee40866bcb20f62bb3aeac74abb5",
-        "sha512": "fbc9e60ae7e0c63efd481dd287419fef062d5cd9c0bd5de7fed7b5c3bef21af3af74cd1d33af031fb6703fd2d51f662d445b27b2c3718525d3e6799ee7cd6188"
-      },
-      "path": "mods/JoinAutoSprintMod-1.0.3.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/mOgUt4GM/versions/e0mxOOIE/modmenu-16.0.0-rc.1.jar"
       ],
       "env": {
@@ -843,6 +798,141 @@
         "sha512": "6d596a643413f2003edab299e763c3036b33ea0536580223b56f919b4df9094351529182fa6a49c32a9070ad8fe39458659b1481e5cb0ce8255752e9154d49b5"
       },
       "path": "mods/reeses-sodium-options-fabric-1.8.5+mc1.21.9.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/1u6JkXh5/versions/2tP5pnh1/worldedit-mod-7.3.17-beta-01.jar"
+      ],
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "fileSize": 6810809,
+      "hashes": {
+        "sha1": "d933a254a94bcb17ecc17320e51a33efc41aa1b0",
+        "sha512": "c29b05b7cc730de4afddcc60f691f1c75976b0848c751de05d23bc90cf8e771289c97e29d33adf27878a336fe066abe2e2bf117cf3ff3873c6a835459f3ae1f0"
+      },
+      "path": "mods/worldedit-mod-7.3.17-beta-01.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/VLknW8At/entityculling-fabric-1.9.0-mc1.21.10-rc1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 478705,
+      "hashes": {
+        "sha1": "9be03c52c5800242dce7c168a92b85fae60a725e",
+        "sha512": "cb91fdf3b9976d60c9f745680a9557c342a7bf34a8918b110dcb4690345b5ec51ba482b135d9fc003416fcf956f0a2b9a4ef4519f6f44702b75130b4d7d00720"
+      },
+      "path": "mods/entityculling-fabric-1.9.0-mc1.21.10-rc1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/EsAfCjCV/versions/8sbiz1lS/appleskin-fabric-mc1.21.9-3.0.7.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 1094185,
+      "hashes": {
+        "sha1": "a95d28e65583081b13e3c980690ee54042a5ed74",
+        "sha512": "79d0d0b4a09140cdb7cf74b1cd71554147c60648beb485ca647b149174e171660ec561ad329da58b78b5de439909b180e287b4b38bf068acfca20666100f4584"
+      },
+      "path": "mods/appleskin-fabric-mc1.21.9-3.0.7.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/RBKKgBqz/entity_model_features_1.21.9-fabric-3.0.3.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 473524,
+      "hashes": {
+        "sha1": "b0ae347c63246b3837803980843888076f48af2b",
+        "sha512": "4041380cffc540190e5d65309fb04441a1d5614a19865eef67ae107ab048b94a48b3ee05b292b20592bcbc2ee01941a469841122ab3065bda365686919e326a6"
+      },
+      "path": "mods/entity_model_features_1.21.9-fabric-3.0.3.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/4PEgucTm/entity_texture_features_1.21.9-fabric-7.0.3.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 697416,
+      "hashes": {
+        "sha1": "d7310d6f9b595dac22e473625ae51e5872d5bde6",
+        "sha512": "3646274d0b5740dbae0df485debc96e856a0154912f18c8ebc3644573489703253d275230ed5f27b96a53d74aee60e876e2f5490868704643e72803fb2d97464"
+      },
+      "path": "mods/entity_texture_features_1.21.9-fabric-7.0.3.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/JK9FUEto/sodium-extra-fabric-0.7.0%2Bmc1.21.9.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 415786,
+      "hashes": {
+        "sha1": "4c90cdaeb5839bc162d7e0e4c249dca1291ca711",
+        "sha512": "bf6d99f3aa30a136eb4865deb934283f2e83161fac7fdfd5706fa4114a2bd85a1dd3f8386d287ca6f1a99db229c65a6a672be45675d6ac48416676f2ce07cde8"
+      },
+      "path": "mods/sodium-extra-fabric-0.7.0+mc1.21.9.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 270195,
+      "hashes": {
+        "sha1": "94ddaeeae6ca7fecc79e54a0aa02a5438a775a99",
+        "sha512": "4dcd7228d1890ddfc78c99ff284b45f9cf40aae77ef6359308e26d06fa0d938365255696af4cc12d524c46c4886cdcd19268c165a2bf0a2835202fe857da5cab"
+      },
+      "path": "mods/krypton-0.2.10.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/QeuqDVjP/versions/NgqdUsVE/ServerLens_fabric_1.21.6-1.21.8-1.0.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 370240,
+      "hashes": {
+        "sha1": "1fc16ab745df5e59bef5b15a31cebb0d38d105c3",
+        "sha512": "4d68464953ea61d5453f61818eb2f974aeff1ed38b963757b5f233bbfdf6f8433ae22cef3cdd9a9b5da6f7961ad4e8e2aa30b252fd696eede816adbf3355903c"
+      },
+      "path": "mods/ServerLens_fabric_1.21.6-1.21.8-1.0.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/OpQzuo63/versions/EPTeLwSl/blackbarconcealer-1.0.6.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 79434,
+      "hashes": {
+        "sha1": "8953d8cab923a38616e02825e9b0eaa636f60b6c",
+        "sha512": "177b2971c1c1ebe61eb91cee388f408c207d2b30434fcdea1e4a702a21f9320a108acdfca758a6e63236a5eb726f124dd4e5f9745d02cf15d6a9230529af2ccc"
+      },
+      "path": "mods/blackbarconcealer-1.0.6.jar"
     }
   ],
   "formatVersion": 1,

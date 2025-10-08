@@ -11,7 +11,7 @@
     "bundleDisplayRequireShift": true,
     "bundleDisplayRowWidth": 9,
     "clientPlacementRotation": true,
-    "clientPlacementValidation": false,
+    "clientPlacementValidation": true,
     "debugLogging": false,
     "fastLeftClickAllowTools": false,
     "fastPlacementRememberOrientation": true,

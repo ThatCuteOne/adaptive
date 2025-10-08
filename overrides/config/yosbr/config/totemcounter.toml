@@ -1,0 +1,12 @@
+displayEnabled = false
+x = -1
+y = -1
+useDefaultTotem = false
+displayColors = true
+coloredXpBar = false
+alwaysShowBar = false
+showPopCounter = false
+counterEnabled = false
+separator = true
+counterColors = true
+showInTab = false

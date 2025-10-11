@@ -351,7 +351,7 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/bEpr0Arc/versions/e9K0D2hB/litematica-fabric-1.21.10-rc1-0.24.1.jar"
+        "https://github.com/sakura-ryoko/litematica/releases/download/1.21.10-0.24.2-sakura.1/litematica-fabric-1.21.10-0.24.2-sakura.1.jar"
       ],
       "env": {
         "client": "required",
@@ -359,10 +359,10 @@
       },
       "fileSize": 1490238,
       "hashes": {
-        "sha1": "1bd9d9a5d9b826dc5d0dbbe4a9ce1f596777b658",
-        "sha512": "d5eb4c723be319a518c277d08048d19720059081584817ca103dbc11dbb6b7b54b1d5387a80f37191e02600632ca4b87453df05ceabdc641fcb1a94d71fab45b"
+        "sha1": "c62c0cca7eeba03a644d95c4ed01254b6f8c95d3",
+        "sha512": "947afec6ef66edda7b567d3bc4ad873da242d1238688bb49fd6fd65e8724b33081e4f351a258683ace97cd5dc68b11d52e41a876a9e95f597dbde7200447c2e5"
       },
-      "path": "mods/litematica-fabric-1.21.10-rc1-0.24.1.jar"
+      "path": "mods/litematica-fabric-1.21.10-0.24.2-sakura.1.jar"
     },
     {
       "downloads": [
@@ -396,7 +396,7 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/GcWjdA9I/versions/rGx2FOox/malilib-fabric-1.21.10-rc1-0.26.2.jar"
+        "https://github.com/sakura-ryoko/malilib/releases/download/1.21.10-0.26.3-sakura.2/malilib-fabric-1.21.10-0.26.3-sakura.2.jar"
       ],
       "env": {
         "client": "required",
@@ -404,10 +404,10 @@
       },
       "fileSize": 1367881,
       "hashes": {
-        "sha1": "d672cebf95b97514d8c2e47fe70542ba372b970f",
-        "sha512": "0e0d3fe03a06a10ff39876aa33b589bf98495d6c1780318d2002df2b88216d288724fe1403155bc79e5d30a921a4faa3becb214bed5ee773e00f72e8b62c386b"
+        "sha1": "defbd90e066efba742e39112fe376e760aaea303",
+        "sha512": "adab260960287e6fdede44ff3dd07ee028f1cbe8ec9fa2e6811dca9cfb628bd20b61e7291916c41b10a2fbbe49f0ea2dc9b544995fea8c58918b5cba0126d4f1"
       },
-      "path": "mods/malilib-fabric-1.21.10-rc1-0.26.2.jar"
+      "path": "mods/malilib-fabric-1.21.10-0.26.3-sakura.2.jar"
     },
     {
       "downloads": [
@@ -933,11 +933,71 @@
         "sha512": "177b2971c1c1ebe61eb91cee388f408c207d2b30434fcdea1e4a702a21f9320a108acdfca758a6e63236a5eb726f124dd4e5f9745d02cf15d6a9230529af2ccc"
       },
       "path": "mods/blackbarconcealer-1.0.6.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/6kYGBz0X/versions/arnnna8c/SailStatus-fabric-2.2.0-alpha.11%2Bmc1.21.9.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 3673762,
+      "hashes": {
+        "sha1": "2275453aeb1c7747d45924fff64b94e3b3d7a08d",
+        "sha512": "9285c314dcce0405d70f4bb38a5b00b3eb6983ab6b515b066c5ed53f51cf34a4642719735558eeeded8b5a1bdf7196c2cb3d711a035a40e10f14994e8fc3eb0e"
+      },
+      "path": "mods/SailStatus-fabric-2.2.0-alpha.11+mc1.21.9.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/p19vrgc2/versions/nmqjlYBb/fusion-1.2.11-fabric-mc1.21.9.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 543607,
+      "hashes": {
+        "sha1": "e2384a1ef2c6302f5c1350af0ec9702606780217",
+        "sha512": "7b47f0f8c52b0f7d926c7a5f8fba1a26d5ae8dfdee0d6e76b174c0fdd8d2eeaa02a1cf314eccf4f78f33b95a97d942dc92b532a6d9192b110503212c3c5af6a1"
+      },
+      "path": "mods/fusion-1.2.11-fabric-mc1.21.9.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/UU7VUYKE/versions/bbU2oumJ/AlinLib-fabric-2.1.0-rc.4.2%2Bmc1.21.9.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 471106,
+      "hashes": {
+        "sha1": "e7081a8857194fb12c04a6e9ec652f6cd94e2050",
+        "sha512": "a071c9f2534d3b7c450d0ea48dfbe3f0bb70b3c6e226fe1a28ebcea1abba65d0b484c01a971eec6e5b1aef6dc7c85c685b75f619cbaf322f05701921fb93b535"
+      },
+      "path": "mods/AlinLib-fabric-2.1.0-rc.4.2+mc1.21.9.jar"
+    },
+        {
+      "downloads": [
+        "https://cdn.modrinth.com/data/xuN3KzPl/versions/oYKivjVk/Fusion%20Connected%20Glass%20v1.0.1%20for%20Minecraft%201.20-1.21.8.zip"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 191578,
+      "hashes": {
+        "sha1": "48210e165b4df035509c2cdaba654afdb0ad27b3",
+        "sha512": "52eb4da683dffa4cf25d26b79e420d5488509128567ca6ec447859ae9e6bd855ad0cc722b45731f151b0a919283514d2f449e655e273ac86e9ab937e048e889b"
+      },
+      "path": "resourcepacks/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip"
     }
   ],
   "formatVersion": 1,
   "game": "minecraft",
   "name": "Adaptive 1.7.2-mc1.21.7",
-  "summary": "- updated mods - added Inventroy HUD+ via modrinth.index",
+  "summary": "meow :3",
   "versionId": "1.7.2-mc1.21.7"
 }

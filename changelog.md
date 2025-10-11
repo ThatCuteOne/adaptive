@@ -1,28 +1,14 @@
-# Adaptive 1.7.6
-_A stable version but not yet feature complete_
+# Adaptive 1.7.7
+_A few tweaks and fixes_
 
 ### changes
-- update to 1.21.10
-- replace optiskys with custom 1.21.10 compatible version
-- replace worldedit override with modrinth release
+- update mods
 
 **added**
-- added entity culling
-- added appleskin
-- added EMF & ETF
-- added sodium extra
-- added krypton
-- added serverlense
-- added Blackbar concealer
+- added sail status
+- added fusion
+- added fusion connected glass
 
 **configs**
-- disable totem counter by default
-- disable ETF skin features to avoid crash
-- fix tweakeroo config
-- change default zoom key to "C"
-
-**removed**
-- removed fzzy config
-- removed prettier hitboxes
-- removed tweakermore
-- removed autojoinsprint mod
+- renable ETF skin features
+- fusion connected glass loads automatically

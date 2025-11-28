@@ -5,10 +5,6 @@ _A few tweaks and fixes_
 - update mods
 
 **added**
-- added sail status
-- added fusion
-- added fusion connected glass
+- added OptiGUI
 
 **configs**
-- renable ETF skin features
-- fusion connected glass loads automatically

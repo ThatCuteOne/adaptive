@@ -1,5 +1,7 @@
 # Adaptive 1.7.8
 _Update to 1.21.11_
+_note some mods config screens are broken(non fatal) because cloth config isnt updated yet_
+
 
 ### changes
 - update mods

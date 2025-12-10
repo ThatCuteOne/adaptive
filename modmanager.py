@@ -7,7 +7,6 @@ import logging
 from pathlib import Path
 from urllib.parse import urlparse
 import aiohttp
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 
 parser = argparse.ArgumentParser(description='silly lil updater')
@@ -21,7 +20,7 @@ print(args.force)
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s] [%(name)s/%(levelname)s] %(message)s',datefmt='%H:%M:%S')
 logger = logging.getLogger("Updater")
 
-minecraft_versions = ["1.21.9","1.21.9-rc1","1.21.10","1.21.10-rc1"]
+minecraft_versions = ["1.21.11","1.21.11-rc3"]
 
 async def get_compatible(versions:list,releases_filter=True):
     target_versions = minecraft_versions

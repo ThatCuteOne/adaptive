@@ -1,21 +1,36 @@
 # Adaptive 1.7.8
-_A few tweaks and fixes_
+_Update to 1.21.11_
 
 ### changes
 - update mods
 **added**
 - added OptiGUI
-- added NoChatReports
 - added HideExperimentalWarning
-- added NotEnoughAnimations
 - added JoinAutoSprintMod
-- added perspektive
-- added schematicpreview
 - added perspectivenametag
-- added combat-hitbox
-- added tweakermore
 - added minitweaks
 - added colective
+- added Compacting
+- added Emojis
+- added Chat Signing Hider
+- added Resourcify
+
+**removed due to incompatible**
+- xaeros world- and minimap
+- chatheads
+- NoChatReports
+- MoreCulling
+- freelook++
+- fadeless
+- Viafabricplus
+- SailStatus
+- reeses sodium options
+- ETF & EMF
+- fusion
+
+**removed**
+- server lens
+- async pack scan
 
 **configs**
 - change modlist memory mode to "remember Scroll"

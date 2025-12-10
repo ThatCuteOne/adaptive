@@ -501,36 +501,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/FuRR0tKd/versions/R6p1bIrr/async-pack-scan-0.2.14.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 150232,
-      "hashes": {
-        "sha1": "be89db650f3433ab69a1838b6b586d0d5011e2d3",
-        "sha512": "21b879f9a40e7d4b2771c53b47916ce20003b792814d50718e6f6f3eee94348e65342d6be1ee3d2887f47d446ffddc4410e5240f82aeee3743439cd51f1dffb2"
-      },
-      "path": "mods/async-pack-scan-0.2.14.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/WKwQAwke/versions/2FxXTUgp/libjf-3.19.6.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "optional"
-      },
-      "fileSize": 1548084,
-      "hashes": {
-        "sha1": "725b0b6c85d35a2e12d1e8f3a3472a0d1d03ebce",
-        "sha512": "c58d7cb15360bfde17bd6acddc6b7cb2647db7bee8e672f55554d00891a0ecc415d0e5a1cd4d2b7aee5d8daf916a85708c1342e62793467243b0d0e567b2c586"
-      },
-      "path": "mods/libjf-3.19.6.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/Kp2uclYl/versions/8iXTtTef/inventoryhud.fabric.1.21.10-3.4.29.jar"
       ],
       "env": {
@@ -648,21 +618,6 @@
         "sha512": "4dcd7228d1890ddfc78c99ff284b45f9cf40aae77ef6359308e26d06fa0d938365255696af4cc12d524c46c4886cdcd19268c165a2bf0a2835202fe857da5cab"
       },
       "path": "mods/krypton-0.2.10.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/QeuqDVjP/versions/XBIN0UFw/ServerLens_fabric_1.21.6-1.21.10_1.0.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 386189,
-      "hashes": {
-        "sha1": "43e352e7aeb48617f88718a503686032c04c15e3",
-        "sha512": "8fe112a9af5d4454fbdb5db4bb9d02f18ea00ea051361f079b1e4136082ec4d3275670e7598d9e5b7d4497725bef0a4552c79b73b079c769c5d46bcdda34753c"
-      },
-      "path": "mods/ServerLens_fabric_1.21.6-1.21.10_1.0.1.jar"
     },
     {
       "downloads": [
@@ -798,6 +753,81 @@
         "sha512": "ef300ec938a688a52e95bafff3edc673ffee4af67273483a81b155f30ac9a4c4ca40e7ee96e27a35b4bb00a55b1ee4bd52f6d8efa69ba77417e569d0349ab562"
       },
       "path": "mods/modmenu-17.0.0-alpha.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/TnVRBsXO/versions/AJupd9xM/compacting-1.0.5%2B1.21.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 27726,
+      "hashes": {
+        "sha1": "049a2b726ace2722d0aa9d4a4ac9d2d3b06a10cb",
+        "sha512": "c2247f74b39cc9da413e17e656983f03f693c7b53e5b81ba6d28ccd10312cc4853dddbc40360becd09a09c1c173d2a5edcd44ed6709c02464307e9984306d632"
+      },
+      "path": "mods/compacting-1.0.5+1.21.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/KQwtIZnW/versions/YF1FaCEH/emojis-1.0.3.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 48895,
+      "hashes": {
+        "sha1": "293af85bba55791dbf2cfeb8b2bc6e72cdc947ad",
+        "sha512": "50938eb45cf8cbdfda032ced97ae1b6ca4424e919c86b8e08a7a7f500d821c48714d245ac2a2332c8c42c6058d1daf546f1e98307567797798a366dc24c3dc1e"
+      },
+      "path": "mods/emojis-1.0.3.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/6KrNtW32/versions/MpRmljFg/chatsigninghider-fabric-1.21.11-1.0.5.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 4884,
+      "hashes": {
+        "sha1": "bace89118a1e033f9e0b32e4ada8cd38a67c4922",
+        "sha512": "fede74dfc5549479cb944d144f2f8d26699d32d348b4a6320996adbca78d30b3911c9fedec028f81d2497a89badecc80dbec64f26dc50c92bafba577e3ff8dc0"
+      },
+      "path": "mods/chatsigninghider-fabric-1.21.11-1.0.5.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/8Pq6Exn2/versions/ldEgNR2q/packed_packs-fabric-2.0.3%2B1.21.11-patch.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 559746,
+      "hashes": {
+        "sha1": "023a269b605b4132429743d528b40b5dad02ba87",
+        "sha512": "3969cae9a0f40087935f69db9bb9ad2209859ca06df03dd60398eb38383b4054ada9d717af7306113bf2c95e1bdfe20f1b59d5ab969a47113c339cbc1733a47a"
+      },
+      "path": "mods/packed_packs-fabric-2.0.3+1.21.11-patch.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/RLzHAoZe/versions/nTbSWZ0E/Resourcify%20%281.21.11-fabric%29-1.7.6.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 2539361,
+      "hashes": {
+        "sha1": "d0f4d608197f49b3ae210f1acf54bccbef01bdb7",
+        "sha512": "084c9d7cb341b792b05a31b70f147f00c86e45644e99dc2e2187b357333eb89355e5fce3afa469d9f3747cb68c54ed8e9b7939f03d2540e52fec3cef7cc2dc22"
+      },
+      "path": "mods/Resourcify (1.21.11-fabric)-1.7.6.jar"
     }
   ],
   "formatVersion": 1,

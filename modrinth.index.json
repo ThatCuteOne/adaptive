@@ -501,6 +501,21 @@
     },
     {
       "downloads": [
+        "https://cdn.modrinth.com/data/xuN3KzPl/versions/oYKivjVk/Fusion%20Connected%20Glass%20v1.0.1%20for%20Minecraft%201.20-1.21.8.zip"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 191578,
+      "hashes": {
+        "sha1": "48210e165b4df035509c2cdaba654afdb0ad27b3",
+        "sha512": "52eb4da683dffa4cf25d26b79e420d5488509128567ca6ec447859ae9e6bd855ad0cc722b45731f151b0a919283514d2f449e655e273ac86e9ab937e048e889b"
+      },
+      "path": "resourcepacks/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip"
+    },
+    {
+      "downloads": [
         "https://cdn.modrinth.com/data/Kp2uclYl/versions/mZy4fW0C/inventoryhud.fabric.1.21.11-3.4.29.jar"
       ],
       "env": {
@@ -828,6 +843,246 @@
         "sha512": "084c9d7cb341b792b05a31b70f147f00c86e45644e99dc2e2187b357333eb89355e5fce3afa469d9f3747cb68c54ed8e9b7939f03d2540e52fec3cef7cc2dc22"
       },
       "path": "mods/Resourcify (1.21.11-fabric)-1.7.6.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/19GmaMFY/chat_heads-1.1.8-fabric-1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 84894,
+      "hashes": {
+        "sha1": "3543124fb1d6390a1d2d97a85f392ab9724ad813",
+        "sha512": "e2ee0d1f9f68312689d50a283c87ec7019dc13fcab86fea5fcbfdd0efd23b91c4b277d8c3f35641a4df9b58b926227c0d7403d062fe6c97f71d1423d51448824"
+      },
+      "path": "mods/chat_heads-1.1.8-fabric-1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/51shyZVL/versions/Ju23l9rz/moreculling-fabric-1.21.11-1.6.0-beta.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 341135,
+      "hashes": {
+        "sha1": "e968bd79bb85c2b658869a2738e033676207438f",
+        "sha512": "5d54ceba9a839d615cfcd32e1d1e1f054299fbcf165dcaccfd5b8f175d45f569c7c28cd6a5a8830c3bc52527bf0d93aac0eb0d565e8e5e331a2677b964768f17"
+      },
+      "path": "mods/moreculling-fabric-1.21.11-1.6.0-beta.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/ncKjyGm3/versions/rDv0F5eE/fadeless-2.0.7-1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 68360,
+      "hashes": {
+        "sha1": "c915116ce5b347c9f6d6ea31bd0552367ed407ce",
+        "sha512": "f60607aa38891129f77c3e5905afe806689411c6bb7e207866fc804f7ebfc84b3589fcab8d8e74980f7a0cfc663444bb4b84ff890bb8092dfbe82e98337a0eec"
+      },
+      "path": "mods/fadeless-2.0.7-1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/Bh37bMuy/versions/gmIM6uan/reeses-sodium-options-fabric-2.0.2%2Bmc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 87207,
+      "hashes": {
+        "sha1": "777f0d0671d41d70da3332f67328be864fda9289",
+        "sha512": "48a6699a91230db9fb0f693e931d6006fb1d011f6d0f6d520da9307a9d451949c24d1836bd6026568666d2028e2bf814c6ff843d6a4c8b5570bf6bcd860dead4"
+      },
+      "path": "mods/reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/mKzyfrp8/entity_model_features_1.21.11-fabric-3.0.8.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 493288,
+      "hashes": {
+        "sha1": "fb299a46bc639595c47c30812f317a8db4b5b9a0",
+        "sha512": "e34170cafaa26318404638a058689e3ff22a03983b95d6c61020f8b2d9f29cbbd87e37857ba71fa6e710d2c93941857af9e210bfc701b7f0308872788ee79414"
+      },
+      "path": "mods/entity_model_features_1.21.11-fabric-3.0.8.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/918qa4eC/entity_texture_features_1.21.11-fabric-7.0.7.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 765778,
+      "hashes": {
+        "sha1": "59a2970dcec4ae90f8d5dc9c2422ef874ca4611b",
+        "sha512": "1273c36883c13ef4f14b551b155ad6cbce37ab336283100ba43f50bee83c716eaa584ec472b62a8e3c6318989e63f616d6b9ad04fa6931f6e8fe383e4dee5e27"
+      },
+      "path": "mods/entity_texture_features_1.21.11-fabric-7.0.7.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/p19vrgc2/versions/qQ1z2Uun/fusion-1.2.11a-fabric-mc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 544605,
+      "hashes": {
+        "sha1": "7d5ad9e1cfeba2626d35a6660ec01d4a30e90199",
+        "sha512": "049efbb77437b79db3565b2599f211eb8c613c7e97197c7dfac170011cfc7e504b40eef4238f5e773f63918666a01ad33f657b3c8a1615a68e1cb229b0487bad"
+      },
+      "path": "mods/fusion-1.2.11a-fabric-mc1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/qQyHxfxd/versions/sFOP9oAo/NoChatReports-FABRIC-1.21.11-v2.17.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 244984,
+      "hashes": {
+        "sha1": "8380e9ea9dc298d58de6a3450e373651ec119b62",
+        "sha512": "2b28489841736bbe96fd24e013d74da9dc7a7a94c4a14ed24d73d1b2b0414940a4796a22bc224e52e699a95c1c45c73ca5064ef5425254720644308ffd52efa2"
+      },
+      "path": "mods/NoChatReports-FABRIC-1.21.11-v2.17.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/MPCX6s5C/versions/Dp0dn63B/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 1932106,
+      "hashes": {
+        "sha1": "73061a2f9019652d80cb25ce31071e42b7ac2f35",
+        "sha512": "f6e5a83e840fb2ab39a370be4cc8ed21e0cbd937a7d049ca3041be0fdaef1d7288457d11d835b112e75fb99b90e3a6df268a7d8aab6f726e025536de4c8b61ca"
+      },
+      "path": "mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/GBeCx05I/versions/S1Np7qG5/tweakermore-v3.28.0-mc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 981751,
+      "hashes": {
+        "sha1": "f8c67b3fc44e66895546b343ceffc6d14ca41ff5",
+        "sha512": "2291bfaf396ae937e78d910125b0ad3f90ee0393eca47ae39393999e29277900d7f4832f3b9af65cf04b93b105659dcb10a3af2c0e99c02f114c45de998d49db"
+      },
+      "path": "mods/tweakermore-v3.28.0-mc1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/t5wuYk45/versions/Vb40qkJE/tweakeroo-fabric-1.21.11-0.27.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 605874,
+      "hashes": {
+        "sha1": "9bf739af6def30cc3ceb2ebe3246be5989bc590e",
+        "sha512": "6168fb9a5d7b5c7aceb00f07d6a7113d0bde27eebd66323a744b3606a5ce2fb495fa74e453bbd89c17fb26639cb05805f9a706f3b6cdac8d9d493ab88aa95e0a"
+      },
+      "path": "mods/tweakeroo-fabric-1.21.11-0.27.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/bEpr0Arc/versions/t3Y7y9LV/litematica-fabric-1.21.11-0.25.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 1607696,
+      "hashes": {
+        "sha1": "60d498c24bb9ec4c57a95ba4bba0aa0bf70b31df",
+        "sha512": "ca42df49304e691ca0f819db6c6ac815bd8a14936aaea8423bcc4f0b29bc5e4585e5f6672a4094153f02df22ef6dca56aa8b3227858ba09206133ab1a4da205f"
+      },
+      "path": "mods/litematica-fabric-1.21.11-0.25.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/UMxybHE8/versions/9Cxw3tvh/minihud-fabric-1.21.11-0.38.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 864868,
+      "hashes": {
+        "sha1": "32097ed340012ddc421915d661948ef979a8bc92",
+        "sha512": "4a9aea211bdf2bdfe8baa7120810bdf021b3a4d6046c8c4fb1f15945ba89da787b0a94a255c40e6e00a41a8d685de1f5f99ce42572cf26b4a98614b7b692d5e8"
+      },
+      "path": "mods/minihud-fabric-1.21.11-0.38.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/GcWjdA9I/versions/zghuOVRx/malilib-fabric-1.21.11-0.27.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 1602061,
+      "hashes": {
+        "sha1": "84956eb8b90c9ed5065aeaaaa7de5e95daf0acdb",
+        "sha512": "0da35f31396d4e15a9ec3eb94ac9348fef4949db55f2a487090eff32652af80aa468ee6b78efffb0d91b28a57418aec1365f191b8d8ef64626de5e56de151897"
+      },
+      "path": "mods/malilib-fabric-1.21.11-0.27.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/TQTTVgYE/versions/JV4Dlp7j/fabric-carpet-1.21.11-1.4.193%2Bv251211.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 1531899,
+      "hashes": {
+        "sha1": "21afeb5208af61d1556c48cc0f88c72ab77bc8aa",
+        "sha512": "7cc29adfe7de824aad4a32ba2b6d8c899c788a2e5d920e8e63dbddd23ca0702deeedc4948bf562d0326b24402806dc819e6132d26e5513a20495f819d8858dd6"
+      },
+      "path": "mods/fabric-carpet-1.21.11-1.4.193+v251211.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/rIC2XJV4/versions/ovF4FhR4/ViaFabricPlus-4.4.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 12931021,
+      "hashes": {
+        "sha1": "e78d49de1b83d2cb3dd60581e87be9ba8da048c4",
+        "sha512": "647a7820126444adf738ba8307932c38e4fddcc2777e00f534eda114215fddc59c1ede10a3c183f096b75dade86f42f81e5a31d852485da589a8ad1b83deabfc"
+      },
+      "path": "mods/ViaFabricPlus-4.4.1.jar"
     }
   ],
   "formatVersion": 1,

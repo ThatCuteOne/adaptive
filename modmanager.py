@@ -4,29 +4,31 @@ import asyncio
 from dataclasses import dataclass
 import json
 import logging
+from os import makedirs
 from pathlib import Path
 from urllib.parse import urlparse
 import aiohttp
+import datetime
 
 
 parser = argparse.ArgumentParser(description='silly lil updater')
 parser.add_argument("-a","--add", type=str,help="Add a mod by providing a project url")
 parser.add_argument("-f","--force",default=False,action="store_const",const=True,help="disable mc version check")
 
+LOADER = "fabric"
+minecraft_versions = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
 args = parser.parse_args()
-
-print(args.force)
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s] [%(name)s/%(levelname)s] %(message)s',datefmt='%H:%M:%S')
 logger = logging.getLogger("Updater")
+changes = []
 
-minecraft_versions = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
 
 async def get_compatible(versions:list,releases_filter=True):
     target_versions = minecraft_versions
     compatible_versions = []
     for v in versions:
-        if (any(item in v.get("game_versions") for item in target_versions) or args.force) and "fabric" in v.get("loaders") and (v.get("version_type") == "release" or not releases_filter) : # prioritize releases
+        if (any(item in v.get("game_versions") for item in target_versions) or args.force) and LOADER in v.get("loaders") and (v.get("version_type") == "release" or not releases_filter) : # prioritize releases
             compatible_versions.append(v)
     return compatible_versions
 
@@ -56,6 +58,7 @@ async def new(url):
     environment = await api_request(f"https://api.modrinth.com/v2/project/{project_id}")
     if not versions:
         return
+    mod_changelog_add(environment.get("title"))
     new_version = versions[0]
     for f in new_version.get("files"):
         if f.get("primary"):
@@ -96,6 +99,8 @@ async def api_request(url):
                 logger.exception(f"Error fetching versions: {e}")
                 return []
 
+def mod_changelog_add(modname:str):
+    changes.append(f"- Added {modname}")
 
 @dataclass
 class modEntry:
@@ -117,6 +122,8 @@ class modEntry:
         new_version = versions[0]
         for f in new_version.get("files"):
             if f.get("primary"):
+                if self.hashes.sha1 == f.get("hashes").get("sha1") and self.hashes.sha512 == f.get("hashes").get("sha512"): 
+                    return
                 self.downloads = f.get("url")
                 self.filesize = f.get("size")
                 self.hashes.sha1 = f.get("hashes").get("sha1")
@@ -170,7 +177,7 @@ def convert_files(data):
 
 async def main():
     data = await load_data()
-    mods = convert_files(data.get("files"))
+    mods:list[modEntry] = convert_files(data.get("files"))
     tasks = []
     for m in mods:
         tasks.append(m.update())
@@ -190,10 +197,18 @@ async def add_mod(url):
     with open("modrinth.index.json","w") as f:
         return json.dump(data,f,indent=2)
 
+def write_log():
+    if not changes: return
+    makedirs("logs",exist_ok=True)
+    log_file_name = datetime.datetime.now()
+    with open(f"logs/{log_file_name}.txt","w") as f:
+        f.write('\n'.join(str(i) for i in changes))
 
+        
 
 
 if args.add:
     asyncio.run(add_mod(args.add))
 else:
     asyncio.run(main())
+    write_log()

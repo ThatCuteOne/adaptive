@@ -14,6 +14,7 @@ import datetime
 parser = argparse.ArgumentParser(description='silly lil updater')
 parser.add_argument("-a","--add", type=str,help="Add a mod by providing a project url")
 parser.add_argument("-f","--force",default=False,action="store_const",const=True,help="disable mc version check")
+parser.add_argument("-c","--changelog",default=False,action="store_const",const=True,help="Generate modlist")
 
 LOADER = "fabric"
 minecraft_versions = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
@@ -50,6 +51,13 @@ class hashConfig:
     sha1: str
     sha512: str
 
+@dataclass
+class modConfig:
+    title: str
+    modrinth_id: str
+    version_identifier: str
+
+
 
 async def new(url):
     parsed_url = urlparse(url)
@@ -58,7 +66,6 @@ async def new(url):
     environment = await api_request(f"https://api.modrinth.com/v2/project/{project_id}")
     if not versions:
         return
-    mod_changelog_add(environment.get("title"))
     new_version = versions[0]
     for f in new_version.get("files"):
         if f.get("primary"):
@@ -84,7 +91,11 @@ async def api_request(url):
                 async with session.get(url) as response:
                     if response.status == 200:
                         logger.info(f"sucess! {url}")
-                        return await response.json()
+                        text = await response.text()
+                        try:
+                            return json.loads(text)
+                        except json.JSONDecodeError:
+                            return await response.json()
                     else:
                         logger.warning(f"Failed to fetch versions: {response.status}")
                         return []
@@ -99,8 +110,35 @@ async def api_request(url):
                 logger.exception(f"Error fetching versions: {e}")
                 return []
 
-def mod_changelog_add(modname:str):
-    changes.append(f"- Added {modname}")
+@dataclass
+class changeLog:
+    updated_mods = []
+    new_mods = []
+    removed_mods = []
+
+    async def write_to_file(self):
+        with open("changelog.md","a") as changelogfile:
+            parts = []
+            if self.new_mods:
+                parts.append("\n### New Mods! \n")
+                for new_mod in self.new_mods:
+                    parts.append(f"- ➕️ {new_mod.get("title")}\n")
+            if self.removed_mods:
+                parts.append("\n### Removed Mods 🗑️\n")
+                for removed_mod in self.removed_mods:
+                    parts.append(f"- 🗑️ {removed_mod.get("title")}\n")
+            if self.updated_mods:
+                parts.append("\n### Updated Mods 🔺\n")
+                for updated_mod in self.updated_mods:
+                    parts.append(f"- 🔺{updated_mod.get("title")}: {updated_mod.get("old_version")} »»» {updated_mod.get("new_version")}\n")
+
+            new_data = "".join(parts)
+            changelogfile.write(new_data)
+            changelogfile.close()
+
+
+
+
 
 @dataclass
 class modEntry:
@@ -109,13 +147,34 @@ class modEntry:
     filesize: int
     hashes : hashConfig
     path : str|Path
+    mod_data : modConfig = None
+
+
+    async def get_modrinth_id(self)->str:
+        parsed_url = urlparse(self.downloads)
+        return parsed_url.path.split("/")[2]
+    async def get_version_id(self)->str:
+        parsed_url = urlparse(self.downloads)
+        return parsed_url.path.split("/")[4]
+
+
+    async def get_project_data(self):
+        project_id = await self.get_modrinth_id()
+        version_id = await self.get_version_id()
+        data:dict = await api_request(f"https://api.modrinth.com/v2/project/{project_id}")
+        version:dict = await api_request(f"https://api.modrinth.com/v2/project/{project_id}/version/{version_id}")
+        self.mod_data = modConfig(
+            title=data.get("title"),
+            modrinth_id=project_id,
+            version_identifier=version.get("version_number")
+        )
+        
 
 
 
 
     async def update(self):
-        parsed_url = urlparse(self.downloads)
-        project_id = parsed_url.path.split("/")[2]
+        project_id = await self.get_modrinth_id()
         versions = await sort_versions(await api_request(f"https://api.modrinth.com/v2/project/{project_id}/version"))
         if not versions:
             return
@@ -197,18 +256,81 @@ async def add_mod(url):
     with open("modrinth.index.json","w") as f:
         return json.dump(data,f,indent=2)
 
-def write_log():
-    if not changes: return
-    makedirs("logs",exist_ok=True)
-    log_file_name = datetime.datetime.now()
-    with open(f"logs/{log_file_name}.txt","w") as f:
-        f.write('\n'.join(str(i) for i in changes))
+async def generate_changelog():
+    async def is_same_mod(mod_a:modEntry,mod_b:modEntry)-> bool:
+        if await mod_a.get_modrinth_id() == await mod_b.get_modrinth_id(): return True
 
-        
+    async def search_mods(new_mod:modEntry,old_mods:list[modEntry],changelog:changeLog,matched_old_mods:list):
+        for old_mod in old_mods:
+            if await is_same_mod(new_mod,old_mod):
+                matched_old_mods.append(old_mod)
+                if new_mod.hashes.sha512 == old_mod.hashes.sha512: continue # if this is true it means its 100% the same modversion
+                await asyncio.gather(
+                        new_mod.get_project_data(),
+                        old_mod.get_project_data()
+                        
+                        )
+                changeLog.updated_mods.append({
+                    "title": new_mod.mod_data.title,
+                    "new_version": new_mod.mod_data.version_identifier,
+                    "old_version": old_mod.mod_data.version_identifier
+                })
+                return
+        await new_mod.get_project_data()
+        changelog.new_mods.append(
+            {
+                "title": new_mod.mod_data.title
+            }
+        )
+    async def get_latest_tag() -> str:
+        github_data:dict = await api_request("https://api.github.com/repos/thatcuteone/adaptive/releases/latest")
+        if not github_data: return
+        return github_data.get("tag_name")
+    async def get_old_mods() -> list[modEntry]:
+        git_tag = await get_latest_tag()
+        mod_data = await api_request(f"https://raw.githubusercontent.com/ThatCuteOne/adaptive/refs/tags/{git_tag}/modrinth.index.json")
+        return convert_files(mod_data.get("files"))
+    async def removed_mods(old_mod:modEntry,changelog:changeLog):
+        await old_mod.get_project_data()
+
+        changelog.removed_mods.append({
+            "title": old_mod.mod_data.title
+        })
+    
+    changelog = changeLog()
+
+    data = await load_data()
+    current_mods:list[modEntry] = convert_files(data.get("files"))
+    old_mods = await get_old_mods()
+
+    matched_old_mods = []
+
+    tasks = []
+    for new_mod in current_mods:
+        tasks.append(search_mods(new_mod,old_mods,changelog,matched_old_mods))
+
+    await asyncio.gather(*tasks)
+    removed_mods_tasks = []
+    for old_mod in old_mods:
+        if old_mod not in matched_old_mods:
+            removed_mods_tasks.append(removed_mods(old_mod,changelog))
+
+    await asyncio.gather(*removed_mods_tasks)
+    await changelog.write_to_file()
+
+
+ 
+
+
+
+
+
+
 
 
 if args.add:
     asyncio.run(add_mod(args.add))
+elif args.changelog:
+    asyncio.run(generate_changelog())
 else:
     asyncio.run(main())
-    write_log()

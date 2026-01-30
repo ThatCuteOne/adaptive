@@ -1143,6 +1143,51 @@
         "sha512": "640aa6c122835ae64fa2485a43860a0dc4633d6cc8317a43f26af1b2e4e2964f987f2ff6944953df124ae9a4b144bdec612f113152f3cd0b1e07c7d70ea83c0f"
       },
       "path": "mods/phases-discord-rich-presence-2.5.1-1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/D0ld5G9d/versions/sUpFW4jZ/nametag-render-fix-1.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 27815,
+      "hashes": {
+        "sha1": "e7bbbb4438e66440014d1a480a9e870e855843ec",
+        "sha512": "4a7e9eb25a0080217e86b2d9dd224963dd130301f476132356ae5c66f2adfba312ef1b85af51458cdf26b1121fdf9769879ddf666addd4fa0bfce8f3f1043ec1"
+      },
+      "path": "mods/nametag-render-fix-1.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/DWuwk8aA/versions/msQhwZIb/skyboxify-2.3%2B1.21.11-fabric.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 413652,
+      "hashes": {
+        "sha1": "0d8e47ea2439c6d855f97e6d0f9c0b0c13516f10",
+        "sha512": "3828f70fcd13ca015b31beeedab502cdf754fc57ab3b6c0718691b825843876f19391b9d7aedec83423eb1752e6642c01750b570035fd5b52fa4ba9f7cf2e525"
+      },
+      "path": "mods/skyboxify-2.3+1.21.11-fabric.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/gdCHYfN8/versions/1CyThdHO/minitweaks-1.21.11-1.5.6.jar"
+      ],
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "fileSize": 127658,
+      "hashes": {
+        "sha1": "ac537ca8df1c1783443bba6f55db6fa8390e33dc",
+        "sha512": "c1dba75bd7d81ff15c5bbb967844f7d8a07d3d3fc07195dec0e956cf9c70a2b3b5ec00cb5dabc65adb37973cae8a236ac3696c1e583a04fc5333e09a2f047fdb"
+      },
+      "path": "mods/minitweaks-1.21.11-1.5.6.jar"
     }
   ],
   "formatVersion": 1,

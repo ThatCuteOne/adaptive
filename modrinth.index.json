@@ -636,21 +636,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/UU7VUYKE/versions/NPrITvvo/AlinLib-fabric-2.1.0-rc.6%2Bmc1.21.11.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 478645,
-      "hashes": {
-        "sha1": "9e5141d58d4ecd5cfac94c7d2e26686ceb3cc606",
-        "sha512": "c0a50f493cf578a5623d0aab0a1fb76f1770dbf8ee248550dcaa119809086d3a7d203d33f1dd5087de5e89e3988fdbfa186a3b688f1008596027c8f4cd9496a9"
-      },
-      "path": "mods/AlinLib-fabric-2.1.0-rc.6+mc1.21.11.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/JuksLGBQ/versions/7aP1cWaK/optigui-2.3.0-beta.9%2B1.21.9.jar"
       ],
       "env": {

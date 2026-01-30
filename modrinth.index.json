@@ -546,21 +546,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/HEds12HI/versions/26vISM8C/VisualKeys-0.0.11-1.21.11.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 71466,
-      "hashes": {
-        "sha1": "be1ccd6d3fda07ce6c1c928cb83ac697f8c49d4d",
-        "sha512": "9be3085f3a0316dfca6e78752253bf2b229e509953f7c5fa483fc4e01502ae9b9383008a882de76418ff30cd3c8fd680ba4910fa040526a2301bee9d5546827e"
-      },
-      "path": "mods/VisualKeys-0.0.11-1.21.11.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/1u6JkXh5/versions/o645q0Oo/worldedit-mod-7.4.0.jar"
       ],
       "env": {
@@ -1113,6 +1098,36 @@
         "sha512": "2750d204ae9e0f94200e4300104c2af94c272290e64427b5b9452e22973c8500c42932ea5120564ee091a509224676d65a0b75a70dceb0dde88b1cfa2d0669e8"
       },
       "path": "mods/xaeroworldmap-fabric-1.21.11-1.40.6.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/xv94TkTM/versions/A6W4m3vi/Controlling-fabric-1.21.11-29.0.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 83259,
+      "hashes": {
+        "sha1": "afbbbb9248d9afe6224886c62ee1b35732f056f3",
+        "sha512": "fae3f7be237b901783b873ecc3167e04fdc24819f16539610565993b7916691058b8d6e1aba4c13c0c75503bbd07a8ec4d2d6ce2bf5f94433fdee58933b049d9"
+      },
+      "path": "mods/Controlling-fabric-1.21.11-29.0.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/fuuu3xnx/versions/lBaUf76M/Searchables-fabric-1.21.11-1.0.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 79795,
+      "hashes": {
+        "sha1": "48650c53501ff987010c27215e97452b3b6ee1a9",
+        "sha512": "fe28388d009af850f334427f08a0b3a3da512cdaa1e55df22f3301df007cf780a0fcbc60468473a1ed94369003be59aaf6f3b3f53e123b6ec313bdfbc3f86043"
+      },
+      "path": "mods/Searchables-fabric-1.21.11-1.0.2.jar"
     }
   ],
   "formatVersion": 1,

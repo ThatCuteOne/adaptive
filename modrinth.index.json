@@ -1128,6 +1128,21 @@
         "sha512": "fe28388d009af850f334427f08a0b3a3da512cdaa1e55df22f3301df007cf780a0fcbc60468473a1ed94369003be59aaf6f3b3f53e123b6ec313bdfbc3f86043"
       },
       "path": "mods/Searchables-fabric-1.21.11-1.0.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/1u6JkXh5/versions/o645q0Oo/worldedit-mod-7.4.0.jar"
+      ],
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "fileSize": 6944007,
+      "hashes": {
+        "sha1": "1bb1f8ade981e1e388cb9f114fa515c2294e0019",
+        "sha512": "1ad3e994cd314e50e561281a77696107dbd7124fcec8e9e0c0d4043fa081840ef8087aaec99cacde6b6270ff283a8d3c7ea5c113558524468f8c58e5e13f9a4a"
+      },
+      "path": "mods/worldedit-mod-7.4.0.jar"
     }
   ],
   "formatVersion": 1,

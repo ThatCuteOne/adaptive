@@ -4,41 +4,47 @@ import asyncio
 from dataclasses import dataclass
 import json
 import logging
-from os import makedirs
 from pathlib import Path
 from urllib.parse import urlparse
 import aiohttp
-import datetime
 
 
-parser = argparse.ArgumentParser(description='silly lil updater')
+parser = argparse.ArgumentParser(description="silly lil updater")
 parser.add_argument("-a","--add", type=str,help="Add a mod by providing a project url")
 parser.add_argument("-f","--force",default=False,action="store_const",const=True,help="disable mc version check")
 parser.add_argument("-c","--changelog",default=False,action="store_const",const=True,help="Generate modlist")
 
 LOADER = "fabric"
-minecraft_versions = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
+MINECRAFT_VERSIONS = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
 args = parser.parse_args()
 
-logging.basicConfig(level=logging.INFO,format='[%(asctime)s] [%(name)s/%(levelname)s] %(message)s',datefmt='%H:%M:%S')
+logging.basicConfig(level=logging.INFO,format="[%(asctime)s] [%(name)s/%(levelname)s] %(message)s",datefmt="%H:%M:%S")
 logger = logging.getLogger("Updater")
-changes = []
 
 
-async def get_compatible(versions:list,releases_filter=True):
-    target_versions = minecraft_versions
+async def get_compatible(versions: list, releases_filter=True):
+    target_versions = MINECRAFT_VERSIONS
     compatible_versions = []
     for v in versions:
-        if (any(item in v.get("game_versions") for item in target_versions) or args.force) and LOADER in v.get("loaders") and (v.get("version_type") == "release" or not releases_filter) : # prioritize releases
+        version_supported = any(
+                item in v.get("game_versions") 
+                for item in target_versions
+            ) or args.force
+        
+        loader_supported = LOADER in v.get("loaders")
+
+        release_type_ok = v.get("version_type") == "release" or not releases_filter
+
+        if version_supported and loader_supported and release_type_ok:
             compatible_versions.append(v)
     return compatible_versions
 
 async def sort_versions(versions: list):
     compatible_versions = await get_compatible(versions)
     if not compatible_versions:
-        compatible_versions = await get_compatible(versions,releases_filter=False)
+        compatible_versions = await get_compatible(versions, releases_filter=False)
     
-    return sorted(compatible_versions, key=lambda x: x['date_published'], reverse=True)
+    return sorted(compatible_versions, key=lambda x: x["date_published"], reverse=True)
 
 
 @dataclass
@@ -46,10 +52,12 @@ class EnvConfig:
     client: str
     server: str
 
+
 @dataclass
 class hashConfig:
     sha1: str
     sha512: str
+
 
 @dataclass
 class modConfig:
@@ -62,8 +70,13 @@ class modConfig:
 async def new(url):
     parsed_url = urlparse(url)
     project_id = parsed_url.path.split("/")[2]
-    versions = await sort_versions(await api_request(f"https://api.modrinth.com/v2/project/{project_id}/version"))
-    environment = await api_request(f"https://api.modrinth.com/v2/project/{project_id}")
+    versions = await sort_versions(await api_request(
+        f"https://api.modrinth.com/v2/project/{project_id}/version"
+        )
+    )
+    environment = await api_request(
+        f"https://api.modrinth.com/v2/project/{project_id}"
+    )
     if not versions:
         return
     new_version = versions[0]
@@ -83,21 +96,25 @@ async def new(url):
                 f"mods/{f.get("filename")}"
             )
 
+
 async def api_request(url):
-    logger.info(url)
+    logger.info(f"Requesting:{url}")
+
     async with asyncio.Semaphore(10):
         async with aiohttp.ClientSession() as session:
             try:
                 async with session.get(url) as response:
                     if response.status == 200:
-                        logger.info(f"sucess! {url}")
+                        logger.info(f"Success! {url}")
                         text = await response.text()
                         try:
                             return json.loads(text)
                         except json.JSONDecodeError:
                             return await response.json()
                     else:
-                        logger.warning(f"Failed to fetch versions: {response.status}")
+                        logger.warning(
+                            f"Failed to fetch: {response.status}"
+                        )
                         return []
 
             except asyncio.TimeoutError:
@@ -107,8 +124,9 @@ async def api_request(url):
                 logger.exception(f"HTTP client error: {e}")
                 return []
             except Exception as e:
-                logger.exception(f"Error fetching versions: {e}")
+                logger.exception(f"Error fetching: {e}")
                 return []
+
 
 @dataclass
 class changeLog:
@@ -117,27 +135,30 @@ class changeLog:
     removed_mods = []
 
     async def write_to_file(self):
-        with open("changelog.md","a") as changelogfile:
+        with open("changelog.md", "a") as changelogfile:
             parts = []
             if self.new_mods:
                 parts.append("\n### New Mods! \n")
                 for new_mod in self.new_mods:
                     parts.append(f"- ➕️ {new_mod.get("title")}\n")
+            
             if self.removed_mods:
                 parts.append("\n### Removed Mods 🗑️\n")
                 for removed_mod in self.removed_mods:
                     parts.append(f"- 🗑️ {removed_mod.get("title")}\n")
+            
             if self.updated_mods:
                 parts.append("\n### Updated Mods 🔺\n")
                 for updated_mod in self.updated_mods:
-                    parts.append(f"- 🔺{updated_mod.get("title")}: {updated_mod.get("old_version")} »»» {updated_mod.get("new_version")}\n")
+                    parts.append(
+                        f"- 🔺{updated_mod.get("title")}: "
+                        f"{updated_mod.get("old_version")} »»» "
+                        f"{updated_mod.get("new_version")}\n"
+                    )
 
             new_data = "".join(parts)
             changelogfile.write(new_data)
             changelogfile.close()
-
-
-
 
 
 @dataclass
@@ -150,10 +171,10 @@ class modEntry:
     mod_data : modConfig = None
 
 
-    async def get_modrinth_id(self)->str:
+    async def get_modrinth_id(self) -> str:
         parsed_url = urlparse(self.downloads)
         return parsed_url.path.split("/")[2]
-    async def get_version_id(self)->str:
+    async def get_version_id(self) -> str:
         parsed_url = urlparse(self.downloads)
         return parsed_url.path.split("/")[4]
 
@@ -168,9 +189,6 @@ class modEntry:
             modrinth_id=project_id,
             version_identifier=version.get("version_number")
         )
-        
-
-
 
 
     async def update(self):
@@ -189,6 +207,8 @@ class modEntry:
                 self.hashes.sha512 = f.get("hashes").get("sha512")
                 self.path = f"mods/{f.get("filename")}"
                 break
+
+
     def serilize(self):
         return{
             "downloads": [
@@ -205,9 +225,6 @@ class modEntry:
             },
             "path": self.path
         }
-    
-     
-
 
 
 async def load_data():
@@ -216,6 +233,7 @@ async def load_data():
 
 def convert_files(data):
     mods = []
+
     for d in data:
         mods.append( 
             modEntry(
@@ -236,7 +254,7 @@ def convert_files(data):
 
 async def main():
     data = await load_data()
-    mods:list[modEntry] = convert_files(data.get("files"))
+    mods: list[modEntry] = convert_files(data.get("files"))
     tasks = []
     for m in mods:
         tasks.append(m.update())
@@ -257,14 +275,17 @@ async def add_mod(url):
         return json.dump(data,f,indent=2)
 
 async def generate_changelog():
-    async def is_same_mod(mod_a:modEntry,mod_b:modEntry)-> bool:
-        if await mod_a.get_modrinth_id() == await mod_b.get_modrinth_id(): return True
+    async def is_same_mod(mod_a: modEntry, mod_b: modEntry) -> bool:
+        if await mod_a.get_modrinth_id() == await mod_b.get_modrinth_id(): 
+            return True
+        return False
 
-    async def search_mods(new_mod:modEntry,old_mods:list[modEntry],changelog:changeLog,matched_old_mods:list):
+    async def search_mods(new_mod: modEntry, old_mods: list[modEntry], changelog: changeLog, matched_old_mods: list):
         for old_mod in old_mods:
             if await is_same_mod(new_mod,old_mod):
                 matched_old_mods.append(old_mod)
-                if new_mod.hashes.sha512 == old_mod.hashes.sha512: continue # if this is true it means its 100% the same modversion
+                if new_mod.hashes.sha512 == old_mod.hashes.sha512: 
+                    continue # if this is true it means its 100% the same modversion
                 await asyncio.gather(
                         new_mod.get_project_data(),
                         old_mod.get_project_data()
@@ -283,16 +304,22 @@ async def generate_changelog():
             }
         )
     async def get_latest_tag() -> str:
-        github_data:dict = await api_request("https://api.github.com/repos/thatcuteone/adaptive/releases/latest")
-        if not github_data: return
+        github_data: dict = await api_request(
+            "https://api.github.com/repos/thatcuteone/adaptive/releases/latest"
+            )
+        if not github_data: 
+            return
         return github_data.get("tag_name")
+
     async def get_old_mods() -> list[modEntry]:
         git_tag = await get_latest_tag()
-        mod_data = await api_request(f"https://raw.githubusercontent.com/ThatCuteOne/adaptive/refs/tags/{git_tag}/modrinth.index.json")
+        mod_data = await api_request(
+            f"https://raw.githubusercontent.com/ThatCuteOne/adaptive/refs/tags/{git_tag}/modrinth.index.json"
+            )
         return convert_files(mod_data.get("files"))
-    async def removed_mods(old_mod:modEntry,changelog:changeLog):
-        await old_mod.get_project_data()
 
+    async def removed_mods(old_mod: modEntry,changelog: changeLog):
+        await old_mod.get_project_data()
         changelog.removed_mods.append({
             "title": old_mod.mod_data.title
         })
@@ -300,14 +327,14 @@ async def generate_changelog():
     changelog = changeLog()
 
     data = await load_data()
-    current_mods:list[modEntry] = convert_files(data.get("files"))
+    current_mods: list[modEntry] = convert_files(data.get("files"))
     old_mods = await get_old_mods()
 
     matched_old_mods = []
 
     tasks = []
     for new_mod in current_mods:
-        tasks.append(search_mods(new_mod,old_mods,changelog,matched_old_mods))
+        tasks.append(search_mods(new_mod, old_mods, changelog, matched_old_mods))
 
     await asyncio.gather(*tasks)
     removed_mods_tasks = []
@@ -319,18 +346,10 @@ async def generate_changelog():
     await changelog.write_to_file()
 
 
- 
-
-
-
-
-
-
-
-
-if args.add:
-    asyncio.run(add_mod(args.add))
-elif args.changelog:
-    asyncio.run(generate_changelog())
-else:
-    asyncio.run(main())
+if __name__ == "__main__":
+    if args.add:
+        asyncio.run(add_mod(args.add))
+    elif args.changelog:
+        asyncio.run(generate_changelog())
+    else:
+        asyncio.run(main())

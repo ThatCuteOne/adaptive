@@ -1083,6 +1083,36 @@
         "sha512": "b957b8d5c50ebeb54903fea63a42a6a62a4bc8a811d216c215b3e7d9ce951965ac9a684f136f93c80848822468d387b65a2424823b6a2af1ea0fe0e9e513d55a"
       },
       "path": "mods/ViaFabricPlus-4.4.5.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bokaNcj/versions/ImVKd3Zp/xaerominimap-fabric-1.21.11-25.3.5.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 2133305,
+      "hashes": {
+        "sha1": "8f50ecc54e802903f1744b49ed5f05f22bd71cb7",
+        "sha512": "b7b48b1658b42ab9cf657469727750ec26e77b4b3211060f32bb8b2fabd7b86b5f806649dfa76c034bae16cad9ee4160b7e16dfca9e3b8dbdd968e59736bc528"
+      },
+      "path": "mods/xaerominimap-fabric-1.21.11-25.3.5.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcUtCpym/versions/Ljqxh4kI/xaeroworldmap-fabric-1.21.11-1.40.6.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 1426980,
+      "hashes": {
+        "sha1": "d23b3ba90cd265ff28f76680e4e2c74467118455",
+        "sha512": "2750d204ae9e0f94200e4300104c2af94c272290e64427b5b9452e22973c8500c42932ea5120564ee091a509224676d65a0b75a70dceb0dde88b1cfa2d0669e8"
+      },
+      "path": "mods/xaeroworldmap-fabric-1.21.11-1.40.6.jar"
     }
   ],
   "formatVersion": 1,

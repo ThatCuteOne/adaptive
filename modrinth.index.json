@@ -771,21 +771,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/6KrNtW32/versions/MpRmljFg/chatsigninghider-fabric-1.21.11-1.0.5.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 4884,
-      "hashes": {
-        "sha1": "bace89118a1e033f9e0b32e4ada8cd38a67c4922",
-        "sha512": "fede74dfc5549479cb944d144f2f8d26699d32d348b4a6320996adbca78d30b3911c9fedec028f81d2497a89badecc80dbec64f26dc50c92bafba577e3ff8dc0"
-      },
-      "path": "mods/chatsigninghider-fabric-1.21.11-1.0.5.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/8Pq6Exn2/versions/ldEgNR2q/packed_packs-fabric-2.0.3%2B1.21.11-patch.1.jar"
       ],
       "env": {

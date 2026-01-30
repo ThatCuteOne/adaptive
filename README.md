@@ -8,7 +8,7 @@ I only support the newest version of minecraft
 
 
 
-## Features[1.21.7]
+## Features[1.21.11]
 
 <details>
 <summary>General Quality of Life Features</summary>
@@ -62,8 +62,8 @@ I only support the newest version of minecraft
 ### More Resourcepack Features
 - [Entity Model Features](https://modrinth.com/mod/4I1XuqiY)
 - [Entity Texture Features](https://modrinth.com/mod/BVzZfTc1)
-- [Continuity](https://modrinth.com/mod/continuity)
-- [Optiboxes(Optifine Skys)](https://modrinth.com/project/DWuwk8aA)
+- [Fusion](modrinth.com/mod/fusion-connected-textures)
+- [Skyboxify(Optifine Skys)](https://modrinth.com/project/DWuwk8aA)
 
 </details>
 
@@ -88,7 +88,6 @@ I only support the newest version of minecraft
 - [Reduced Memory usage](https://modrinth.com/mod/uXXizFIs)
 - [Optimized Networking](https://modrinth.com/mod/fQEb0iXm)
 - [Entity Culling](https://modrinth.com/mod/NNAgCjsB)
-- [AsyncParticles](https://modrinth.com/project/c3onkd5k)
 - [Generally more Culling](https://modrinth.com/mod/51shyZVL)
 - [Reduce resource usage while Minecraft is in the background](https://modrinth.com/mod/LQ3K71Q1)
 - [Speedup immediate mode rendering](https://modrinth.com/mod/5ZwdcRci)

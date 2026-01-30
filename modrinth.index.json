@@ -1143,6 +1143,21 @@
         "sha512": "1ad3e994cd314e50e561281a77696107dbd7124fcec8e9e0c0d4043fa081840ef8087aaec99cacde6b6270ff283a8d3c7ea5c113558524468f8c58e5e13f9a4a"
       },
       "path": "mods/worldedit-mod-7.4.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/25psa7hI/versions/5KF4Bqkm/phases-discord-rich-presence-2.5.1-1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 188997,
+      "hashes": {
+        "sha1": "5e2aa480f3832ae631d3a9f5ee4cd03f510305b9",
+        "sha512": "640aa6c122835ae64fa2485a43860a0dc4633d6cc8317a43f26af1b2e4e2964f987f2ff6944953df124ae9a4b144bdec612f113152f3cd0b1e07c7d70ea83c0f"
+      },
+      "path": "mods/phases-discord-rich-presence-2.5.1-1.21.11.jar"
     }
   ],
   "formatVersion": 1,

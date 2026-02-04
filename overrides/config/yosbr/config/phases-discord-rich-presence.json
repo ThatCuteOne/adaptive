@@ -7,7 +7,7 @@
   "enableServerPlayerCount": true,
   "showPaused": true,
   "showPlayerHeadAndUsername": true,
-  "enableAdvancedMode": true,
+  "enableAdvancedMode": false,
   "mainAdvancedModeDetail": "Playing Minecraft",
   "mainAdvancedModeDetailWhenHoldingItem": "Holding %s",
   "mainAdvancedModeStateMultiplayer": "Playing Multiplayer",

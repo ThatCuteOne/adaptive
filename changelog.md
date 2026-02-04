@@ -1,9 +1,10 @@
-# Adaptive 1.7.8
-_Stable release_
+# Adaptive 1.8.0
+_Add all mods that are needed_
 
 
 ### New Mods! 
 - ➕️ Cloth Config API
+- ➕️ AlinPerspective
 - ➕️ Tier Tagger
 - ➕️ Gamma Utils (Fullbright)
 - ➕️ Bobby
@@ -44,7 +45,6 @@ _Stable release_
 ### Removed Mods 🗑️
 - 🗑️ VisualKeys
 - 🗑️ Chat Signing Hider
-- 🗑️ AlinLib
 
 ### Updated Mods 🔺
 - 🔺Text Placeholder API: 2.8.1+1.21.10 **»»»** 2.8.2+1.21.10

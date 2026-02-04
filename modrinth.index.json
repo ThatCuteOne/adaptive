@@ -111,18 +111,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/UpdayxEt/versions/PpVOHM4k/bettershieldsounds-1.9.1%2Bmc1.21.11.jar"
+        "https://cdn.modrinth.com/data/UpdayxEt/versions/jq3TIvdv/bettershieldsounds-1.9.2%2Bmc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 36811,
+      "fileSize": 36898,
       "hashes": {
-        "sha1": "6a9f72e63e7b45319ba24ade11a5deeaa17dd187",
-        "sha512": "14b5da0203065af923d88ab9eefe5b6727d499c5a2f352bc97e08c39e1c6a633080f942c1e43ddad2dcadb42bff6416253d3d2533dd81e3753db013428d43dc5"
+        "sha1": "aa467acb20557ea95c2be64df12c46adc3e067fa",
+        "sha512": "a9103a6e79739a97d97d8e5cd6cd3cdb3be137349de4a288ec36e62fd8164f9e9601a821cbfaea8c425f5852d091ceace7f60b790bee4cd98da8f7fb50a06598"
       },
-      "path": "mods/bettershieldsounds-1.9.1+mc1.21.11.jar"
+      "path": "mods/bettershieldsounds-1.9.2+mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -216,33 +216,33 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/LQ3K71Q1/versions/K05lAbNd/dynamic-fps-3.11.3%2Bminecraft-1.21.11-fabric.jar"
+        "https://cdn.modrinth.com/data/LQ3K71Q1/versions/PUe5Asxs/dynamic-fps-3.11.4%2Bminecraft-1.21.11-fabric.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 218707,
+      "fileSize": 218843,
       "hashes": {
-        "sha1": "46b4caf95aa6f3fc9376f4e69bbe014cd3a7fb74",
-        "sha512": "ad30e0fcaf7eddf55aad7bdbc38550fb5fc731e6b93c871e2de04a6254609d9bd896e3aeb5eadb085971df5c097f369e2e59ef9a2d42a1bc782b71b5df551013"
+        "sha1": "966c7f4018ef34f469bbf54d7e6b64b686a727ab",
+        "sha512": "e52e4f2aa21bd3d2276499eb60c7ef582147c178119648a8e08fe031371e0145475547dce5e62dc6459d4fba84277f1cf8585a269f80d2490630aae868c892b5"
       },
-      "path": "mods/dynamic-fps-3.11.3+minecraft-1.21.11-fabric.jar"
+      "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.11-fabric.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/L34yYPTD/fabric-api-0.141.2%2B1.21.11.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/i5tSkVBH/fabric-api-0.141.3%2B1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2412410,
+      "fileSize": 2412693,
       "hashes": {
-        "sha1": "24e3ebda918036771748ce6a965e5948e1fd4def",
-        "sha512": "3c1e7991ae72304a997bdbecc34a4bc742d4601349f000a7d9816b376a2e341c700f519cebb224f565d9b79d9c9492e1d7f918ec3f86e4f363e15df0c07f4b7e"
+        "sha1": "50de67eb221f0b38216da8668b09ca311327040e",
+        "sha512": "c20c017e23d6d2774690d0dd774cec84c16bfac5461da2d9345a1cd95eee495b1954333c421e3d1c66186284d24a433f6b0cced8021f62e0bfa617d2384d0471"
       },
-      "path": "mods/fabric-api-0.141.2+1.21.11.jar"
+      "path": "mods/fabric-api-0.141.3+1.21.11.jar"
     },
     {
       "downloads": [
@@ -306,18 +306,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/L4pt5egz/versions/vk8J5uRa/locator-heads-1.6.3.jar"
+        "https://cdn.modrinth.com/data/L4pt5egz/versions/nRYY2Vc3/locator-heads-1.6.4.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 32394,
+      "fileSize": 32630,
       "hashes": {
-        "sha1": "cb41b39e12bd802f5d8a57dc2a88846276bffb50",
-        "sha512": "8d6b5684972235c390b3a581b1d9bdaf4f466549e9b51ae17818d2c7372196d9fe1f47de0a413274d8d6eb80f645326c92b25bcf219d7d92c4db200f6cde1596"
+        "sha1": "d9498ba3cec62668ccb7bf4b7c5978b2f82ab613",
+        "sha512": "6e7358c685a087af2320e6c87bc923df1f4b2fec3c752151993597597cdcbea47bfd160e7905bbd5571d3fcd0513d4f2215fd1d728556af4ceae5ca1fb50a044"
       },
-      "path": "mods/locator-heads-1.6.3.jar"
+      "path": "mods/locator-heads-1.6.4.jar"
     },
     {
       "downloads": [
@@ -336,18 +336,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/eXts2L7r/versions/T5pDJV1K/placeholder-api-2.8.1%2B1.21.10.jar"
+        "https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 267926,
+      "fileSize": 268662,
       "hashes": {
-        "sha1": "4950367323147265b272ad2156bf1a343db3f64c",
-        "sha512": "92606640457931698f272e4e8866b5357767360e78a3eed8b3bd490e8a17bfeaefdc0bd444ac8ba4f51b7f9f1eb7f22337e034b409939db3601269d4b53ad22c"
+        "sha1": "bbdc920ecff993148cd6e81a208536132245ce40",
+        "sha512": "507ab10b7938dcd14d33121b8462649bdbe575cef248e917dfdf7566078ab5d0195ca1add95eae4863de3f652eb56db0a8669a67d5b5344e094d086f9dab5a08"
       },
-      "path": "mods/placeholder-api-2.8.1+1.21.10.jar"
+      "path": "mods/placeholder-api-2.8.2+1.21.10.jar"
     },
     {
       "downloads": [
@@ -426,18 +426,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/wF189hn9/versions/kMa8HQ8N/ukus-armor-hud-0.10.1%2Bmc1.21.11.jar"
+        "https://cdn.modrinth.com/data/wF189hn9/versions/ZDZWmIsH/ukus-armor-hud-0.10.2%2Bmc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 47950,
+      "fileSize": 47958,
       "hashes": {
-        "sha1": "2400e827578df146b533e58f0c179ee4232cdd07",
-        "sha512": "7dc253dacc08a9bf74fb7d88f6c2d3ba8f69a8f666ca84cc05f77f65bc086dd8384e1d8af701bfa8c966f7aa4a8c263ac49a4346bd8a42ea0d289414e08c42c7"
+        "sha1": "e11951aab0ff32626feb48045da0574260784543",
+        "sha512": "eb5e7b09b101782e220cfab6e5f9791c0b1d9c668d84017080818febe2fac579acbc03855c000b60a27dc5b50b6a384646e1396c9b853554c5bcb97567b4d3ec"
       },
-      "path": "mods/ukus-armor-hud-0.10.1+mc1.21.11.jar"
+      "path": "mods/ukus-armor-hud-0.10.2+mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -861,18 +861,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/fw5ejGT7/entity_model_features_1.21.11-fabric-3.0.10.jar"
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/3xCY6scW/entity_model_features_1.21.11-fabric-3.0.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 495879,
+      "fileSize": 503349,
       "hashes": {
-        "sha1": "f9e8abe9d5768f18791e7fcd9afa05b72c4561a5",
-        "sha512": "e3af1864b9d0f84dee71a62f99037282c8e0621bbcfb44390c83f2873880f20130a194745f53326284dc4249407741f4e6fa607846b351f02cbd3f974adcdf2b"
+        "sha1": "c8e17aa237e51a91db4b230971ad10a31d7aeba8",
+        "sha512": "5cc7d04648dd88233a32f58d2763069876fb4fc612f23dcd029bed72edf8b5cdb89c73db687e2e72a7b6c77e997d843d1d32c6fc845fcf0b3f0925898527c144"
       },
-      "path": "mods/entity_model_features_1.21.11-fabric-3.0.10.jar"
+      "path": "mods/entity_model_features_1.21.11-fabric-3.0.11.jar"
     },
     {
       "downloads": [
@@ -891,18 +891,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/p19vrgc2/versions/XWEg9WEI/fusion-1.2.12-fabric-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/p19vrgc2/versions/mejTd03X/fusion-1.2.12a-fabric-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 544460,
+      "fileSize": 544231,
       "hashes": {
-        "sha1": "1245f346fb761611a885aeed4a4b84dfb4bfe7fd",
-        "sha512": "515f7ce46e0194e0e0cc12f258cba267fe3e4726877324a3f1de14091218e0d208b7d27d85670ea23c09a8574be1a1b10f6d1106b8df225ec92008f6e3a03022"
+        "sha1": "f2aa9ab3b80a5b95d44a2badde3e2dbae788e7c5",
+        "sha512": "003fa32f2400ca0b8b4bf6556a0da5cec21be5c3310752b1d56b064d6fb4d2bc030a64d26b61cd4ba4590b5c3e3a0b1f5e55537b0982cea8f169a8cd22b4ede0"
       },
-      "path": "mods/fusion-1.2.12-fabric-mc1.21.11.jar"
+      "path": "mods/fusion-1.2.12a-fabric-mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -921,33 +921,33 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/MPCX6s5C/versions/Dp0dn63B/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/MPCX6s5C/versions/yCHrusjr/notenoughanimations-fabric-1.11.2-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1932106,
+      "fileSize": 1936816,
       "hashes": {
-        "sha1": "73061a2f9019652d80cb25ce31071e42b7ac2f35",
-        "sha512": "f6e5a83e840fb2ab39a370be4cc8ed21e0cbd937a7d049ca3041be0fdaef1d7288457d11d835b112e75fb99b90e3a6df268a7d8aab6f726e025536de4c8b61ca"
+        "sha1": "1363d7442ab830f96a6e2cec95196f2232f00f42",
+        "sha512": "51dd2ca801387d7e9b1ef2cfa44cde35ed3922aee48163c7ffb258e18351cad06b172798d2f9dc4575f55621b76efc1e8562c3bc09b50f8667009fce10fd1168"
       },
-      "path": "mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+      "path": "mods/notenoughanimations-fabric-1.11.2-mc1.21.11.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/GBeCx05I/versions/S1Np7qG5/tweakermore-v3.28.0-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/GBeCx05I/versions/NKsKX2Rr/tweakermore-v3.29.0-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 981751,
+      "fileSize": 995997,
       "hashes": {
-        "sha1": "f8c67b3fc44e66895546b343ceffc6d14ca41ff5",
-        "sha512": "2291bfaf396ae937e78d910125b0ad3f90ee0393eca47ae39393999e29277900d7f4832f3b9af65cf04b93b105659dcb10a3af2c0e99c02f114c45de998d49db"
+        "sha1": "eaef69884038ff5abda29238ae53cce065b404be",
+        "sha512": "3cc1b1e1f2d45c6448c2f03712df3e31167a37e718f0abdf83b757c1e0232423db83f777647ccd1b4975f23a80e27185701d5921664346da5c439b1782099dee"
       },
-      "path": "mods/tweakermore-v3.28.0-mc1.21.11.jar"
+      "path": "mods/tweakermore-v3.29.0-mc1.21.11.jar"
     },
     {
       "downloads": [

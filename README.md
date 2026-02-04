@@ -22,7 +22,7 @@ I only support the newest version of minecraft
 - [Keybind Search](https://modrinth.com/mod/HEds12HI)
 - [WorldEdit](https://modrinth.com/mod/1u6JkXh5)
 - [Better Saved Hotbar ui](https://modrinth.com/mod/Y5DGNK4o)
-- [Discord Status](https://modrinth.com/mod/6kYGBz0X)
+- [Discord Status](https://modrinth.com/mod/25psa7hI)
 - [No Chat Reports](https://modrinth.com/mod/qQyHxfxd)
 - [Automatically Sprint when joining a server or after respawning](https://modrinth.com/mod/TNVjaBGX)
 - [Stop Toggling Sprint when hitting Keycombos](https://modrinth.com/mod/Qy0GWwNf)

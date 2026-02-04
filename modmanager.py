@@ -152,7 +152,7 @@ class changeLog:
                 for updated_mod in self.updated_mods:
                     parts.append(
                         f"- 🔺{updated_mod.get("title")}: "
-                        f"{updated_mod.get("old_version")} »»» "
+                        f"{updated_mod.get("old_version")} **»»»** "
                         f"{updated_mod.get("new_version")}\n"
                     )
 

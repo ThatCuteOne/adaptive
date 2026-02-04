@@ -1173,6 +1173,21 @@
         "sha512": "c1dba75bd7d81ff15c5bbb967844f7d8a07d3d3fc07195dec0e956cf9c70a2b3b5ec00cb5dabc65adb37973cae8a236ac3696c1e583a04fc5333e09a2f047fdb"
       },
       "path": "mods/minitweaks-1.21.11-1.5.6.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/UU7VUYKE/versions/NPrITvvo/AlinLib-fabric-2.1.0-rc.6%2Bmc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 478645,
+      "hashes": {
+        "sha1": "9e5141d58d4ecd5cfac94c7d2e26686ceb3cc606",
+        "sha512": "c0a50f493cf578a5623d0aab0a1fb76f1770dbf8ee248550dcaa119809086d3a7d203d33f1dd5087de5e89e3988fdbfa186a3b688f1008596027c8f4cd9496a9"
+      },
+      "path": "mods/AlinLib-fabric-2.1.0-rc.6+mc1.21.11.jar"
     }
   ],
   "formatVersion": 1,

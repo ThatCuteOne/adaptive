@@ -15,7 +15,7 @@ parser.add_argument("-f","--force",default=False,action="store_const",const=True
 parser.add_argument("-c","--changelog",default=False,action="store_const",const=True,help="Generate modlist")
 
 LOADER = "fabric"
-MINECRAFT_VERSIONS = ["1.21.11","1.21.11-rc3","1.21.11-pre5"]
+MINECRAFT_VERSIONS = ["26.1.1", "26.1","26.1-rc-3","26.1-rc-2","26.1-rc-1","26.1-pre-3","26.1-pre-2","26.1-pre-1"]
 args = parser.parse_args()
 
 logging.basicConfig(level=logging.INFO,format="[%(asctime)s] [%(name)s/%(levelname)s] %(message)s",datefmt="%H:%M:%S")
@@ -115,17 +115,23 @@ async def api_request(url):
                         logger.warning(
                             f"Failed to fetch: {response.status}"
                         )
-                        return []
+                        return  {}
 
             except asyncio.TimeoutError:
                 logger.error("Request timed out")
-                return []
+                return {}
             except aiohttp.ClientError as e:
                 logger.exception(f"HTTP client error: {e}")
-                return []
+                return {}
             except Exception as e:
                 logger.exception(f"Error fetching: {e}")
-                return []
+                return {}
+
+async def get_modpack_version():
+    with open("pack.json","r") as f:
+        filejson:dict = json.load(f)
+        f.close()
+        return f"{filejson.get("adaptive_version")}-mc{filejson.get("mc_version")}"
 
 
 @dataclass
@@ -134,27 +140,47 @@ class changeLog:
     new_mods = []
     removed_mods = []
 
+    async def get_dev_notes(self):
+        with open("changelog_comment.md","r") as f:
+            return f.read()
+
+    
+
     async def write_to_file(self):
-        with open("changelog.md", "a") as changelogfile:
+
+        dev_notes = await self.get_dev_notes()
+        modpack_version = await get_modpack_version()
+
+        with open("changelog.md", "w") as changelogfile:
             parts = []
+
+            parts.append(f"# Adaptive {modpack_version}\n")
+
+            if dev_notes:
+                parts.append("### Dev Notes\n")
+                parts.append(dev_notes)
+
             if self.new_mods:
                 parts.append("\n### New Mods! \n")
                 for new_mod in self.new_mods:
-                    parts.append(f"- ➕️ {new_mod.get("title")}\n")
+                    if new_mod is not None:
+                        parts.append(f"- ➕️ {new_mod.get("title")}\n")
             
             if self.removed_mods:
                 parts.append("\n### Removed Mods 🗑️\n")
                 for removed_mod in self.removed_mods:
-                    parts.append(f"- 🗑️ {removed_mod.get("title")}\n")
+                    if removed_mod is not None:
+                        parts.append(f"- 🗑️ {removed_mod.get("title")}\n")
             
             if self.updated_mods:
                 parts.append("\n### Updated Mods 🔺\n")
                 for updated_mod in self.updated_mods:
-                    parts.append(
-                        f"- 🔺{updated_mod.get("title")}: "
-                        f"{updated_mod.get("old_version")} **»»»** "
-                        f"{updated_mod.get("new_version")}\n"
-                    )
+                    if updated_mod is not None:
+                        parts.append(
+                            f"- 🔺{updated_mod.get("title")}: "
+                            f"{updated_mod.get("old_version")} **»»»** "
+                            f"{updated_mod.get("new_version")}\n"
+                        )
 
             new_data = "".join(parts)
             changelogfile.write(new_data)
@@ -180,6 +206,8 @@ class modEntry:
 
 
     async def get_project_data(self):
+        if self.mod_data is not None:
+            return self.mod_data
         project_id = await self.get_modrinth_id()
         version_id = await self.get_version_id()
         data:dict = await api_request(f"https://api.modrinth.com/v2/project/{project_id}")
@@ -276,7 +304,7 @@ async def add_mod(url):
 
 async def generate_changelog():
     async def is_same_mod(mod_a: modEntry, mod_b: modEntry) -> bool:
-        if await mod_a.get_modrinth_id() == await mod_b.get_modrinth_id(): 
+        if await mod_a.get_modrinth_id() == await mod_b.get_modrinth_id():
             return True
         return False
 
@@ -284,12 +312,11 @@ async def generate_changelog():
         for old_mod in old_mods:
             if await is_same_mod(new_mod,old_mod):
                 matched_old_mods.append(old_mod)
-                if new_mod.hashes.sha512 == old_mod.hashes.sha512: 
-                    continue # if this is true it means its 100% the same modversion
+                if await new_mod.get_version_id() == await old_mod.get_version_id():
+                    return # if this is true it means its 100% the same modversion
                 await asyncio.gather(
                         new_mod.get_project_data(),
                         old_mod.get_project_data()
-                        
                         )
                 changeLog.updated_mods.append({
                     "title": new_mod.mod_data.title,

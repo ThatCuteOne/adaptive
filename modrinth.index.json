@@ -1023,6 +1023,21 @@
         "sha512": "c966c058c0a398ac293a91ab3116658ad03a007bbdc9809879badb4fb776c7c9fad1131adabd78385fe9504be87d8a925bd6b130246594cf2959c6665e9e044e"
       },
       "path": "mods/voxy-0.2.14-alpha.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/25psa7hI/versions/7bMgpivx/phases-discord-rich-presence-2.6.0-26.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 189537,
+      "hashes": {
+        "sha1": "100ef25690a778d7673debc3ea9410f85eb8dd73",
+        "sha512": "1a0b83fbc463c62f42ed67d2f5e2ee0d6f2d911d4d32d8ea1cb467c03022865951ad4487b282721a51edfc1321b9ae400653564a6834a6e54f680ee87d8e47ce"
+      },
+      "path": "mods/phases-discord-rich-presence-2.6.0-26.1.jar"
     }
   ],
   "formatVersion": 1,

@@ -4,6 +4,9 @@ import os
 import zipfile
 import shutil
 
+
+ignore_files = ["options.txt.md"]
+
 # load pack data
 with open('pack.json') as f:
     config = json.load(f)
@@ -48,6 +51,7 @@ def build():
         # Add overrides directory
         for root, dirs, files in os.walk("./overrides"):
             for file in files:
+                if file in ignore_files: continue
                 file_path = os.path.join(root, file)
                 arcname = os.path.relpath(file_path, start=".")
                 zipf.write(file_path, arcname)

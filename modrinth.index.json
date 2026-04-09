@@ -171,18 +171,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/G0yfY6x2/fabric-api-0.145.3%2B26.1.1.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/fm7UYECV/fabric-api-0.145.4%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2407885,
+      "fileSize": 2408066,
       "hashes": {
-        "sha1": "acefe4ee3fb9ce17023fae55d6392d1f5d31749a",
-        "sha512": "52ba63ba026ea2c62c372f7e3070531ade08f52539f7020c627ab9ba4e4720e456c99e7174423fd22b7ff83e39a319cb3c6146f2c077b05c5a4f47acd9266c3e"
+        "sha1": "f6a5958eae1644ce8e8622b513bc6a795594675b",
+        "sha512": "ffd5ef62a745f76cd2e5481252cb7bc67006c809b4f436827d05ea22c01d19279e94a3b24df3d57e127af1cd08440b5de6a92a4ea8f39b2dcbbe1681275564c3"
       },
-      "path": "mods/fabric-api-0.145.3+26.1.1.jar"
+      "path": "mods/fabric-api-0.145.4+26.1.2.jar"
     },
     {
       "downloads": [
@@ -246,18 +246,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/L4pt5egz/versions/IsLkLWqb/locator-heads-2.1.0.jar"
+        "https://cdn.modrinth.com/data/L4pt5egz/versions/6DwkUvG0/locator-heads-2.2.0.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 35775,
+      "fileSize": 36578,
       "hashes": {
-        "sha1": "3512a1275a9ef41e93499a80a146998bfa956462",
-        "sha512": "4398492c1e95045603094e413a76b0f757cdf55cbabe983cfbf73eb13a4eb34ac3b31c032de9d56ba250e6c097eb4099dd0c897e0f397f8707e39ae9472a5537"
+        "sha1": "3f07ef1d3b80036596d9af8e124f7819f9b9e1af",
+        "sha512": "d95a2f1ecab7ea5b6322be8e6b2bd931c9948db7665e57e58d36f53903c829ec6d4cedb8c2e47ee9947329082df1904c5d82ed793591dfce987b449f3bde0d61"
       },
-      "path": "mods/locator-heads-2.1.0.jar"
+      "path": "mods/locator-heads-2.2.0.jar"
     },
     {
       "downloads": [
@@ -351,18 +351,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/EuaIzAYI/voicechat-fabric-2.6.14%2B26.1.1.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/4cjovAfF/voicechat-fabric-2.6.15%2B26.1.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 5501181,
+      "fileSize": 5507927,
       "hashes": {
-        "sha1": "bd6a822e7043b0b195bada890c20fc6596193812",
-        "sha512": "d750b08dd760c4b7392937fb03d7a2d49d04a40b647458d7a20e2d6fadf5945a6b6366111b4e5be2974bf9daaa2f76da2ef07b7b583ea3998e2aed360e884b2c"
+        "sha1": "0f8c8e1194a0f7ee1f155038d315a59f8625b21f",
+        "sha512": "d215cb1acab1688403c3233d614615acd8b544913b93ffe9d0a2c4ae37c4011b62cc0f1de9d39e6113b384b45b92d2b8c9317a5d70f912b63fcf7242a8dcbf34"
       },
-      "path": "mods/voicechat-fabric-2.6.14+26.1.1.jar"
+      "path": "mods/voicechat-fabric-2.6.15+26.1.1.jar"
     },
     {
       "downloads": [
@@ -471,18 +471,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/PtjYWJkn/versions/T1L05OBl/sodium-extra-fabric-0.8.5%2Bmc26.1.jar"
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/hf1Xa5Gs/sodium-extra-fabric-0.8.6%2Bmc26.1.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 393813,
+      "fileSize": 401602,
       "hashes": {
-        "sha1": "4f3d7db59727f6aafa1d3c0f1c0d6a795f6d3e8b",
-        "sha512": "38a51d238f8eadf9d29ad6a67c9b61d0e592a95872889e53725d6071c59d00532f190b2b9b47656a45840a7442a8dc61c099fa67675ec34a490c50c92d449462"
+        "sha1": "634a4e9ff4cea16073d4ab2af289fcdf934d5cc1",
+        "sha512": "7b9777d03216f8fead378dfa1a19c2e4e682b94e1a994f27ca098195bccb117377e34e7812022554ed330cb6cfbe674e35b952626184f3e0931ad9089e222441"
       },
-      "path": "mods/sodium-extra-fabric-0.8.5+mc26.1.jar"
+      "path": "mods/sodium-extra-fabric-0.8.6+mc26.1.1.jar"
     },
     {
       "downloads": [
@@ -681,18 +681,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/51shyZVL/versions/PMO5hamO/moreculling-fabric-26.1-1.7.0-beta.3.jar"
+        "https://cdn.modrinth.com/data/51shyZVL/versions/KJBkanxk/moreculling-fabric-26.1.1-1.7.0-beta.5.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 340681,
+      "fileSize": 358073,
       "hashes": {
-        "sha1": "b9002400d0a49a5640ca1688988b7549c67edb5e",
-        "sha512": "78fd6fc3863278bff75cb6b94814f978dbaa7ef4817cc1c9d65567afb1af18799194ac386f7948b7a0f099750e4f5e23e099c615c3995557d017bd4b60ea4fef"
+        "sha1": "7831be27edaf8581c6bba15867b2a47f4ee9b625",
+        "sha512": "57556eb3280637c5666e0a4e93d8b92912848ba7804014d56f73e1363b3e1f7b272f5641cd08420123b9bf68ec9c5d71c2314ba3e4c5d69e5c4e00f0e925ddd8"
       },
-      "path": "mods/moreculling-fabric-26.1-1.7.0-beta.3.jar"
+      "path": "mods/moreculling-fabric-26.1.1-1.7.0-beta.5.jar"
     },
     {
       "downloads": [
@@ -711,18 +711,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Bh37bMuy/versions/Egm4ZKcS/reeses-sodium-options-fabric-2.0.4%2Bmc26.1.jar"
+        "https://cdn.modrinth.com/data/Bh37bMuy/versions/p88Tf9YM/reeses-sodium-options-fabric-2.0.5%2Bmc26.1.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 103476,
+      "fileSize": 103481,
       "hashes": {
-        "sha1": "d88ae43d2084dc50bf6574af46443da60cfaa061",
-        "sha512": "b6fe70f877cdcb060257c924df149b526a5a308962d4457631d51b207063cc60220acc4a6fb47ae7b183db5096885bb2bd3a12e7a700c240ba436caa714bbd6f"
+        "sha1": "e1c704acfb5bde6df36b23c3a38faff1f02abb73",
+        "sha512": "32736018c32c6ebd391a2fd0566b058faeae6b0cf00b1d56b816b8211ebcb665949bae5b1ae8bf2e9b7a24845ed94234c3fffc71f74354956833cfedeadcef12"
       },
-      "path": "mods/reeses-sodium-options-fabric-2.0.4+mc26.1.jar"
+      "path": "mods/reeses-sodium-options-fabric-2.0.5+mc26.1.1.jar"
     },
     {
       "downloads": [
@@ -996,18 +996,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/rIC2XJV4/versions/M4FHfVPR/ViaFabricPlus-4.5.1.jar"
+        "https://cdn.modrinth.com/data/rIC2XJV4/versions/D9mD8kWw/ViaFabricPlus-4.5.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 28305990,
+      "fileSize": 28308211,
       "hashes": {
-        "sha1": "05f3c85ae4c4ddfa82148bbc4f26925d446874cd",
-        "sha512": "a37d1f9f0178a70ebb61a7d36809f9f42280e2c847d6228ea264f610a3459b3f29725e959edbe81fda570a4e2f39ad6210c244914bf53c1959b7662d91b956ad"
+        "sha1": "e6f2a9d0d3cfb5ea7c43141e455d32d28e89886b",
+        "sha512": "d5891bf096f777b9646438beb74279014b416538dba593ea57932012463caa152ee906e23ebebe5cc3722d87bda1f23204b5d25661d33e131a8393720de8dc84"
       },
-      "path": "mods/ViaFabricPlus-4.5.1.jar"
+      "path": "mods/ViaFabricPlus-4.5.2.jar"
     },
     {
       "downloads": [

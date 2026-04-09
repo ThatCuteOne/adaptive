@@ -51,21 +51,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dpkYdLu5/versions/Fn5utBWo/tiertagger-fabric-2.5.0%2Bmc26.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 178711,
-      "hashes": {
-        "sha1": "492d0399ce5816ca1eb0536b8b4251bb1db8d167",
-        "sha512": "8f4872139a9a3b6f40eeb08e34fab6f5033c9891a01f136042c26c58099ee9b7bcc2897cc418e60a8bd05449d229acbcb627fedc7e94d7a6f834ad26a156daa3"
-      },
-      "path": "mods/tiertagger-fabric-2.5.0+mc26.1.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/o7DitHWP/versions/pjgnJOcl/WI-Zoom-1.7-MC26.1.jar"
       ],
       "env": {
@@ -1008,6 +993,21 @@
         "sha512": "46d52923cf025fddf79d4a6ede16a55e1554d014ec6edb3a55526da5fa8c3c6d85f50e5b9699141c5e2dd650b9bd416ab34bac6822103ab1589424d9ca5c0f2d"
       },
       "path": "mods/VisualKeys-0.0.11+26.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/bubOj4AD/versions/1BOiOKHh/tiers-0.8.0%2B26.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 571505,
+      "hashes": {
+        "sha1": "7de5ab60f69b4824719501cb338626237f14b315",
+        "sha512": "1ef542c20c9af5676ac25706c8ed3518ef98506d7a317adac4dbc9ece140c510db196750cf4aff46f2ee9ce4a84b1e5d24c168b0e0bc1e307399dfa4cd1372dc"
+      },
+      "path": "mods/tiers-0.8.0+26.1.jar"
     }
   ],
   "formatVersion": 1,

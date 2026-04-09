@@ -1038,6 +1038,21 @@
         "sha512": "3c5cd4d3affc989e5c0ca137039a29b7e1dea1ceb1735f4a03a3970e7a170578ada0c55223c113e590809689077f5c1b4e02dba5bb0b069a1e55b78da509fa65"
       },
       "path": "mods/continuity-3.0.1-beta.1+26.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/fxxUqruK/versions/7vLbNW73/voxy-0.2.14-alpha.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 12628394,
+      "hashes": {
+        "sha1": "848f0a18c74cfe0db2905bf9d5dfb1f68850ba85",
+        "sha512": "c966c058c0a398ac293a91ab3116658ad03a007bbdc9809879badb4fb776c7c9fad1131adabd78385fe9504be87d8a925bd6b130246594cf2959c6665e9e044e"
+      },
+      "path": "mods/voxy-0.2.14-alpha.jar"
     }
   ],
   "formatVersion": 1,

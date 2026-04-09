@@ -816,36 +816,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/xv94TkTM/versions/2rMoGipz/Controlling-fabric-26.1-26.1.0.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 85921,
-      "hashes": {
-        "sha1": "a5adf32b56bb4a75704cd46b0a120956c31aa722",
-        "sha512": "fca5ddaf185247ac2db332398e69c93723957c082a0e12ee023f13d37727c9572a1689a6c07d8ce5f9e956f880c1dfc536322718fdecbc903bd58c3cdc241efd"
-      },
-      "path": "mods/Controlling-fabric-26.1-26.1.0.1.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/fuuu3xnx/versions/jayVAixj/Searchables-fabric-26.1-1.0.4.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 78662,
-      "hashes": {
-        "sha1": "1c5eaea2ca23dd0fd168245c770e6545c9bceeb5",
-        "sha512": "b57257a9b18961b11efcfb86b67ab81bf2db31f5c4a5fc954c259885b57d0cbd4f4298d91086948b4d3095633cc9db218c84186b6c8ad37bb3dd8cd4ca31e009"
-      },
-      "path": "mods/Searchables-fabric-26.1-1.0.4.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/1u6JkXh5/versions/o645q0Oo/worldedit-mod-7.4.0.jar"
       ],
       "env": {
@@ -1023,6 +993,21 @@
         "sha512": "1a0b83fbc463c62f42ed67d2f5e2ee0d6f2d911d4d32d8ea1cb467c03022865951ad4487b282721a51edfc1321b9ae400653564a6834a6e54f680ee87d8e47ce"
       },
       "path": "mods/phases-discord-rich-presence-2.6.0-26.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/HEds12HI/versions/vjaVDgRj/VisualKeys-0.0.11%2B26.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 69282,
+      "hashes": {
+        "sha1": "f4b776e1075c50b4bf0c3495373a7ab6add80c6b",
+        "sha512": "46d52923cf025fddf79d4a6ede16a55e1554d014ec6edb3a55526da5fa8c3c6d85f50e5b9699141c5e2dd650b9bd416ab34bac6822103ab1589424d9ca5c0f2d"
+      },
+      "path": "mods/VisualKeys-0.0.11+26.1.jar"
     }
   ],
   "formatVersion": 1,

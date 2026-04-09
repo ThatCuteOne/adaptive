@@ -726,36 +726,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/WCq0oMm6/entity_model_features_26.1-fabric-3.0.17.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 511182,
-      "hashes": {
-        "sha1": "97201c5b56663d89cd304bb803946925b61c1613",
-        "sha512": "1ed697d64f9773ca1b70da3d64c8ea04d880aff18d716b36a6164e1d243461330975c38a6135c49466b5e125d6c84a72d38d45a2eb1a0676dc74f1ef3737f111"
-      },
-      "path": "mods/entity_model_features_26.1-fabric-3.0.17.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/ZGRPXhJ6/entity_texture_features_26.1-fabric-7.0.13.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 722124,
-      "hashes": {
-        "sha1": "89c5751c196708090be5a669ea524901221bb2a2",
-        "sha512": "bbc4ae0ff73ebf3395ab50fbd2d519dc3faeae7fe5e51aeb24305c124b6b9d57d4bf29e40f39ac93c1e71d40d40df818cebe87f6aa9c62cbeed7bb8af0d4a246"
-      },
-      "path": "mods/entity_texture_features_26.1-fabric-7.0.13.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/qQyHxfxd/versions/2yrLNE3S/NoChatReports-FABRIC-26.1-v2.19.0.jar"
       ],
       "env": {

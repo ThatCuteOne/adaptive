@@ -1023,6 +1023,21 @@
         "sha512": "79e1c74c5fc815b2a0f4bb7e225b644d8cb5a38108da36a7c3ff092b1a6ad719731a5c6e558234b7533038a851defee16ab862eb64994f9402dd1e8d85a6a0be"
       },
       "path": "mods/BetterSavedHotbars-Forked-1.3.9-26.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/1IjD5062/versions/fiZzqnYz/continuity-3.0.1-beta.1%2B26.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 1039974,
+      "hashes": {
+        "sha1": "bc7dfc3c30f219f5d752f2e5ada0dd2d02a18732",
+        "sha512": "3c5cd4d3affc989e5c0ca137039a29b7e1dea1ceb1735f4a03a3970e7a170578ada0c55223c113e590809689077f5c1b4e02dba5bb0b069a1e55b78da509fa65"
+      },
+      "path": "mods/continuity-3.0.1-beta.1+26.1.jar"
     }
   ],
   "formatVersion": 1,

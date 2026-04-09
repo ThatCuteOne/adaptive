@@ -9,3 +9,4 @@ operatorItemsTab:true
 resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
 soundCategory_music:0.0
+key_key.blackbarconcealer.toggle:key.keyboard.unknown

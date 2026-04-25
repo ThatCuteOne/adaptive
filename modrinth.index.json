@@ -51,18 +51,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/o7DitHWP/versions/pjgnJOcl/WI-Zoom-1.7-MC26.1.jar"
+        "https://cdn.modrinth.com/data/o7DitHWP/versions/ePFy2DEx/WI-Zoom-1.7-MC26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 150875,
+      "fileSize": 150879,
       "hashes": {
-        "sha1": "d5a930f6c9969ccb96df4556723bd22004cdcd14",
-        "sha512": "22e53a423d6e536a9097302abad964f50d05235db8c809fd7ae0d7e7011bcffa6d3a6d30b7cb688854ba986da5dd5893d62d2057362da6dfae3fc8952c1296ff"
+        "sha1": "481e714f5393b10796ac1fbe7847ed60aa7e2e5b",
+        "sha512": "a9ebb12646f8985fd04d21e5bac6d42a5fec90941310119d80fbaaeb40488f4cfbf63482e9613abf9a47073b2f7b961f3a24761b0b277818da48da6d72283182"
       },
-      "path": "mods/WI-Zoom-1.7-MC26.1.jar"
+      "path": "mods/WI-Zoom-1.7-MC26.1.2.jar"
     },
     {
       "downloads": [
@@ -81,18 +81,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/VSNURh3q/versions/tKXPZtpT/c2me-fabric-mc26.1-0.3.7%2Balpha.0.61.jar"
+        "https://cdn.modrinth.com/data/VSNURh3q/versions/lWpNUM5l/c2me-fabric-mc26.1.2-0.3.7%2Balpha.0.67.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 4728773,
+      "fileSize": 4728504,
       "hashes": {
-        "sha1": "a67b297fea485c75015adc1f7e4ebecdbf69d9d4",
-        "sha512": "6f5947e45f15cfbf8756fed2fad222702f331d5dfa6b0580bd92671b14c5ea6f8cb0a0968ecf53ca237763bdda29aedd33d60c9ee6cd36ce11618177f92b405b"
+        "sha1": "5c2d748ef94a66a18be1f6e5ba5583169f551e1b",
+        "sha512": "c784f68a63be54307784b0d5e5ab46d1a78f5b5483ee83207658874d30b17cc718e0042453b06bf9c584148cfd0382c20c6d633ef3c5852efe078402b06e7eb7"
       },
-      "path": "mods/c2me-fabric-mc26.1-0.3.7+alpha.0.61.jar"
+      "path": "mods/c2me-fabric-mc26.1.2-0.3.7+alpha.0.67.jar"
     },
     {
       "downloads": [
@@ -111,18 +111,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/orXAsira/versions/6iIBEQY5/cape-provider-5.2.0.jar"
+        "https://cdn.modrinth.com/data/orXAsira/versions/gHvCxQqB/cape-provider-5.3.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 207821,
+      "fileSize": 202904,
       "hashes": {
-        "sha1": "4e7e34fd276f93a8cc4f72d07c962ff6d1a727a8",
-        "sha512": "1064f316176196e49099a3b59e9cb645342e4f6e58a0fce54e511f62d66649d5a15093a5dd0474a65545135f6075e1c972892b4b89c54e5d423da134effcc993"
+        "sha1": "342d87d14f78b0605b60832f3717e9fd633760b5",
+        "sha512": "6ced36aea5a0bb1d1fb7e41dff09099f3d8f907fd7726419b3ca9d8119113ff5283d39b1ba1f8cf8de22e2a0d3061dd680e4352b9d281871f9513bd4f54e8ea1"
       },
-      "path": "mods/cape-provider-5.2.0.jar"
+      "path": "mods/cape-provider-5.3.1.jar"
     },
     {
       "downloads": [
@@ -486,18 +486,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Rm4OOdHd/versions/S3jtBdhw/hideexperimentalwarning-26.1.0-1.2.jar"
+        "https://cdn.modrinth.com/data/Rm4OOdHd/versions/ZvzxRvet/hideexperimentalwarning-26.1.2-1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 21456,
+      "fileSize": 21419,
       "hashes": {
-        "sha1": "7ccce6fc635f23850cff6c93e7a86c5ff861184b",
-        "sha512": "4c7d859b87b3c77418807abc31241aee7893704325261dde8679311feb70871dd93b53c49468ad250ee1f778da1382d8a988c6ea94125f7976c3270394d99a22"
+        "sha1": "995b1925de2adf7ae437c828e2552ef5e9b7e8db",
+        "sha512": "f07dc95c22ac3cbea2919fe0f6627b78070452766e7c5576365d5cde52863a67d78257b30d11dc2e974e54133f86dc82bb62a6894d08b80f24355bf6ab38b319"
       },
-      "path": "mods/hideexperimentalwarning-26.1.0-1.2.jar"
+      "path": "mods/hideexperimentalwarning-26.1.2-1.2.jar"
     },
     {
       "downloads": [
@@ -546,18 +546,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/e0M1UDsY/versions/20oNLyvX/collective-26.1.0-8.16.jar"
+        "https://cdn.modrinth.com/data/e0M1UDsY/versions/9smDW0F0/collective-26.1.2-8.20.jar"
       ],
       "env": {
         "client": "required",
         "server": "optional"
       },
-      "fileSize": 969552,
+      "fileSize": 965527,
       "hashes": {
-        "sha1": "d4450ce2cfdd0f8d05d4f213d7ed88b917bc2f7f",
-        "sha512": "ab437092a9f02378feb4e1a9cc2b9d8eb05be7495d91cb28657df31ebd85c6696b0beb14383849f01ebea1acafb801cb8cf33c61eadaf2ddf68196deea9eefde"
+        "sha1": "655c24066b2621f5a25d9bad588521c7f6d0feaa",
+        "sha512": "c85e99789bbda8a29e81d393fe16f1fd7a5ba90c26bfea7373220acf640f975df108ce8de6a00ab02eae1f43405ffd1006d4b3c6dc70abe003e41329b37165a9"
       },
-      "path": "mods/collective-26.1.0-8.16.jar"
+      "path": "mods/collective-26.1.2-8.20.jar"
     },
     {
       "downloads": [
@@ -891,18 +891,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y2AyXKE2/versions/PtsvYWTC/ping-display-26.1.jar"
+        "https://cdn.modrinth.com/data/y2AyXKE2/versions/b3NX3na7/ping-display-26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 17685,
+      "fileSize": 17690,
       "hashes": {
-        "sha1": "2a57082eb6c0d4fffaabfe03b5098b632ba9dadb",
-        "sha512": "cf800835fa6326ad36c5fc1ab1d75043e77cd54182d5a2cba05e6f4995e5c0cfb23c3cc147ffe1e5273915d0be579353fda5f7fce57a1fdaa0ba6257cf5d0bf9"
+        "sha1": "f8776d30038d15917c65eccbdbddf6b01bca845c",
+        "sha512": "7280f3634db6300c9e7961ef746b71f3017c08c48a083ddcbd362d049f98a2e0fcb30a1b89723e071bdd9c08523b4d562ca0366d6e0891775243efe2086bcecf"
       },
-      "path": "mods/ping-display-26.1.jar"
+      "path": "mods/ping-display-26.1.2.jar"
     },
     {
       "downloads": [
@@ -996,18 +996,63 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/bubOj4AD/versions/1BOiOKHh/tiers-0.8.0%2B26.1.jar"
+        "https://cdn.modrinth.com/data/bubOj4AD/versions/t5IVuMnP/tiers-0.8.0%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 571505,
+      "fileSize": 571881,
       "hashes": {
-        "sha1": "7de5ab60f69b4824719501cb338626237f14b315",
-        "sha512": "1ef542c20c9af5676ac25706c8ed3518ef98506d7a317adac4dbc9ece140c510db196750cf4aff46f2ee9ce4a84b1e5d24c168b0e0bc1e307399dfa4cd1372dc"
+        "sha1": "8341072b09b7ffaa59e2ce1dbbb66ef05e14c78d",
+        "sha512": "2b21551cb91c6c5eda01d7efa8d099bab2d0bb305c940c9665bd9d5b0ef57035cc64679b5631b18720217ee39b39758e4662c5c3436e6d4d5fdeff9b201c55eb"
       },
-      "path": "mods/tiers-0.8.0+26.1.jar"
+      "path": "mods/tiers-0.8.0+26.1.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bokaNcj/versions/nhb2seHH/xaerominimap-fabric-26.1.2-25.3.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 2163968,
+      "hashes": {
+        "sha1": "9dcfbc36ef61acab279ae52283c6ceb5c22942a9",
+        "sha512": "82367eeef2ac13ec313b6c53d65b40d7bcc2a9bb3fdb62ada8040684a1effef73c940657c214410878f99d8b8e531705beccc5d906aa007b839b231e8fac18bb"
+      },
+      "path": "mods/xaerominimap-fabric-26.1.2-25.3.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/EnPUzSTg/versions/LRBUANlL/XaeroPlus-2.31.2%2Bfabric-26.1.2-WM1.40.14-MM25.3.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 7903844,
+      "hashes": {
+        "sha1": "7c32f297b7346fb05e7662fdbc7a863275108078",
+        "sha512": "db1206c63efdb885de2fa16d5ff0a6c04727e16d9ce480a30715084a4c11246725a63222d29fe2beaed8224dec2b4e513d64ab32dc914728048c2e7da4671e80"
+      },
+      "path": "mods/XaeroPlus-2.31.2+fabric-26.1.2-WM1.40.14-MM25.3.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcUtCpym/versions/xyGbYBF5/xaeroworldmap-fabric-26.1.2-1.40.14.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 1439729,
+      "hashes": {
+        "sha1": "ef0cf81fa118df8dae3074edfbfe28682919bfa1",
+        "sha512": "6ed5adce5be85075c4175ee525784ffdd057074d3d32222e49dfc7cae8ef94a05e5f54e5149753398ae42a8063cb1f9b2044942afb08cbe08fd37f2c18e72e72"
+      },
+      "path": "mods/xaeroworldmap-fabric-26.1.2-1.40.14.jar"
     }
   ],
   "formatVersion": 1,

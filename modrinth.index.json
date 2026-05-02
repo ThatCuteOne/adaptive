@@ -1053,6 +1053,36 @@
         "sha512": "b64290b814131f6a44af5ec951f9a45157a3f70ff404f65ccf29acd617821b874ab72ce2f40838b8a5e79ce3a9d33a223609cc83fe12c437a1f4d74886b1b43f"
       },
       "path": "mods/fuzzy-autocomplete-1.0.1+26.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/pzW03Rc5/entity_texture_features_26.1-fabric-7.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 740706,
+      "hashes": {
+        "sha1": "ff6284b53ad23e06bc082d1e05e8828e47455126",
+        "sha512": "9d740d901f691a5b9fb1eaa4acec488c9ceba2fa90742a8ca66f60a303b28c388cd2da8a6d2aac1aef3b0783bfeea5843657938bd6a5810e468ef7be12bd2b8b"
+      },
+      "path": "mods/entity_texture_features_26.1-fabric-7.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/dZCNlZz2/entity_model_features_26.1-fabric-3.2.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 576220,
+      "hashes": {
+        "sha1": "1a422e0d9a568cee526f3dc98e34dd8e7e1c7c1a",
+        "sha512": "f85bfd5ca99de57c349dea5facda431d586ec636dcd08249629dc3ce766d24231b12e45895be56d2460f14a581994d7b9bc5346578af9b85e63168187200a61e"
+      },
+      "path": "mods/entity_model_features_26.1-fabric-3.2.2.jar"
     }
   ],
   "formatVersion": 1,

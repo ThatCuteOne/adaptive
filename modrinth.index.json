@@ -1023,6 +1023,36 @@
         "sha512": "6ed5adce5be85075c4175ee525784ffdd057074d3d32222e49dfc7cae8ef94a05e5f54e5149753398ae42a8063cb1f9b2044942afb08cbe08fd37f2c18e72e72"
       },
       "path": "mods/xaeroworldmap-fabric-26.1.2-1.40.14.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/geGZinIB/versions/wcZKl5Kz/combat-hitbox-1.0.9.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 25719,
+      "hashes": {
+        "sha1": "dec8c521023a4a0984cc74ddfccb8c5459f7410a",
+        "sha512": "daa35412b8f45806fda09f1d5cc470faac91365da97a9e0d849278d5c299173ebdc1d8317f93c030b2ec0daeb3e4d80dddef37d657575ef38e75d1c8e28ebdf2"
+      },
+      "path": "mods/combat-hitbox-1.0.9.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/OXXOaUrC/versions/Xummk6X6/fuzzy-autocomplete-1.0.1%2B26.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "fileSize": 34824,
+      "hashes": {
+        "sha1": "f6325690fec8bf72f08f9e8a269d05855c41ca36",
+        "sha512": "b64290b814131f6a44af5ec951f9a45157a3f70ff404f65ccf29acd617821b874ab72ce2f40838b8a5e79ce3a9d33a223609cc83fe12c437a1f4d74886b1b43f"
+      },
+      "path": "mods/fuzzy-autocomplete-1.0.1+26.1.jar"
     }
   ],
   "formatVersion": 1,

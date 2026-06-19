@@ -15,7 +15,7 @@ parser.add_argument("-f","--force",default=False,action="store_const",const=True
 parser.add_argument("-c","--changelog",default=False,action="store_const",const=True,help="Generate modlist")
 
 LOADER = "fabric"
-MINECRAFT_VERSIONS = ["26.1.2"]
+MINECRAFT_VERSIONS = ["26.2"]
 MINECRAFT_VERSIONS.reverse()
 args = parser.parse_args()
 

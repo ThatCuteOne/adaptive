@@ -21,9 +21,9 @@ jobs:
         echo "MINECRAFT_VERSION=${MINECRAFT_VERSION}" >> $GITHUB_OUTPUT
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
     - name: Setup Modman
-      uses: ThatCuteOne/setup-modman@v1
+      uses: ThatCuteOne/setup-modman@v2
       with:
-        version: v1.9.2a
+        version: v1.9.3
 
     - name: Create ZIP file
       run: |

@@ -1,28 +1,24 @@
 #!/bin/bash
 
 # depends on  https://github.com/objz/mcl
-# plus you will need to log in using
+# plus you will need to login using
 # mcl account add --microsoft
 
-python build.py
-mcl import --name adaptive-test adaptive-dev-build.mrpack
+./build.sh
+MODPACK_VERSION=$(cat pack.json | jq -r '.adaptive_version')
+mcl import --name adaptive-test adaptive-$MODPACK_VERSION.mrpack
 
-# Launch instance and capture its PID
 mcl instance launch adaptive-test &
 MC_PID=$!
 
-# Wait for game to start
+# wait for game start
 sleep 1
 
-# Start log watcher in background and capture its PID
 mcl log show --follow adaptive-test &
 LOG_PID=$!
 
-# Wait for Minecraft process to exit
 wait $MC_PID
 
-# Kill the log watcher process
 kill $LOG_PID
 
-# Delete instance
 mcl instance delete adaptive-test --yes

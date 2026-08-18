@@ -1,0 +1,1261 @@
+{
+  "format": 12,
+  "version": "26.2",
+  "loader": "fabric",
+  "no_download": true,
+  "mods": {
+    "Wb5oqrBJ": {
+      "source": {
+        "Modrinth": "Wb5oqrBJ"
+      },
+      "title": "Chat Heads",
+      "slug": "chat-heads",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-09T15:46:23.149644Z",
+        "version_name": "1.2.8",
+        "game_version": "26.2",
+        "hash": "b8f6a7fde96e2a36bd339e950113e9ced3190461cf7a940c67cf8817c647e029675acb31f5c1ecd2f6be76f11a32d78f132dbde7ea1d8aa7512075b60c1797f8",
+        "filesize": 94568,
+        "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/lyZOZ4qX/chat_heads-1.2.8-fabric-26.1.jar",
+        "id": "lyZOZ4qX",
+        "lock": false
+      }
+    },
+    "YL57xq9U": {
+      "source": {
+        "Modrinth": "YL57xq9U"
+      },
+      "title": "Iris Shaders",
+      "slug": "iris",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "AANobbMI"
+        ],
+        "upload_date": "2026-07-08T21:11:56.737884Z",
+        "version_name": "1.11.2+26.2-fabric",
+        "game_version": "26.2",
+        "hash": "c1b46bcd1a0068deab3ae364a7229d31e27b7d45aea960e47503b8514354426badf83f354529db35d83e6b55727a53895fb9f13085e51d8148ee6765affac924",
+        "filesize": 2820763,
+        "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/oaD6KQls/iris-fabric-1.11.2%2Bmc26.2.jar",
+        "id": "oaD6KQls",
+        "lock": false
+      }
+    },
+    "ncKjyGm3": {
+      "source": {
+        "Modrinth": "ncKjyGm3"
+      },
+      "title": "Fadeless",
+      "slug": "fadeless",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-16T19:03:41.139945Z",
+        "version_name": "2.0.8-26.2",
+        "game_version": "26.2",
+        "hash": "ba5c3f311fe78720cc9130b3a67eb5964bd30e2ace9fd7624f58fdd179d2e33fc84f807f177c173dfc942f1ab139b9ddef1652519d0d7763e85c6397a90d69b8",
+        "filesize": 70758,
+        "url": "https://cdn.modrinth.com/data/ncKjyGm3/versions/GfYzYdx8/fadeless-2.0.8-26.2.jar",
+        "id": "GfYzYdx8",
+        "lock": false
+      }
+    },
+    "wdLuzzEP": {
+      "source": {
+        "Modrinth": "wdLuzzEP"
+      },
+      "title": "Gamma Utils (Fullbright)",
+      "slug": "gamma-utils",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "9s6osm5g",
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-26T16:21:24.391676Z",
+        "version_name": "3.1.1+Fabric",
+        "game_version": "26.2",
+        "hash": "5bca981ba885e7662ab5a400d8bb585b62215c10ed4fe09922578d767241a63c5e22dbd31ff562f770f94c13e87eb968b3a669a8c305acee8b43687f83fa0ec9",
+        "filesize": 103815,
+        "url": "https://cdn.modrinth.com/data/wdLuzzEP/versions/bR4tEPFq/Gamma-Utils-Fabric-3.1.1%2Bmc26.2.jar",
+        "id": "bR4tEPFq",
+        "lock": false
+      }
+    },
+    "trr0scVt": {
+      "source": {
+        "Modrinth": "trr0scVt"
+      },
+      "title": "Smooth Scrolling Refurbished",
+      "slug": "smooth-scrolling-refurbished",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-12T08:37:11.372165Z",
+        "version_name": "1.7.1",
+        "game_version": "26.2",
+        "hash": "48a43836f069f39c2825df8e4dbb83307fd882466e968e100f9b6b345bfe2a30c2ed2f3ffce20a67020682c3eded2579567de405ac28472cc11eb98c54304b0d",
+        "filesize": 10647,
+        "url": "https://cdn.modrinth.com/data/trr0scVt/versions/mm8bkgqs/SmoothScrollingRefurbished%2B26.1-1.7.1.jar",
+        "id": "mm8bkgqs",
+        "lock": false
+      }
+    },
+    "WwbubTsV": {
+      "source": {
+        "Modrinth": "WwbubTsV"
+      },
+      "title": "Your Options Shall Be Respected (YOSBR)",
+      "slug": "yosbr",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2023-06-12T08:06:07.649412Z",
+        "version_name": "0.1.2",
+        "game_version": "26.2-rc-2",
+        "hash": "254f2225f6446523aa8c8274e83b31e27f3b2afc8fe4f490fb1b169dd518e10c7993acda5db0ab597474ddf9d69506b5e794242fada1e2f89ed7bf9d412a8f78",
+        "filesize": 17373,
+        "url": "https://cdn.modrinth.com/data/WwbubTsV/versions/KMOzdYko/yosbr-0.1.2.jar",
+        "id": "KMOzdYko",
+        "lock": true
+      }
+    },
+    "orXAsira": {
+      "source": {
+        "Modrinth": "orXAsira"
+      },
+      "title": "Cape Provider",
+      "slug": "cape-provider",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-17T11:26:49.459524Z",
+        "version_name": "5.5.0",
+        "game_version": "26.2",
+        "hash": "6642599a83e3238515677d1546df55b75e2cd09ab21dbc36bb7b3e73eb0af49e61e3de32c7a8648200cb04557f1886350b1a4a62d56eabaac2ec302fda72a5e0",
+        "filesize": 204240,
+        "url": "https://cdn.modrinth.com/data/orXAsira/versions/molTCsgf/cape-provider-5.5.0.jar",
+        "id": "molTCsgf",
+        "lock": false
+      }
+    },
+    "EsAfCjCV": {
+      "source": {
+        "Modrinth": "EsAfCjCV"
+      },
+      "title": "AppleSkin",
+      "slug": "appleskin",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-18T10:22:52.828506Z",
+        "version_name": "3.0.10+mc26.2",
+        "game_version": "26.2",
+        "hash": "ddf31d8fe239f66760632606221a9ea55d31907a9f7f8667331929cad348457ec2199cb90d410ee1a06e36bafc01a3bf152a06fd3c9b9e46f50841240875832b",
+        "filesize": 181627,
+        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uo5bAN1Y/appleskin-fabric-mc26.2-3.0.10.jar",
+        "id": "uo5bAN1Y",
+        "lock": false
+      }
+    },
+    "D0ld5G9d": {
+      "source": {
+        "Modrinth": "D0ld5G9d"
+      },
+      "title": "Nametag Render Fix",
+      "slug": "nametag-render-fix",
+      "dependency": false,
+      "version": null
+    },
+    "9s6osm5g": {
+      "source": {
+        "Modrinth": "9s6osm5g"
+      },
+      "title": "Cloth Config API",
+      "slug": "cloth-config",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-18T00:27:27.147096Z",
+        "version_name": "26.2.155+fabric",
+        "game_version": "26.2",
+        "hash": "37b1e402f0df5a383656e21a38ee18cdd15cb4ba3fb62fbeba82ef4b959a4479fc32718ac0d9d154a7d9104c5f7315bfa67dbeced0b8ff240b8039d4848d5df1",
+        "filesize": 1135186,
+        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/Nv3xnWXd/cloth-config-26.2.155.jar",
+        "id": "Nv3xnWXd",
+        "lock": false
+      }
+    },
+    "UMxybHE8": {
+      "source": {
+        "Modrinth": "UMxybHE8"
+      },
+      "title": "MiniHUD",
+      "slug": "minihud",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "GcWjdA9I"
+        ],
+        "upload_date": "2026-07-12T18:40:48.381712Z",
+        "version_name": "0.40.4",
+        "game_version": "26.2",
+        "hash": "def83c977a78ac87114b0bf7d95d67d7be5a6e63f307afe47e6f65d3fe2478122abc10b863baa1ccd1de065e46d8a132ebdd678153e3565a2efca33a83ff752c",
+        "filesize": 883888,
+        "url": "https://cdn.modrinth.com/data/UMxybHE8/versions/hyZr7JjQ/minihud-fabric-26.2-0.40.4.jar",
+        "id": "hyZr7JjQ",
+        "lock": false
+      }
+    },
+    "GcWjdA9I": {
+      "source": {
+        "Modrinth": "GcWjdA9I"
+      },
+      "title": "MaLiLib",
+      "slug": "malilib",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-07-06T00:01:14.423199Z",
+        "version_name": "0.29.3",
+        "game_version": "26.2",
+        "hash": "f4ccff4b13791f8e36771c10dafc0cb982896673b8c5e3e1a2b34da3829277c7a4b7cca03c01f2b39b52caecd39b3c2d70c2ef7ad87a28ac975dd4136396640b",
+        "filesize": 1959220,
+        "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/xKxhjDJ2/malilib-fabric-26.2-0.29.3.jar",
+        "id": "xKxhjDJ2",
+        "lock": false
+      }
+    },
+    "51shyZVL": {
+      "source": {
+        "Modrinth": "51shyZVL"
+      },
+      "title": "More Culling",
+      "slug": "moreculling",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "9s6osm5g"
+        ],
+        "upload_date": "2026-08-02T18:57:49.995348Z",
+        "version_name": "1.8.1",
+        "game_version": "26.2",
+        "hash": "9c331ba5f2ce9c322c41aa577f1029f3420d5507d0d942aadbb43fb9bd82e7da6f72e3a0b26c4ad96394669a99a7feb512b5119b3095fde2e0a437bf68c08b40",
+        "filesize": 363646,
+        "url": "https://cdn.modrinth.com/data/51shyZVL/versions/D5oVCouK/moreculling-fabric-26.2-1.8.1.jar",
+        "id": "D5oVCouK",
+        "lock": false
+      }
+    },
+    "HEds12HI": {
+      "source": {
+        "Modrinth": "HEds12HI"
+      },
+      "title": "VisualKeys",
+      "slug": "visualkeys",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-18T08:37:00.698896Z",
+        "version_name": "0.0.11+26.2",
+        "game_version": "26.2",
+        "hash": "0a253bab29f48a7e50ee44ffe088e3dacd43522e3375fc613ef690d4ae9c6ff2b86c2fc856fcf2754ab042607e99452fdd0b0d325fd61e2147844ce52f99d3de",
+        "filesize": 69359,
+        "url": "https://cdn.modrinth.com/data/HEds12HI/versions/kD9VNjoP/VisualKeys-0.0.11%2B26.2.jar",
+        "id": "kD9VNjoP",
+        "lock": false
+      }
+    },
+    "eXts2L7r": {
+      "source": {
+        "Modrinth": "eXts2L7r"
+      },
+      "title": "Text Placeholder API",
+      "slug": "placeholder-api",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-05-27T20:57:38.795530Z",
+        "version_name": "3.1.0-beta.1+26.2",
+        "game_version": "26.2",
+        "hash": "07b6fc802559d54ec6577f6e2788926ef391d755206c2bfb0528280977885cae4bc0c517d8a53eb6f34092015ebe6c41210627d255aa6504662daefa8fb76397",
+        "filesize": 254973,
+        "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+        "id": "NDqH16LT",
+        "lock": false
+      }
+    },
+    "1u6JkXh5": {
+      "source": {
+        "Modrinth": "1u6JkXh5"
+      },
+      "title": "WorldEdit",
+      "slug": "worldedit",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-09T07:17:29.953036Z",
+        "version_name": "7.4.5",
+        "game_version": "26.2",
+        "hash": "611ff7cc00d78c63a284ef26b6fbc806af295c469375e5e71e4d7e993aa6ea3fa90945e46511c99b6157a01ed5c3868a2a6419b47a38114cc1e67b32c20f7ca3",
+        "filesize": 5154613,
+        "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/6YnCYPwc/worldedit-mod-7.4.5.jar",
+        "id": "6YnCYPwc",
+        "lock": false
+      }
+    },
+    "uXXizFIs": {
+      "source": {
+        "Modrinth": "uXXizFIs"
+      },
+      "title": "FerriteCore",
+      "slug": "ferrite-core",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-03-24T18:31:50.491773Z",
+        "version_name": "9.0.0-fabric",
+        "game_version": "26.2",
+        "hash": "d81fa97e11784c19d42f89c2f433831d007603dd7193cee45fa177e4a6a9c52b384b198586e04a0f7f63cd996fed713322578bde9a8db57e1188854ae5cbe584",
+        "filesize": 72677,
+        "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+        "id": "d5ddUdiB",
+        "lock": false
+      }
+    },
+    "AANobbMI": {
+      "source": {
+        "Modrinth": "AANobbMI"
+      },
+      "title": "Sodium",
+      "slug": "sodium",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-07-08T20:58:18.553231Z",
+        "version_name": "mc26.2-0.9.1-fabric",
+        "game_version": "26.2",
+        "hash": "627fbf9625a4b94693c789c84a0686ffe558c0b1ecbeccf2602a903caafa9e126548b644282aa9c391dc798930d378724a383bea6b4397c5294d59ba5c0a6936",
+        "filesize": 1834384,
+        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/2Yom1N68/sodium-fabric-0.9.1%2Bmc26.2.jar",
+        "id": "2Yom1N68",
+        "lock": true
+      }
+    },
+    "L4pt5egz": {
+      "source": {
+        "Modrinth": "L4pt5egz"
+      },
+      "title": "Locator Heads",
+      "slug": "locator-heads",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-19T08:59:45.648273Z",
+        "version_name": "2.4.2",
+        "game_version": "26.2",
+        "hash": "388c9d80279b0ed03cd0f6daae214a6a47062b41d4de395b8dc72f025d703609418b506749e309b1e91c5d1b34a81f4aee452aed849bb802c618e5b703037714",
+        "filesize": 37388,
+        "url": "https://cdn.modrinth.com/data/L4pt5egz/versions/OPUaj8dP/locator-heads-2.4.2.jar",
+        "id": "OPUaj8dP",
+        "lock": false
+      }
+    },
+    "MPCX6s5C": {
+      "source": {
+        "Modrinth": "MPCX6s5C"
+      },
+      "title": "Not Enough Animations",
+      "slug": "not-enough-animations",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-18T18:59:19.446390Z",
+        "version_name": "1.12.4",
+        "game_version": "26.2",
+        "hash": "41c05f531298cce723a84639fb6b9510bfa25e65ff27a041083d47900d743d44473e1f7bdbcd87d7cd149f1291a1359dc3d8553a176be21c432ea15bbbdda92e",
+        "filesize": 1937831,
+        "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/67xQnLDS/notenoughanimations-fabric-1.12.4-mc26.2.jar",
+        "id": "67xQnLDS",
+        "lock": false
+      }
+    },
+    "Ha28R6CL": {
+      "source": {
+        "Modrinth": "Ha28R6CL"
+      },
+      "title": "Fabric Language Kotlin",
+      "slug": "fabric-language-kotlin",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-07-15T20:14:45.530782Z",
+        "version_name": "1.13.13+kotlin.2.4.10",
+        "game_version": "26.2",
+        "hash": "9a63c35a550b0362b7b25ff045d93709c7b0dae08c89076cba422813fdfb9e5f5dd021ed3afac9f82e74e95b88c249e8f68b240717151540ca3e88cc27fb9c77",
+        "filesize": 8076363,
+        "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar",
+        "id": "bdhiINYC",
+        "lock": false
+      }
+    },
+    "GdSOHJIu": {
+      "source": {
+        "Modrinth": "GdSOHJIu"
+      },
+      "title": "Better Saved Hotbars Forked",
+      "slug": "better-saved-hotbars-forked",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-03T01:18:25.017233Z",
+        "version_name": "1.3.9-mc-26.2",
+        "game_version": "26.2",
+        "hash": "c6c0ce012f70d4c04af9365148b6cf277a6d115ccf0dc49375a9ddea073cb8b6f0d424ca070bf24653930265656d6d215f91b9ce5a61d0f70132184ec4e03caa",
+        "filesize": 29418,
+        "url": "https://cdn.modrinth.com/data/GdSOHJIu/versions/UxJa34Oq/BetterSavedHotbars-Forked-1.3.9-26.2.jar",
+        "id": "UxJa34Oq",
+        "lock": false
+      }
+    },
+    "s5pYJlew": {
+      "source": {
+        "Modrinth": "s5pYJlew"
+      },
+      "title": "Simple Update Checker",
+      "slug": "simple-update-checker",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-19T11:00:15.815253Z",
+        "version_name": "1.6.0+26.2",
+        "game_version": "26.2",
+        "hash": "6703dbf0736c280bd7dcb4ceeb5bc67fd1ed0e8833ae8dd8e1a4e9e98a3f0c2d3895ec98eb53566986fb313327fe5de04410e8c25fbd09e1b9cf242ce8655587",
+        "filesize": 88221,
+        "url": "https://cdn.modrinth.com/data/s5pYJlew/versions/4qwUF3dP/simpleupdatechecker-1.6.0%2B26.2.jar",
+        "id": "4qwUF3dP",
+        "lock": false
+      }
+    },
+    "NcUtCpym": {
+      "source": {
+        "Modrinth": "NcUtCpym"
+      },
+      "title": "Xaero's World Map",
+      "slug": "xaeros-world-map",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-17T08:46:08.761033Z",
+        "version_name": "fabric-26.2-1.44.2",
+        "game_version": "26.2",
+        "hash": "f159f3393d84e00c6f31bb0ea3e1bd41a51315fc2905f9e87d796fc075f8be1722fa207d3e07bc965aca5fb596fc19782cd58ce4952c9259f9241fc06bdae8b0",
+        "filesize": 1473719,
+        "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/NzjI8AbM/xaeroworldmap-fabric-26.2-1.44.2.jar",
+        "id": "NzjI8AbM",
+        "lock": false
+      }
+    },
+    "aru7gAyl": {
+      "source": {
+        "Modrinth": "aru7gAyl"
+      },
+      "title": "Screencopy",
+      "slug": "screencopy",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "9s6osm5g",
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-16T17:57:11.773743Z",
+        "version_name": "1.4.2-fabric",
+        "game_version": "26.2",
+        "hash": "b3f27600d5e846555f5f2c1d1f09e7ec0ed3c768e1abc0fdda35bed0cc2cabd85e08d96ae67a148d6e125057e0cf9d382f5690357e5a65e66a5586f97466f436",
+        "filesize": 2522516,
+        "url": "https://cdn.modrinth.com/data/aru7gAyl/versions/S3BqK7ib/screenshotcopy-fabric-1.4.2.jar",
+        "id": "S3BqK7ib",
+        "lock": false
+      }
+    },
+    "TNVjaBGX": {
+      "source": {
+        "Modrinth": "TNVjaBGX"
+      },
+      "title": "Join AutoSprint Mod",
+      "slug": "join-autosprint-mod",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-05-06T05:11:33.616099Z",
+        "version_name": "1.0.7",
+        "game_version": "26.2",
+        "hash": "588f843da5ad28ab1a9927b2f68358ec028b7e52d00d5a47b5f93c987748d69031d491682a6db8755c0e0c80b82a3ec8ff2513e315850bf38d66b620028f33e6",
+        "filesize": 72280,
+        "url": "https://cdn.modrinth.com/data/TNVjaBGX/versions/sL8bAD4m/JoinAutoSprintMod-1.0.7.jar",
+        "id": "sL8bAD4m",
+        "lock": false
+      }
+    },
+    "25psa7hI": {
+      "source": {
+        "Modrinth": "25psa7hI"
+      },
+      "title": "Phase's Discord Rich Presence",
+      "slug": "phases-discord-rich-presence",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-16T16:36:36.632645Z",
+        "version_name": "2.7.0-26.2",
+        "game_version": "26.2",
+        "hash": "9717d9dc1ba66c361a2396b8f6f9cda8c2c551e7ae32577d88559bff5c3c878216dfbcd31a6ce62518e243139c4191b0952e0581a462cdcf32fcdc715330a5f8",
+        "filesize": 192074,
+        "url": "https://cdn.modrinth.com/data/25psa7hI/versions/wm8ftcp5/phases-discord-rich-presence-2.7.0-26.2.jar",
+        "id": "wm8ftcp5",
+        "lock": false
+      }
+    },
+    "wF189hn9": {
+      "source": {
+        "Modrinth": "wF189hn9"
+      },
+      "title": "uku's Armor HUD",
+      "slug": "ukus-armor-hud",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "Y8uFrUil"
+        ],
+        "upload_date": "2026-06-16T16:57:34.098663Z",
+        "version_name": "0.12.0+mc26.2-fabric",
+        "game_version": "26.2",
+        "hash": "d2e4d74bd27bbc6a1943a333e8887ee51b1fcc1585e4cbd4814a8e9c5f385f0417d74d653970087eb206177b3d8d43a70fbf476e3e3298d7c2a2b318c9f9eeea",
+        "filesize": 49661,
+        "url": "https://cdn.modrinth.com/data/wF189hn9/versions/K6G1JNFw/ukus-armor-hud-fabric-0.12.0%2Bmc26.2.jar",
+        "id": "K6G1JNFw",
+        "lock": false
+      }
+    },
+    "OXXOaUrC": {
+      "source": {
+        "Modrinth": "OXXOaUrC"
+      },
+      "title": "Fuzzy Autocomplete",
+      "slug": "fuzzy-autocomplete",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "1eAoo2KR"
+        ],
+        "upload_date": "2026-06-17T14:15:05.483178Z",
+        "version_name": "1.0.2",
+        "game_version": "26.2",
+        "hash": "17d893fc96e00a9de82f1979109260eef53cffae170e631f472148be2a4587b527f31f8a382d2b5354366346f66eeb862babf15b1a0d49edc4e6c9b56fb9e6e2",
+        "filesize": 34876,
+        "url": "https://cdn.modrinth.com/data/OXXOaUrC/versions/c3Qi0ikj/fuzzy-autocomplete-1.0.2%2B26.x.jar",
+        "id": "c3Qi0ikj",
+        "lock": false
+      }
+    },
+    "l92I91s6": {
+      "source": {
+        "Modrinth": "l92I91s6"
+      },
+      "title": "Ping in Tablist",
+      "slug": "ping-in-tablist",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-19T10:46:54.873430Z",
+        "version_name": "1.1.0",
+        "game_version": "26.2",
+        "hash": "de880f52e4945ad8239d9cafb4e0fb4e381bd170e98ef0150a0d21ee08504052ea70274116ea5ea88956b8b0be0073609138fcdc3432e0c9161e9c080a53e686",
+        "filesize": 91879,
+        "url": "https://cdn.modrinth.com/data/l92I91s6/versions/gVfTyng5/PingInTablist-fabric-26.2-1.1.0.jar",
+        "id": "gVfTyng5",
+        "lock": false
+      }
+    },
+    "1bokaNcj": {
+      "source": {
+        "Modrinth": "1bokaNcj"
+      },
+      "title": "Xaero's Minimap",
+      "slug": "xaeros-minimap",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-17T08:58:12.713664Z",
+        "version_name": "fabric-26.2-26.4.2",
+        "game_version": "26.2",
+        "hash": "dba00f85308524d9d65c559bc48456c8b65cef58eb54891e069cbaacb6e2f633d279b0d65325f510e3d9e590b67e6f5bdb7c816ada484a0d018850267fbc9131",
+        "filesize": 2221925,
+        "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/W7vHFz3T/xaerominimap-fabric-26.2-26.4.2.jar",
+        "id": "W7vHFz3T",
+        "lock": false
+      }
+    },
+    "PtjYWJkn": {
+      "source": {
+        "Modrinth": "PtjYWJkn"
+      },
+      "title": "Sodium Extra",
+      "slug": "sodium-extra",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "AANobbMI"
+        ],
+        "upload_date": "2026-07-10T05:48:22.219199Z",
+        "version_name": "mc26.2-0.9.3+fabric",
+        "game_version": "26.2",
+        "hash": "d8caeb19c0439f06c5e885582b19980019c347a9685a8a41e5a94b9afd390a6b82b21c44541cc58b88a8ae1430f4410dff2e488833c900f7ea4705ae171321d7",
+        "filesize": 482602,
+        "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/Fu02wj4x/sodium-extra-fabric-0.9.3%2Bmc26.2.jar",
+        "id": "Fu02wj4x",
+        "lock": false
+      }
+    },
+    "8Pq6Exn2": {
+      "source": {
+        "Modrinth": "8Pq6Exn2"
+      },
+      "title": "Packed Packs",
+      "slug": "packed-packs",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-08-10T07:30:27.218294Z",
+        "version_name": "2.2.3+26.2",
+        "game_version": "26.2",
+        "hash": "d23a9b8f6f56f970a83a78b6ec0bd30102d84476199f39d932bcd19f6d9087dcd910d474904e5d6db1d16bb0d65b86ed7c61f8219955a7750b9ffff1f170c52e",
+        "filesize": 822666,
+        "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/cLspRir0/packed_packs-fabric-2.2.3%2B26.2.jar",
+        "id": "cLspRir0",
+        "lock": false
+      }
+    },
+    "1eAoo2KR": {
+      "source": {
+        "Modrinth": "1eAoo2KR"
+      },
+      "title": "YetAnotherConfigLib (YACL)",
+      "slug": "yacl",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-19T12:41:24.603956Z",
+        "version_name": "3.9.6+26.2-fabric",
+        "game_version": "26.2",
+        "hash": "b3a58e4a5ef54647569282b8b2e9630389b3568f0abecb9c168daaa815477cbf961e79de28081cac551b69b810f561f043d669d1034aec80f12153a53dff53ef",
+        "filesize": 1121529,
+        "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/cnfPzuFU/yet_another_config_lib_v3-3.9.6%2B26.2-fabric.jar",
+        "id": "cnfPzuFU",
+        "lock": false
+      }
+    },
+    "e0M1UDsY": {
+      "source": {
+        "Modrinth": "e0M1UDsY"
+      },
+      "title": "Collective",
+      "slug": "collective",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-29T16:27:51.706688Z",
+        "version_name": "26.2.0-8.39-fabric+forge+neo",
+        "game_version": "26.2",
+        "hash": "e27620080ae53460b00cabacaff409a960e0d6c6811b7e3519d5461cb62654e0016161eed914352171af56191b70a97c79320b3ef29c0636b74a0471c2398055",
+        "filesize": 1084412,
+        "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/M75JwjyS/collective-26.2.0-8.39.jar",
+        "id": "M75JwjyS",
+        "lock": false
+      }
+    },
+    "4I1XuqiY": {
+      "source": {
+        "Modrinth": "4I1XuqiY"
+      },
+      "title": "[EMF] Entity Model Features",
+      "slug": "entity-model-features",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-24T00:00:04.231746Z",
+        "version_name": "3.2.6-fabric-26.2",
+        "game_version": "26.2",
+        "hash": "9296b5755839062067c9e5e561b8248709c5f9aade53a9eb0c87e0d0dc743f83f1a6b5776dbe1c33c85b0b1a3355544b0da53b0bcdcee5dccc02d6576cb9ef31",
+        "filesize": 587342,
+        "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/xQeW3qQB/entity_model_features-3.2.6-26.2-fabric.jar",
+        "id": "xQeW3qQB",
+        "lock": false
+      }
+    },
+    "XoHTb2Ap": {
+      "source": {
+        "Modrinth": "XoHTb2Ap"
+      },
+      "title": "CalcMod",
+      "slug": "calcmod",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-17T00:42:08.234099Z",
+        "version_name": "1.5.2+fabric.26.2",
+        "game_version": "26.2",
+        "hash": "8137ee28d55e456555dfbae0b33d6ee8227365b8cb7e1fe893dee5a5198f1aadd53dec5ba242440d7bee7d6d502591e9cd6ce54446061a34d9bdd43ba50eccd6",
+        "filesize": 649936,
+        "url": "https://cdn.modrinth.com/data/XoHTb2Ap/versions/qyk9ZGgC/calcmod-1.5.2%2Bfabric.26.2.jar",
+        "id": "qyk9ZGgC",
+        "lock": false
+      }
+    },
+    "geGZinIB": {
+      "source": {
+        "Modrinth": "geGZinIB"
+      },
+      "title": "Combat Hitboxes",
+      "slug": "combat-hitboxes",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "9s6osm5g",
+          "P7dR8mSH",
+          "mOgUt4GM"
+        ],
+        "upload_date": "2026-06-13T22:13:05.865300Z",
+        "version_name": "1.0.11",
+        "game_version": "26.2",
+        "hash": "459a2f5002332aea2d05c0457fcaa83bc88e2d2fcda81a674be7961c71692d68d354b447fd968785e34d9c8872af8f75120bd6dda3affa4ee535a303da76338c",
+        "filesize": 25471,
+        "url": "https://cdn.modrinth.com/data/geGZinIB/versions/qa7qYb0J/combat-hitbox-1.0.11.jar",
+        "id": "qa7qYb0J",
+        "lock": false
+      }
+    },
+    "RLzHAoZe": {
+      "source": {
+        "Modrinth": "RLzHAoZe"
+      },
+      "title": "Resourcify",
+      "slug": "resourcify",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "Ha28R6CL",
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-14T18:50:52.646790Z",
+        "version_name": "1.8.5",
+        "game_version": "26.2",
+        "hash": "33d9c35b269daebb031c6a5a80e1a6e528852eb6a151d6dac0dd8a9dab953732ba5d261cb629666e3cee5781a548b1159ae46647a6152a72fe3844b47d4f42c2",
+        "filesize": 2549332,
+        "url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/6haoMa46/Resourcify%20%2826.2-fabric%29-1.8.5.jar",
+        "id": "6haoMa46",
+        "lock": false
+      }
+    },
+    "BVzZfTc1": {
+      "source": {
+        "Modrinth": "BVzZfTc1"
+      },
+      "title": "[ETF] Entity Texture Features",
+      "slug": "entitytexturefeatures",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-17T14:07:08.189034Z",
+        "version_name": "7.1.1-fabric-26.2",
+        "game_version": "26.2",
+        "hash": "4acd478923fac5300fb43cbcc3b6a7501fee473491ee416b5d5a1203bdb8ceeaed04ff34bd1730a9cbff7bc4497265ab129f9eee2ca1d37a70c463203b1a8c20",
+        "filesize": 762131,
+        "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/HLCBKYFD/entity_texture_features-7.1.1-26.2-fabric.jar",
+        "id": "HLCBKYFD",
+        "lock": false
+      }
+    },
+    "t5wuYk45": {
+      "source": {
+        "Modrinth": "t5wuYk45"
+      },
+      "title": "Tweakeroo",
+      "slug": "tweakeroo",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "GcWjdA9I"
+        ],
+        "upload_date": "2026-06-27T17:36:04.531353Z",
+        "version_name": "0.29.2",
+        "game_version": "26.2",
+        "hash": "ab00e3f4b1cc6d80762234d3ad7f68ae28c31a3a0a7d476dede3fcf07b45ac7f27e18bd3c4140e04c827ba9502b89fb5eaa847f5d1d6a79507f6f70ff13fa479",
+        "filesize": 657881,
+        "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/ctaUxCzN/tweakeroo-fabric-26.2-0.29.2.jar",
+        "id": "ctaUxCzN",
+        "lock": false
+      }
+    },
+    "mOgUt4GM": {
+      "source": {
+        "Modrinth": "mOgUt4GM"
+      },
+      "title": "Mod Menu",
+      "slug": "modmenu",
+      "dependency": true,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH",
+          "eXts2L7r"
+        ],
+        "upload_date": "2026-07-09T21:54:21.377948Z",
+        "version_name": "20.0.1",
+        "game_version": "26.2",
+        "hash": "1aa297ab5e6fac71ad6af750fe6f8cd25281bd00c0340e5fe1c1e9d153d1198df03be1df55727a4a2116db97dcaad541d41754f3fc0063abfe4345b60f193fb4",
+        "filesize": 614002,
+        "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/njXb639R/modmenu-20.0.1.jar",
+        "id": "njXb639R",
+        "lock": false
+      }
+    },
+    "github:ThatCuteOne/cuties-simple-zoom": {
+      "source": {
+        "Github": {
+          "user": "ThatCuteOne",
+          "repo": "cuties-simple-zoom"
+        }
+      },
+      "title": "ThatCuteOne/cuties-simple-zoom",
+      "slug": "cuties-simple-zoom",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "9s6osm5g"
+        ],
+        "upload_date": "2026-08-18T11:57:17.277273837Z",
+        "version_name": "v1.0.2",
+        "game_version": "26.2",
+        "hash": "sha256:7cf60af03c7a9bf46871535a3e30904bf406d27448a2175e1e367f8c0a3031df",
+        "filesize": 1028459,
+        "url": "https://github.com/ThatCuteOne/cuties-simple-zoom/releases/download/v1.0.2/cuties-simple-zoom-1.0.2-mc26.2.jar",
+        "id": "v1.0.2",
+        "lock": false
+      }
+    },
+    "DWuwk8aA": {
+      "source": {
+        "Modrinth": "DWuwk8aA"
+      },
+      "title": "Skyboxify",
+      "slug": "skyboxify",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH",
+          "1eAoo2KR"
+        ],
+        "upload_date": "2026-08-17T10:51:29.836375Z",
+        "version_name": "3.3.1",
+        "game_version": "26.2",
+        "hash": "2cfd3cb2b1e6dcefa5040be5907d211c806fb104eeaec33819143b995fdb64063b8dbdcb29ee191c7a56134ff36852e0032855a41c02d228ab54c087aea28a15",
+        "filesize": 307126,
+        "url": "https://cdn.modrinth.com/data/DWuwk8aA/versions/rChaTdfe/skyboxify-3.3.1%2B26.2-fabric.jar",
+        "id": "rChaTdfe",
+        "lock": false
+      }
+    },
+    "TQTTVgYE": {
+      "source": {
+        "Modrinth": "TQTTVgYE"
+      },
+      "title": "Carpet",
+      "slug": "carpet",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-17T00:08:13.613450Z",
+        "version_name": "26.2",
+        "game_version": "26.2",
+        "hash": "8b8fac6979bd3153f5cfb4faa6bab52e1357eab814492a6658f3c0e1ac2856ad37a626c0a03a0839c39abb7bf56661f77b09d05d10ac01173bcdd373a33c6265",
+        "filesize": 1536362,
+        "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/bGrLxJ8v/fabric-carpet-26.2%2Bv260616.jar",
+        "id": "bGrLxJ8v",
+        "lock": false
+      }
+    },
+    "KQwtIZnW": {
+      "source": {
+        "Modrinth": "KQwtIZnW"
+      },
+      "title": "Emojis",
+      "slug": "emojis",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-12T12:49:20.596837Z",
+        "version_name": "1.0.5",
+        "game_version": "26.2",
+        "hash": "157f44a9f2a3dc02054aa0ac2bf674600ce029e832e0822d8f68ce80f1771a5a7339b1f06ef4e1dc1543bd054e0c0293fcb449f2a83b6f9dd079665d73590f5f",
+        "filesize": 47216,
+        "url": "https://cdn.modrinth.com/data/KQwtIZnW/versions/GeloY9Xg/emojis%2B26.2-1.0.5.jar",
+        "id": "GeloY9Xg",
+        "lock": false
+      }
+    },
+    "zV5r3pPn": {
+      "source": {
+        "Modrinth": "zV5r3pPn"
+      },
+      "title": "3D Skin Layers",
+      "slug": "3dskinlayers",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-18T18:52:44.147436Z",
+        "version_name": "1.11.2",
+        "game_version": "26.2",
+        "hash": "ead4a257e5ec2b092db84aebc7f5146dfb667a01f5d1362485f9ea9835e4558172949bcfb40c7a0bfbfb36e6c746b96c580f855af4109c806e0fc3591d48ad80",
+        "filesize": 1966389,
+        "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/rJYtiDew/skinlayers3d-fabric-1.11.2-mc26.2.jar",
+        "id": "rJYtiDew",
+        "lock": false
+      }
+    },
+    "Rm4OOdHd": {
+      "source": {
+        "Modrinth": "Rm4OOdHd"
+      },
+      "title": "Hide Experimental Warning",
+      "slug": "hide-experimental-warning",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "e0M1UDsY"
+        ],
+        "upload_date": "2026-06-18T16:04:49.486572Z",
+        "version_name": "26.2.0-1.2-fabric+forge+neo",
+        "game_version": "26.2",
+        "hash": "a5d9b9a456eca35732635d1a7cf81d339e576e34da274d00a3b930c45107a21caecbb5f76d7be29f614518f5d2fc3a0e8e240fd385094dd88cb1c550333ceb72",
+        "filesize": 21256,
+        "url": "https://cdn.modrinth.com/data/Rm4OOdHd/versions/JQaDbSlm/hideexperimentalwarning-26.2.0-1.2.jar",
+        "id": "JQaDbSlm",
+        "lock": false
+      }
+    },
+    "5ZwdcRci": {
+      "source": {
+        "Modrinth": "5ZwdcRci"
+      },
+      "title": "ImmediatelyFast",
+      "slug": "immediatelyfast",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-16T18:01:35.357451Z",
+        "version_name": "1.16.3+26.2-fabric",
+        "game_version": "26.2",
+        "hash": "79321f00b73755ae54f08120e81fd559dc5d7a34ef7bedddd1e9e467de0daebec885b377db5fffd4aa190d81ce44c66af38fbef82ad49f661da5ddd2ef3fc49e",
+        "filesize": 92582,
+        "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/rxHcwxdQ/ImmediatelyFast-Fabric-1.16.3%2B26.2.jar",
+        "id": "rxHcwxdQ",
+        "lock": false
+      }
+    },
+    "P7dR8mSH": {
+      "source": {
+        "Modrinth": "P7dR8mSH"
+      },
+      "title": "Fabric API",
+      "slug": "fabric-api",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-10T12:56:05.057944Z",
+        "version_name": "0.157.0+26.2",
+        "game_version": "26.2",
+        "hash": "4ebec489f2b2ce621ebebb2d1b7e9714b6fd288ebdb4e287d767cde57612cf1d3d1d4f51daf7e7ec9541fa146df6bde4978ab98a29637ced6d9bc2f3c4217650",
+        "filesize": 2533297,
+        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/vmQp7ixA/fabric-api-0.157.0%2B26.2.jar",
+        "id": "vmQp7ixA",
+        "lock": false
+      }
+    },
+    "Y8uFrUil": {
+      "source": {
+        "Modrinth": "Y8uFrUil"
+      },
+      "title": "ukulib",
+      "slug": "ukulib",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-06-17T18:18:52.718330Z",
+        "version_name": "2.1.1+26.2-fabric",
+        "game_version": "26.2",
+        "hash": "d996515191c6c36343607e28706c3036a5887f1be7fa1d0e59c09127fbd22e2be3da9a990be73196defd8ef4d75ac32d51b641bb17a51d19950ca9497e0702d7",
+        "filesize": 456607,
+        "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/olOAyH3N/ukulib-fabric-2.1.1%2B26.2.jar",
+        "id": "olOAyH3N",
+        "lock": false
+      }
+    },
+    "qap5C41G": {
+      "source": {
+        "Modrinth": "qap5C41G"
+      },
+      "title": "ModListMemory",
+      "slug": "modlistmemory",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "mOgUt4GM",
+          "9s6osm5g"
+        ],
+        "upload_date": "2026-05-31T09:47:13.090489Z",
+        "version_name": "1.3.0-beta.1+26.2-pre-2",
+        "game_version": "26.2",
+        "hash": "3d2e1d0bb6839b19d51d4eb91925c9cd67b4b343947e8b0dd3bf0efe2ca847bc57fba18b747ffa4eb511d7974ab0b42ccc9cddd43ee669f9eae476f36b745207",
+        "filesize": 51224,
+        "url": "https://cdn.modrinth.com/data/qap5C41G/versions/Oj0jcNDB/modlistmemory-fabric-1.3.0-beta.1%2B26.2-pre-2.jar",
+        "id": "Oj0jcNDB",
+        "lock": false
+      }
+    },
+    "9eGKb6K1": {
+      "source": {
+        "Modrinth": "9eGKb6K1"
+      },
+      "title": "Simple Voice Chat",
+      "slug": "simple-voice-chat",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-08T12:45:00.828354Z",
+        "version_name": "fabric-2.6.22+26.2",
+        "game_version": "26.2",
+        "hash": "eb45e75e8b031f3bb27e178ed44fd7b78ba681f077f5972e170726b4837146efd49c7b67d63a95ec4ce87e5672cf76bed85ac8fa7790a9e7ff7309a6c3f424ee",
+        "filesize": 5576838,
+        "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/DKSq5wO6/voicechat-fabric-2.6.22%2B26.2.jar",
+        "id": "DKSq5wO6",
+        "lock": false
+      }
+    },
+    "VSNURh3q": {
+      "source": {
+        "Modrinth": "VSNURh3q"
+      },
+      "title": "Concurrent Chunk Management Engine (Fabric)",
+      "slug": "c2me-fabric",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-08-14T11:00:21.741627Z",
+        "version_name": "0.4.2-alpha.0.43+26.2",
+        "game_version": "26.2",
+        "hash": "c9c9c9babe4d94e06abf72c92e453aaa39c82634a7ae646d1041f673e12eff3d99e77e205a686ea53d0a5ae143e9e1e6ed595b3ccfcaeafe64cbfb6327e2f375",
+        "filesize": 3833382,
+        "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/jSMMstCy/c2me-fabric-mc26.2-0.4.2-alpha.0.43.jar",
+        "id": "jSMMstCy",
+        "lock": false
+      }
+    },
+    "Bh37bMuy": {
+      "source": {
+        "Modrinth": "Bh37bMuy"
+      },
+      "title": "Reese's Sodium Options",
+      "slug": "reeses-sodium-options",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "AANobbMI"
+        ],
+        "upload_date": "2026-07-11T07:29:51.495619Z",
+        "version_name": "mc26.2-2.2.3+fabric",
+        "game_version": "26.2",
+        "hash": "2dbd97ca7013c6e88a475a55b828c50234c6060cc7a20843c9aadecdd561e1a690d7d0ba0ddb9dce30f8ebfdc02e113ffce7c9067ab63cf5c780a2e1d4139aa7",
+        "filesize": 259465,
+        "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/PH4SPorH/reeses-sodium-options-fabric-2.2.3%2Bmc26.2.jar",
+        "id": "PH4SPorH",
+        "lock": false
+      }
+    },
+    "TnVRBsXO": {
+      "source": {
+        "Modrinth": "TnVRBsXO"
+      },
+      "title": "Compacting",
+      "slug": "compacting",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "Ha28R6CL"
+        ],
+        "upload_date": "2026-06-16T18:09:21.416932Z",
+        "version_name": "1.1.1+26.2",
+        "game_version": "26.2",
+        "hash": "7768c4a85e7fc1a1bc775bd001ad41b4c9a0aa18343eea0a5b39fc9bcf9069af3f3e5ac4f55edf5bbcd2d2216b33d319574383d3008f128c60990b687b6273ee",
+        "filesize": 83176,
+        "url": "https://cdn.modrinth.com/data/TnVRBsXO/versions/QNyvF88P/compacting-1.1.1%2B26.2.jar",
+        "id": "QNyvF88P",
+        "lock": false
+      }
+    },
+    "z7aJrQDe": {
+      "source": {
+        "Modrinth": "z7aJrQDe"
+      },
+      "title": "Small Buttons Re-positioned",
+      "slug": "small-buttons-re-positioned",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-23T13:52:15.673888Z",
+        "version_name": "v1.0.0",
+        "game_version": "26.2",
+        "hash": "7c1880a132ab53dce146dc32336d2cf210cfba66cb4defcd217baf6140c4e4a164c5b88a716f1ee2e28cc200e53cd7737a2733a150e5a993d1c72f11777d6ed1",
+        "filesize": 25666,
+        "url": "https://cdn.modrinth.com/data/z7aJrQDe/versions/lXA1zpM4/small-buttons-repositioned-1.0.0.jar",
+        "id": "lXA1zpM4",
+        "lock": false
+      }
+    },
+    "NNAgCjsB": {
+      "source": {
+        "Modrinth": "NNAgCjsB"
+      },
+      "title": "Entity Culling",
+      "slug": "entityculling",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-20T14:43:52.362716Z",
+        "version_name": "1.10.5",
+        "game_version": "26.2",
+        "hash": "338813c344a2d924abbaaf249da2b52f5e162bd92407f3099c6ff1bce1c1efecde9df80efcc7b4de3b3a0044cc5735b96594b04da4594bb26793459fc6c960a6",
+        "filesize": 1583775,
+        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/iiF6U3Ne/entityculling-fabric-1.10.5-mc26.2.jar",
+        "id": "iiF6U3Ne",
+        "lock": false
+      }
+    },
+    "bEpr0Arc": {
+      "source": {
+        "Modrinth": "bEpr0Arc"
+      },
+      "title": "Litematica",
+      "slug": "litematica",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "GcWjdA9I"
+        ],
+        "upload_date": "2026-07-12T17:17:46.063633Z",
+        "version_name": "0.28.4",
+        "game_version": "26.2",
+        "hash": "4e94924b1b2de5c3e1d1a99f0e45946bec97f9e712f359afcd3c3fb09cedc78d3c11c148e2daba57aeb46f03a7cefb370d79968da1f905181091ef4996011cd8",
+        "filesize": 1873068,
+        "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/jzraAo7b/litematica-fabric-26.2-0.28.4.jar",
+        "id": "jzraAo7b",
+        "lock": false
+      }
+    },
+    "1IjD5062": {
+      "source": {
+        "Modrinth": "1IjD5062"
+      },
+      "title": "Continuity",
+      "slug": "continuity",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-16T20:37:54.326739Z",
+        "version_name": "3.0.1+26.2",
+        "game_version": "26.2",
+        "hash": "3436b39fcdddce87f8eda0f35095067477636df2667195df3cb8eae2d002d3ff8ac44de97332668ee50e13ad91be5c532cbc6121878f1e6c904c98c1c9c67c0b",
+        "filesize": 1040013,
+        "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mgUN5Xz2/continuity-3.0.1%2B26.2.jar",
+        "id": "mgUN5Xz2",
+        "lock": false
+      }
+    },
+    "LQ3K71Q1": {
+      "source": {
+        "Modrinth": "LQ3K71Q1"
+      },
+      "title": "Dynamic FPS",
+      "slug": "dynamic-fps",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-06-16T16:00:18.345659Z",
+        "version_name": "3.11.9",
+        "game_version": "26.2",
+        "hash": "79b13548d7e9de9abfa23e062724a885e5341f371c500d6570056ecea7db00c2f7ace5a7288179ad8baec575b4aa992b91dccbc940c584cb5cddf0bc7aeb892f",
+        "filesize": 188740,
+        "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/pC2JjFw1/dynamic-fps-3.11.9%2Bminecraft-26.2.0-fabric.jar",
+        "id": "pC2JjFw1",
+        "lock": false
+      }
+    },
+    "gvQqBUqZ": {
+      "source": {
+        "Modrinth": "gvQqBUqZ"
+      },
+      "title": "Lithium",
+      "slug": "lithium",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-07-29T12:19:55.348704Z",
+        "version_name": "mc26.2-0.25.3-fabric",
+        "game_version": "26.2",
+        "hash": "148b638f3c6229fbaf487120a2344a0af5e411a5aa6533d5db9d75da0a8c0d8304f63eb4cca13f4d03b2c9b4c23d559dd74c1d832422ef8a3087bd005e62a8bd",
+        "filesize": 912850,
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/f7vZ0VWU/lithium-fabric-0.25.3%2Bmc26.2.jar",
+        "id": "f7vZ0VWU",
+        "lock": false
+      }
+    }
+  }
+}

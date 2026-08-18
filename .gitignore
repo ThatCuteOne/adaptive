@@ -1,3 +1,1 @@
-adaptive-dev-build.mrpack
-.build
-logs
+*.mrpack

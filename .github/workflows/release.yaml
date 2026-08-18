@@ -16,7 +16,7 @@ jobs:
     - name: Read Pack Config
       id: config
       run: |
-        MINECRAFT_VERSION=$(jq -r '.mc_version' pack.json)
+        MINECRAFT_VERSION=$(jq -r '.version' modman.json)
         PACK_VERSION=$(jq -r '.adaptive_version' pack.json)
         echo "MINECRAFT_VERSION=${MINECRAFT_VERSION}" >> $GITHUB_OUTPUT
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT

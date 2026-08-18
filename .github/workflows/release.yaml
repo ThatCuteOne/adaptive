@@ -17,7 +17,7 @@ jobs:
     - name: Setup Modman
       uses: ThatCuteOne/setup-modman@v1
       with:
-        version: v1.9.1
+        version: v1.9.2
 
     - name: Read Pack Config
       id: config

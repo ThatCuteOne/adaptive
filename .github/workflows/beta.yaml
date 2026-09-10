@@ -23,7 +23,7 @@ jobs:
     - name: Setup Modman
       uses: ThatCuteOne/setup-modman@v2
       with:
-        version: v1.9.3
+        version: v1.10.1
 
     - name: Create ZIP file
       run: |

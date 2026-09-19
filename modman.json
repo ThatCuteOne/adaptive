@@ -335,7 +335,19 @@
       "title": "Better Saved Hotbars Forked",
       "slug": "better-saved-hotbars-forked",
       "dependency": false,
-      "version": null
+      "version": {
+        "depends_on": [
+          "P7dR8mSH"
+        ],
+        "upload_date": "2026-07-03T01:18:25.017233Z",
+        "version_name": "1.3.9-mc-26.2",
+        "game_version": "26.2",
+        "hash": "c6c0ce012f70d4c04af9365148b6cf277a6d115ccf0dc49375a9ddea073cb8b6f0d424ca070bf24653930265656d6d215f91b9ce5a61d0f70132184ec4e03caa",
+        "filesize": 29418,
+        "url": "https://cdn.modrinth.com/data/GdSOHJIu/versions/UxJa34Oq/BetterSavedHotbars-Forked-1.3.9-26.2.jar",
+        "id": "UxJa34Oq",
+        "lock": true
+      }
     },
     "Ha28R6CL": {
       "source": {
@@ -548,7 +560,19 @@
       "title": "Hide Experimental Warning",
       "slug": "hide-experimental-warning",
       "dependency": false,
-      "version": null
+      "version": {
+        "depends_on": [
+          "e0M1UDsY"
+        ],
+        "upload_date": "2026-06-18T16:04:49.486572Z",
+        "version_name": "26.2.0-1.2-fabric+forge+neo",
+        "game_version": "26.2",
+        "hash": "a5d9b9a456eca35732635d1a7cf81d339e576e34da274d00a3b930c45107a21caecbb5f76d7be29f614518f5d2fc3a0e8e240fd385094dd88cb1c550333ceb72",
+        "filesize": 21256,
+        "url": "https://cdn.modrinth.com/data/Rm4OOdHd/versions/JQaDbSlm/hideexperimentalwarning-26.2.0-1.2.jar",
+        "id": "JQaDbSlm",
+        "lock": true
+      }
     },
     "TNVjaBGX": {
       "source": {
@@ -743,6 +767,25 @@
       "slug": "litematica",
       "dependency": false,
       "version": null
+    },
+    "e0M1UDsY": {
+      "source": {
+        "Modrinth": "e0M1UDsY"
+      },
+      "title": "Collective",
+      "slug": "collective",
+      "dependency": true,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-09-19T14:22:18.698922Z",
+        "version_name": "26.3.0-8.39-fabric+forge+neo",
+        "game_version": "26.3",
+        "hash": "00c66317def66786db1362e5f94b2652311504267f5213ea56703c8a2704501ac66b22808dc6c659f6bb13ad84ae74ce9ac35278bb7c03cae9b219476a89a09c",
+        "filesize": 1084240,
+        "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/J428q3B9/collective-26.3.0-8.39.jar",
+        "id": "J428q3B9",
+        "lock": false
+      }
     },
     "eXts2L7r": {
       "source": {

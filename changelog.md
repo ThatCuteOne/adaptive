@@ -4,3 +4,4 @@
 - disabled iris due to crash
 - add fastquit
 - add scalablelux
+- add Better Block Entities

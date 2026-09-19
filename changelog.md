@@ -2,3 +2,4 @@
 - update to 26.3
 - update mods
 - disabled iris due to crash
+- add fastquit

@@ -1,3 +1,4 @@
-# Adaptive 1.10.1-mc26.2
+# Adaptive 1.11.0-mc26.3
+- update to 26.3
 - update mods
-- replace visualkeys with controlling
+- disabled iris due to crash

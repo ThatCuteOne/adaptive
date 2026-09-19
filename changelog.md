@@ -3,3 +3,4 @@
 - update mods
 - disabled iris due to crash
 - add fastquit
+- add scalablelux

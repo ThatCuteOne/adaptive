@@ -859,6 +859,25 @@
         "lock": false
       }
     },
+    "bfneejKo": {
+      "source": {
+        "Modrinth": "bfneejKo"
+      },
+      "title": "Syncmatica",
+      "slug": "syncmatica",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-09-22T01:47:04.086837Z",
+        "version_name": "0.3.20",
+        "game_version": "26.3",
+        "hash": "7eb067b457123a221be27f1a41ea2480b8380ac07d3aba4d963343405b83ccfba26f8c292c680e48b8d52b97ddb37fca4ebd8e57e86c5ab89af58f3d229fafaa",
+        "filesize": 633198,
+        "url": "https://cdn.modrinth.com/data/bfneejKo/versions/uT7TJ2Wp/syncmatica-fabric-26.3-0.3.20.jar",
+        "id": "uT7TJ2Wp",
+        "lock": false
+      }
+    },
     "e0M1UDsY": {
       "source": {
         "Modrinth": "e0M1UDsY"

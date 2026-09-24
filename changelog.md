@@ -1,7 +1,3 @@
-# Adaptive 1.11.0-mc26.3
-- update to 26.3
-- update mods
-- disabled iris due to crash
-- add fastquit
-- add scalablelux
-- add Better Block Entities
+# Adaptive 1.12.0-mc26.3
+- Add Syncmatica
+- fix version in update checker not getting updated

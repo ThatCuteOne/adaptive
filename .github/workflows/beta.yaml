@@ -23,7 +23,7 @@ jobs:
     - name: Setup Modman
       uses: ThatCuteOne/setup-modman@v2
       with:
-        version: v1.10.1
+        version: v1.11.1
 
     - name: set version in updatefile config
       run: |

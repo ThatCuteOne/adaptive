@@ -29,7 +29,8 @@ jobs:
     - name: set version in updatefile config
       run: |
         jq --arg vid "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}" --arg dv "${{ steps.config.outputs.PACK_VERSION }}" \                                                                                  (master)
-                  '.version_id = $vid | .display_version = $dv' simpleupdatechecker_modpack.json > simpleupdatechecker_modpack.json
+                  '.version_id = $vid | .display_version = $dv' ./overrides/config/simpleupdatechecker_modpack.json > ./overrides/config/temp.json
+        mv ./overrides/config/temp.json ./overrides/config/simpleupdatechecker_modpack.json
     - name: Create ZIP file
       run: |
         ./build.sh

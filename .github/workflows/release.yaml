@@ -61,8 +61,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: ${{ steps.config.outputs.PACK_VERSION }}
+        release_name: Release ${{ steps.config.outputs.PACK_VERSION }}
         body: |
           ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
           Automated release created by GitHub Actions

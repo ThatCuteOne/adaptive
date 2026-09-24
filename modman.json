@@ -76,13 +76,13 @@
       "dependency": false,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-21T12:34:16.777841Z",
-        "version_name": "7.4.6-beta-01",
+        "upload_date": "2026-09-24T10:25:37.705513Z",
+        "version_name": "7.4.6-beta-02",
         "game_version": "26.3",
-        "hash": "2104cc4ebb3cc9c1ef0973b8664c8569eb3d75ab11dee215cdf75dfc54a884553fb29fb97674d5c16fe0a02ef2aadd811033569576a5064ff4a8f7388091c74a",
-        "filesize": 5165505,
-        "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/J63KECL1/worldedit-mod-7.4.6-beta-01.jar",
-        "id": "J63KECL1",
+        "hash": "f7de9f7658319f38a9d0211a2592c91d412e98599d1ff378968509ccf0aa8f1ce7ab7e669f5c866552676d2a7a23d3cfdd16b54ee1a50d22c14fce8cfa30bba7",
+        "filesize": 5166191,
+        "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/E7sbeRFx/worldedit-mod-7.4.6-beta-02.jar",
+        "id": "E7sbeRFx",
         "lock": false
       }
     },
@@ -179,13 +179,13 @@
         "depends_on": [
           "P7dR8mSH"
         ],
-        "upload_date": "2026-09-14T20:02:50.241862Z",
-        "version_name": "2.2.6+26.3",
+        "upload_date": "2026-09-23T12:25:15.803642Z",
+        "version_name": "2.3.0-beta.1+26.3",
         "game_version": "26.3",
-        "hash": "0f04e9203ac9416f0beeb21777cce2ad9c33e2b7d2f224f068400edad2863814da724b8fe26d1fce0ebc724364143fd5eafcbb2119c2ff6fcdbd03ef1abc67dc",
-        "filesize": 918622,
-        "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/cOPep7M0/packed_packs-fabric-2.2.6%2B26.3.jar",
-        "id": "cOPep7M0",
+        "hash": "e4e29987f5a40a57e1c1c600479689aa095965fd9ab747025de2a59e3794ffcdc980d8471dc38836b977189ea82288bfe3ff1481737e1529a01c07bea67fe66f",
+        "filesize": 974552,
+        "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/kHk67giV/packed_packs-fabric-2.3.0-beta.1%2B26.3.jar",
+        "id": "kHk67giV",
         "lock": false
       }
     },
@@ -217,13 +217,13 @@
       "dependency": true,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-15T03:38:34.451316Z",
-        "version_name": "26.3.158+fabric",
+        "upload_date": "2026-09-23T07:00:48.136714Z",
+        "version_name": "26.3.159+fabric",
         "game_version": "26.3",
-        "hash": "baceff3b69ac4277831b7fc150a485e54492d987e778a33330a3b75354bcf2b3d0c968519645be919013243e766a35cf638caa418a46a9f81c9099f0728d3d03",
-        "filesize": 1134981,
-        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/eZ3xIIuk/cloth-config-26.3.158.jar",
-        "id": "eZ3xIIuk",
+        "hash": "8924e19d41845096724fa10f3717bc51964a0edbbbcad0ff1e6c6187a398b08f356e49579a657c2dc44a7f92e3850771f3ca70bf8c1f654de60425163b91dbb1",
+        "filesize": 1135009,
+        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar",
+        "id": "fg2uyxOW",
         "lock": false
       }
     },
@@ -730,13 +730,13 @@
       "dependency": false,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-21T15:55:30.040696Z",
-        "version_name": "0.4.2-alpha.0.87+26.3",
+        "upload_date": "2026-09-24T01:17:48.234129Z",
+        "version_name": "0.4.2-alpha.0.88+26.3",
         "game_version": "26.3",
-        "hash": "918fd0bfc25618c523374cfc7cafb6a386f71d7c47794747286a0989ed581f2b7f5251ab45760b5542e8495a8580c13c0951757326184616385a110c92906614",
-        "filesize": 3949341,
-        "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/cfKRtp0m/c2me-fabric-mc26.3-0.4.2-alpha.0.87.jar",
-        "id": "cfKRtp0m",
+        "hash": "bb741d118c88ea6d9577fed1affacc1f1f0a7b725a619ee933437cc5e403c8f1474a708ab9bd402d154efde3ce66ef4d83ed950c0cf4f7dc656e525837239226",
+        "filesize": 3950102,
+        "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/sSoXjAqP/c2me-fabric-mc26.3-0.4.2-alpha.0.88.jar",
+        "id": "sSoXjAqP",
         "lock": false
       }
     },
@@ -1016,13 +1016,13 @@
           "P7dR8mSH",
           "eXts2L7r"
         ],
-        "upload_date": "2026-09-11T00:52:42.214641Z",
-        "version_name": "21.0.0-beta.1",
+        "upload_date": "2026-09-23T21:31:03.843943Z",
+        "version_name": "21.0.0",
         "game_version": "26.3",
-        "hash": "f56cf8d2d1daaf5de33a9615d75fa70aae9502144c3c605973ae627c9c67750bf181e1a83b37583582414fb7626487a2850a3bc88c2b34ea54a46f91ca6802b4",
-        "filesize": 856788,
-        "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/lcxkZSq6/modmenu-21.0.0-beta.1.jar",
-        "id": "lcxkZSq6",
+        "hash": "588c0c557963f4778572ee81bfafc190b332c26d5926c5fe7e3e1614dcf8e14f58e3bc80a97694521dd05907e9753a7c8575048ea769e4dbf40a3db74a4e2606",
+        "filesize": 856779,
+        "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar",
+        "id": "kyy7dbrZ",
         "lock": false
       }
     },

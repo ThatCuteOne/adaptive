@@ -26,6 +26,10 @@ jobs:
         PACK_VERSION=$(jq -r '.adaptive_version' pack.json)
         echo "MINECRAFT_VERSION=${MINECRAFT_VERSION}" >> $GITHUB_OUTPUT
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
+    - name: set version in updatefile config
+      run: |
+        jq --arg vid "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}" --arg dv "${{ steps.config.outputs.PACK_VERSION }}" \                                                                                  (master)
+                  '.version_id = $vid | .display_version = $dv' simpleupdatechecker_modpack.json > simpleupdatechecker_modpack.json
     - name: Create ZIP file
       run: |
         ./build.sh

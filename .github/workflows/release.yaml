@@ -29,7 +29,7 @@ jobs:
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
     - name: set version in updatefile config
       run: |
-        jq --arg vid "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}" --arg dv "${{ steps.config.outputs.PACK_VERSION }}" \                                                                                  (master)
+        jq --arg vid "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}" --arg dv "${{ steps.config.outputs.PACK_VERSION }}" \
                   '.version_id = $vid | .display_version = $dv' ./overrides/config/simpleupdatechecker_modpack.json > ./overrides/config/temp.json
         mv ./overrides/config/temp.json ./overrides/config/simpleupdatechecker_modpack.json
     - name: Create ZIP file

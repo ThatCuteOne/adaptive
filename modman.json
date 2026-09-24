@@ -643,27 +643,6 @@
         "lock": false
       }
     },
-    "Rm4OOdHd": {
-      "source": {
-        "Modrinth": "Rm4OOdHd"
-      },
-      "title": "Hide Experimental Warning",
-      "slug": "hide-experimental-warning",
-      "dependency": false,
-      "version": {
-        "depends_on": [
-          "e0M1UDsY"
-        ],
-        "upload_date": "2026-06-18T16:04:49.486572Z",
-        "version_name": "26.2.0-1.2-fabric+forge+neo",
-        "game_version": "26.2",
-        "hash": "a5d9b9a456eca35732635d1a7cf81d339e576e34da274d00a3b930c45107a21caecbb5f76d7be29f614518f5d2fc3a0e8e240fd385094dd88cb1c550333ceb72",
-        "filesize": 21256,
-        "url": "https://cdn.modrinth.com/data/Rm4OOdHd/versions/JQaDbSlm/hideexperimentalwarning-26.2.0-1.2.jar",
-        "id": "JQaDbSlm",
-        "lock": true
-      }
-    },
     "TNVjaBGX": {
       "source": {
         "Modrinth": "TNVjaBGX"
@@ -901,25 +880,6 @@
         "lock": false
       }
     },
-    "e0M1UDsY": {
-      "source": {
-        "Modrinth": "e0M1UDsY"
-      },
-      "title": "Collective",
-      "slug": "collective",
-      "dependency": true,
-      "version": {
-        "depends_on": [],
-        "upload_date": "2026-09-21T14:09:38.268231Z",
-        "version_name": "26.3.0-8.40-fabric+forge+neo",
-        "game_version": "26.3",
-        "hash": "b006643721cfd47a30072d58fdb3e0dcc8136c3437e6a7d2c114250b4b34484f7541bd046373d2fd1ad9f929a2ff40b850e42d96cf2d9cabe6c9faa793519b5a",
-        "filesize": 1084228,
-        "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/nygfvi1O/collective-26.3.0-8.40.jar",
-        "id": "nygfvi1O",
-        "lock": false
-      }
-    },
     "eXts2L7r": {
       "source": {
         "Modrinth": "eXts2L7r"
@@ -980,6 +940,29 @@
         "filesize": 25471,
         "url": "https://cdn.modrinth.com/data/geGZinIB/versions/qa7qYb0J/combat-hitbox-1.0.11.jar",
         "id": "qa7qYb0J",
+        "lock": false
+      }
+    },
+    "github:ThatCuteOne/IKWID": {
+      "source": {
+        "Github": {
+          "user": "ThatCuteOne",
+          "repo": "IKWID",
+          "path": null
+        }
+      },
+      "title": "ThatCuteOne/IKWID",
+      "slug": "IKWID",
+      "dependency": false,
+      "version": {
+        "depends_on": [],
+        "upload_date": "2026-09-24T15:13:25.503781203Z",
+        "version_name": "1.0.0-mc26.3",
+        "game_version": "26.3",
+        "hash": null,
+        "filesize": 69611,
+        "url": "https://github.com/ThatCuteOne/IKWID/releases/download/1.0.0-mc26.3/ikwid-1.0.0-mc26.3.jar",
+        "id": "1.0.0-mc26.3",
         "lock": false
       }
     },

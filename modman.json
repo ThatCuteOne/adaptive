@@ -509,6 +509,29 @@
         "lock": false
       }
     },
+    "OC1Ud2T4": {
+      "source": {
+        "Modrinth": "OC1Ud2T4"
+      },
+      "title": "SchematicPreview",
+      "slug": "schematicpreview",
+      "dependency": false,
+      "version": {
+        "depends_on": [
+          "GcWjdA9I",
+          "P7dR8mSH",
+          "bEpr0Arc"
+        ],
+        "upload_date": "2026-09-23T14:47:15.384569Z",
+        "version_name": "0.0.17+26.3",
+        "game_version": "26.3",
+        "hash": "11122542f319cc13efabbeffbe8e99b8f8e4fd93035f64fa218125c473a50bbc1991fb54a9c50d17c93bf83214767e613a2a9d324e5d3be6556a595ae32171ec",
+        "filesize": 107224,
+        "url": "https://cdn.modrinth.com/data/OC1Ud2T4/versions/h6RajAPd/schematicpreview-0.0.17%2B26.3.jar",
+        "id": "h6RajAPd",
+        "lock": false
+      }
+    },
     "ONZm0H7Y": {
       "source": {
         "Modrinth": "ONZm0H7Y"

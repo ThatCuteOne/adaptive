@@ -97,13 +97,13 @@
         "depends_on": [
           "P7dR8mSH"
         ],
-        "upload_date": "2026-09-15T15:27:22.682178Z",
-        "version_name": "2.8.0-26.3",
+        "upload_date": "2026-09-25T23:25:59.929783Z",
+        "version_name": "2.8.1-26.3",
         "game_version": "26.3",
-        "hash": "f35d8372d0bcf9f4645b59abe8ff30ae7585fd92e99ce7f4a41443226cf08036158140f16f6a417d7dd5541341fe30a4669dda0db4d901ec89f9cfb868af629a",
-        "filesize": 188843,
-        "url": "https://cdn.modrinth.com/data/25psa7hI/versions/kE6BHtDU/phases-discord-rich-presence-2.8.0-26.3.jar",
-        "id": "kE6BHtDU",
+        "hash": "06890b90b81ceca9bd19dc04398dd904a816f49e059b637ae4846afbc248b83438133781ea1f98cfdc89a62a1a2a686f71e68c94ea93d4ca4f1a9def9d5c279b",
+        "filesize": 190624,
+        "url": "https://cdn.modrinth.com/data/25psa7hI/versions/HkVFfgF6/phases-discord-rich-presence-2.8.1-26.3.jar",
+        "id": "HkVFfgF6",
         "lock": false
       }
     },
@@ -179,13 +179,13 @@
         "depends_on": [
           "P7dR8mSH"
         ],
-        "upload_date": "2026-09-23T12:25:15.803642Z",
-        "version_name": "2.3.0-beta.1+26.3",
+        "upload_date": "2026-09-27T19:48:37.669614Z",
+        "version_name": "2.3.0-beta.2+26.3",
         "game_version": "26.3",
-        "hash": "e4e29987f5a40a57e1c1c600479689aa095965fd9ab747025de2a59e3794ffcdc980d8471dc38836b977189ea82288bfe3ff1481737e1529a01c07bea67fe66f",
-        "filesize": 974552,
-        "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/kHk67giV/packed_packs-fabric-2.3.0-beta.1%2B26.3.jar",
-        "id": "kHk67giV",
+        "hash": "28a1b4bb5971de5a6679eb6b07fb276dc0bb35436188c48e8dcaca0c8494b86fda093cb78479bed5281d6b4c1047e8a3987460d57b6c2ec16a629913e1503b7f",
+        "filesize": 979669,
+        "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/Aya3x56a/packed_packs-fabric-2.3.0-beta.2%2B26.3.jar",
+        "id": "Aya3x56a",
         "lock": false
       }
     },
@@ -276,13 +276,13 @@
         "depends_on": [
           "AANobbMI"
         ],
-        "upload_date": "2026-09-16T01:05:08.778062Z",
-        "version_name": "mc26.3-2.2.4+fabric",
+        "upload_date": "2026-09-24T19:57:32.368318Z",
+        "version_name": "mc26.3-2.2.5+fabric",
         "game_version": "26.3",
-        "hash": "02cc939b7620b92dcfa4308ec04bdaaec85f9bcc0cf73815e79cae09bd5a600bc329b8396ff62157fc5343eaf50de2563bdf365ca17d6696342f96792125bbfc",
-        "filesize": 245281,
-        "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/ewg6u30j/reeses-sodium-options-fabric-2.2.4%2Bmc26.3.jar",
-        "id": "ewg6u30j",
+        "hash": "9c6f335618c1ec03cf9030cd88cdc32be5457bf4fbabd49c76ed68df53530730cf4681ec3742f2c6efbd48cb2b784f24c636977a95d78df62af1214ec5488be0",
+        "filesize": 258082,
+        "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/EfchygKx/reeses-sodium-options-fabric-2.2.5%2Bmc26.3.jar",
+        "id": "EfchygKx",
         "lock": false
       }
     },
@@ -347,13 +347,13 @@
       "dependency": true,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-22T00:36:44.079043Z",
-        "version_name": "0.30.1",
+        "upload_date": "2026-09-27T21:41:16.246695Z",
+        "version_name": "0.30.2",
         "game_version": "26.3",
-        "hash": "65ea34b14757ce1c37f87bc4a519d1290d2a715f77bcb370e47b46d99756b5fccb4f18a636e425dfe66e7526791945273782813fb828e6b9686a2024ce1250bc",
-        "filesize": 2051637,
-        "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/DPcJACN6/malilib-fabric-26.3-0.30.1.jar",
-        "id": "DPcJACN6",
+        "hash": "8f17a5d70cb2f461aeb540f4a99de01c3351f8d3678d902d3d00cfe5d10c039fdc111c1079fe23aacb7936b793ad1cd045a8dc3a9e7926865820c254d92345b8",
+        "filesize": 2081094,
+        "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/JX9bESec/malilib-fabric-26.3-0.30.2.jar",
+        "id": "JX9bESec",
         "lock": false
       }
     },
@@ -633,13 +633,13 @@
           "Ha28R6CL",
           "P7dR8mSH"
         ],
-        "upload_date": "2026-09-11T19:55:26.421510Z",
-        "version_name": "1.8.6",
+        "upload_date": "2026-09-28T16:15:41.352074Z",
+        "version_name": "1.8.7",
         "game_version": "26.3",
-        "hash": "ce1e3d12e36fdbbf2395ba33abf2989c5e3b8b10e038a23e6534a91389b2069e4833525736cefa4a4d64eff03cf9c1ca9c79f8d56ac171ec90658e0422fe1652",
-        "filesize": 2858388,
-        "url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/tQuFUT7L/Resourcify%20%2826.3-fabric%29-1.8.6.jar",
-        "id": "tQuFUT7L",
+        "hash": "994744e136ae942f40b8556f94e428b248092396606761e93947b8fbc814257e4ada17af5bd6dba189592f7f3c5641a205f08abe90be4fd39731dd69dd0e4e75",
+        "filesize": 2858616,
+        "url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/fRxNdO2e/Resourcify%20%2826.3-fabric%29-1.8.7.jar",
+        "id": "fRxNdO2e",
         "lock": false
       }
     },
@@ -713,13 +713,13 @@
         "depends_on": [
           "GcWjdA9I"
         ],
-        "upload_date": "2026-09-22T00:37:31.679370Z",
-        "version_name": "0.41.1",
+        "upload_date": "2026-09-27T21:45:41.816498Z",
+        "version_name": "0.41.2",
         "game_version": "26.3",
-        "hash": "5df7b7b615763b2c760b19bf4f129af00dd49b319e958e6d312a29bfd6e0eb68e0495bb31e4fe1f74b92a19c9402d3fe498674bc5853f25ea1504d550715453c",
-        "filesize": 936043,
-        "url": "https://cdn.modrinth.com/data/UMxybHE8/versions/XJPHdWmz/minihud-fabric-26.3-0.41.1.jar",
-        "id": "XJPHdWmz",
+        "hash": "bc69152a78b4b70c065415ff6695cf5285d769e33e8dbc2109d645c012cc811b55349966bf4598edaa514869caed1fdd38e17507239410f76740d7fd66b8c518",
+        "filesize": 943101,
+        "url": "https://cdn.modrinth.com/data/UMxybHE8/versions/WfIgkxnf/minihud-fabric-26.3-0.41.2.jar",
+        "id": "WfIgkxnf",
         "lock": false
       }
     },
@@ -751,13 +751,13 @@
       "dependency": false,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-16T11:28:42.312744Z",
-        "version_name": "1.2.9",
+        "upload_date": "2026-09-25T21:05:41.005423Z",
+        "version_name": "1.3.0",
         "game_version": "26.3",
-        "hash": "48609b7e307c2176e933d3f4e93f0518be1a056b8ed3a1b10c1c1aea15bc486f7525f32d97e96db24e2a51cf197eae72e0f3e1a837b5666ac65c5d1b97a8e526",
-        "filesize": 94700,
-        "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/R2zOq4xG/chat_heads-1.2.9-fabric-26.3.jar",
-        "id": "R2zOq4xG",
+        "hash": "94435f1d5e9a51f4a626a585141ea23e39b9911a0d96273058a6ebae619c6b257a0b19a5f94d8fda99d69605a217d8645d64dd8a9014320a6bde09fb541b68b8",
+        "filesize": 96823,
+        "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/tDI1Q0zx/chat_heads-1.3.0-fabric-26.3.jar",
+        "id": "tDI1Q0zx",
         "lock": false
       }
     },
@@ -851,13 +851,13 @@
         "depends_on": [
           "GcWjdA9I"
         ],
-        "upload_date": "2026-09-22T00:39:07.616014Z",
-        "version_name": "0.29.0",
+        "upload_date": "2026-09-27T21:47:15.044731Z",
+        "version_name": "0.29.1",
         "game_version": "26.3",
-        "hash": "cf0c0310acf8a40eb2a3365061f10611d048771e65a63e6f9679df5da282406d27d93b259b98dee5a9d2107cc21b3c06935608c311cad3110fb0985d9683f3a1",
-        "filesize": 1963081,
-        "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/fEqsesPK/litematica-fabric-26.3-0.29.0.jar",
-        "id": "fEqsesPK",
+        "hash": "45a8d468463afb97b3fc72efa168024ad69e670e77f5455ecf588583434a1787b32795edf5236579c32c828b02873efb39a4808caa08bbbaf1d8b6b090b160c3",
+        "filesize": 1972556,
+        "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/ZqV316KY/litematica-fabric-26.3-0.29.1.jar",
+        "id": "ZqV316KY",
         "lock": false
       }
     },
@@ -1000,13 +1000,13 @@
       "dependency": false,
       "version": {
         "depends_on": [],
-        "upload_date": "2026-09-16T14:39:40.495837Z",
-        "version_name": "mc26.3-0.26.1-fabric",
+        "upload_date": "2026-09-28T03:43:35.593224Z",
+        "version_name": "mc26.3-0.26.2-fabric",
         "game_version": "26.3",
-        "hash": "acbb9b037a203f005e03a20bf1d9866019384abb5ad27664808a12b919639a2501ecb52f8f0d77d27e1409935b0dbdbb70e01ac466480c0ae421ee403f649c59",
-        "filesize": 915429,
-        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/WXHRsMRl/lithium-fabric-0.26.1%2Bmc26.3.jar",
-        "id": "WXHRsMRl",
+        "hash": "4d7fee66132eedc71feab9390b92c95d7058edbdad0fecfac1d836a2950b97a7ca463afbede61c7ef361ce65e1f927ab9e89dde5bf2e0e0ce486afb5c5dbee40",
+        "filesize": 914543,
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/xS0Q8LSi/lithium-fabric-0.26.2%2Bmc26.3.jar",
+        "id": "xS0Q8LSi",
         "lock": false
       }
     },
@@ -1145,13 +1145,13 @@
         "depends_on": [
           "GcWjdA9I"
         ],
-        "upload_date": "2026-09-21T05:53:03.028311Z",
-        "version_name": "0.30.0",
+        "upload_date": "2026-09-27T21:44:55.165395Z",
+        "version_name": "0.30.1",
         "game_version": "26.3",
-        "hash": "7ce23a227ea35d8e5ccf8875e79ccbae86a463ccb5916c3ac3f5207321976f19c5c8530293cecc726b34c4e9124c4bee6a19c15dd4a50c41e47398643804b4dd",
-        "filesize": 709805,
-        "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/MtPXEGTi/tweakeroo-fabric-26.3-0.30.0.jar",
-        "id": "MtPXEGTi",
+        "hash": "190304ffcbee51ef7e6606fbb1060032fdebe78d3bcc2c60e84876f434b696c27fb2f8302c1179467f4622312bdfc609d31209e91b098fe5a61fc0148f0bdeb5",
+        "filesize": 709011,
+        "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/fWxKATn6/tweakeroo-fabric-26.3-0.30.1.jar",
+        "id": "fWxKATn6",
         "lock": false
       }
     },
